@@ -1,0 +1,1616 @@
+{
+  "rules": [
+    {
+      "id": "1",
+      "title": "Game Parameters & Safety",
+      "text": null,
+      "subsections": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5"
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "game-structure",
+        "safety"
+      ]
+    },
+    {
+      "id": "1.1",
+      "title": "Timing",
+      "text": "A game lasts for 60 minutes of play, divided into two 30-minute periods with a halftime between them. Periods are broken into Jams, which are the basic unit of play for roller derby.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Jam Timing",
+          "text": "A Jam can last up to two minutes. Jams may be called off prior to two minutes as part of gameplay. Each Jam starts with a single short whistle blast, and finishes at the end of a series of four short whistle blasts. At least 30 seconds must elapse between Jams. More than 30 seconds may not elapse unless a timeout is called."
+        },
+        {
+          "name": "Period Timing",
+          "text": "A period starts on the Jam-Starting Whistle of the first Jam for that period. The period clock does not stop between Jams unless a timeout is called. If the period clock reaches zero before the next Jam has started, the period ends at that moment; otherwise, the period ends at the conclusion of the final Jam for the period."
+        },
+        {
+          "name": "Additional Jams",
+          "text": "If a Jam is called off due to officiating discretion or there is an officiating error that potentially impacts which team wins or loses the game, and there are less than 30 seconds remaining on the period clock at the end of the game, an additional Jam may be run at the discretion of the Head Referee."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "jam",
+        "period"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "timing",
+        "jams",
+        "periods",
+        "game-structure"
+      ]
+    },
+    {
+      "id": "1.2",
+      "title": "Teams",
+      "text": "A team is composed of Skaters, who must be uniquely identified by a roster number. Each team must have a jersey of the same base color, such that uniform colors of the two teams playing are of high contrast.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Skater Identification",
+          "text": "Roster numbers must be clearly displayed on a Skater's back and upper arm areas. Each team must have helmet covers to clearly indicate who their Jammer and Pivot are. The Jammer and Pivot helmet covers for the two teams must be easy to differentiate."
+        },
+        {
+          "name": "Captains and Alternates",
+          "text": "Each team may have one Captain and one Alternate. The Captain must be a Skater able to serve penalties on behalf of their team. The Alternate may be a non-skating participant. The Captain and Alternate must be visibly identified by wearing a C and an A, respectively, on their uniform or body."
+        },
+        {
+          "name": "Equipment",
+          "text": "Skaters must wear quad-style roller skates and protective gear during play. Inline skates are not permitted. Protective gear may not be removed during play. Protective gear may not impair or interfere with the safety or play of other Skaters, support staff, or Officials."
+        },
+        {
+          "name": "Injured Skaters",
+          "text": "Skaters who are injured during play may return to play as long as they are no longer apparently injured or bleeding. A Skater whose injury alters the flow of the game may not participate during the following three Jams. A Skater whose injury alters the flow of the game more than once in a period may not participate as a Skater for the rest of that period."
+        },
+        {
+          "name": "Forfeits",
+          "text": "The Head Referee may declare that a team has forfeited the game if that team has five or fewer Skaters eligible to participate, or refuses to field Skaters on the track to continue play."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "captain",
+        "alternate",
+        "protective-gear",
+        "roster"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "teams",
+        "equipment",
+        "safety",
+        "identification"
+      ]
+    },
+    {
+      "id": "1.3",
+      "title": "Timeouts",
+      "text": "Teams and Officials may stop the period clock by calling a timeout. Timeouts may only be called between Jams, though Officials may end a Jam in order to call an Official Timeout. The beginning of a timeout is marked by four short whistle blasts, and the end of a timeout is marked by a long rolling whistle. At most, 30 seconds may pass before the next Jam begins.",
+      "subsections": [
+        "1.3.1",
+        "1.3.2",
+        "1.3.3"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "timeouts",
+        "game-structure",
+        "timing"
+      ]
+    },
+    {
+      "id": "1.3.1",
+      "title": "Team Timeouts",
+      "text": "Each team may take three timeouts during the game. Team Timeouts may be requested only by the team's Captain or Alternate. Captains or Alternates currently serving a penalty cannot request a Team Timeout. Team Timeouts last for 60 seconds.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.2.3.E",
+        "C4.2.3.G"
+      ],
+      "glossary_refs": [
+        "captain",
+        "alternate"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "timeouts",
+        "team-timeout"
+      ]
+    },
+    {
+      "id": "1.3.2",
+      "title": "Official Reviews",
+      "text": "Both teams begin each period with one Official Review which they may use during that period. An Official Review is a formal request made by a team's Captain or Alternate for Officials to review a specific officiating decision. Captains or Alternates currently serving a penalty cannot request an Official Review.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Official Review Procedure",
+          "text": "The Head Referee investigates the review with other Officials, and uses the information gathered to render a decision on the item under review, as well as related decisions. The Head Referee then announces their findings and any changes that result from the review to both teams' representatives. This decision is final and not reviewable."
+        },
+        {
+          "name": "Official Review Outcomes",
+          "text": "If the Head Referee determines that an officiating error was made in relation to the situation under review, the team will retain the privilege to call an additional review later in the same period. The review can be retained in this manner only once per period. Official Reviews are not carried forward to the subsequent period."
+        },
+        {
+          "name": "Official Reviews as Timeouts",
+          "text": "A team may elect to use any of their Official Reviews as a 60 second timeout. In this case, the review will not be retained."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "captain",
+        "alternate",
+        "head-referee"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "official-review",
+        "timeouts"
+      ]
+    },
+    {
+      "id": "1.3.3",
+      "title": "Official Timeouts",
+      "text": "Officials may take a timeout in order to ensure that the game is running smoothly and correctly. If a Jam ends with less than 30 seconds remaining on the Period clock, and an Official Timeout is taken, Officials must determine if there is a reason to hold another Jam in that Period.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "official-timeout",
+        "timeouts"
+      ]
+    },
+    {
+      "id": "1.4",
+      "title": "Game Information",
+      "text": "Critical game information must be displayed in a manner that is highly visible to teams, officials, and spectators. This displayed information is considered official, and must include, at a minimum: the period clock, the Jam clock, and the official score. Errors in timing or score should be updated as quickly as possible.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "game-information",
+        "scoring",
+        "timing"
+      ]
+    },
+    {
+      "id": "1.5",
+      "title": "Winning",
+      "text": "The team with the most points at the end of the game wins.",
+      "subsections": [
+        "1.5.1"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "winning",
+        "scoring"
+      ]
+    },
+    {
+      "id": "1.5.1",
+      "title": "Overtime",
+      "text": "If the game ends with the score tied, the second period will be extended by at least one additional Jam. This Overtime Jam is like any other Jam, but with these changes: the Lineup Time before the Jam is sixty seconds; no Lead Jammer is declared; both Jammers begin scoring on their first trip through the Pack.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "lead-jammer",
+        "jam"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "overtime",
+        "winning",
+        "scoring"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Gameplay",
+      "text": null,
+      "subsections": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "gameplay"
+      ]
+    },
+    {
+      "id": "2.1",
+      "title": "The Track",
+      "text": "The track must conform to the standardized dimensions of the WFTDA Track Specifications. The track must be flat, clean, and suitable for roller skating.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Boundary Lines",
+          "text": "The track must be marked by a boundary that stands in high contrast to the floor. The boundary counts as part of the track and may not vary in width around the track. The track boundary, Pivot Line, and Jammer Line may be of any pattern or color so long as they clearly mark the edge of the track."
+        },
+        {
+          "name": "Penalty Box and Team Areas",
+          "text": "Near the track, an area must be marked out for each team (the Team Bench Area) and for the Penalty Box. The boundary in these cases must also be high contrast and counts as part of the relevant area. Only Skaters who are actively serving a penalty may enter the Penalty Box Area."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "in-bounds",
+        "out-of-bounds",
+        "penalty-box"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "track",
+        "boundaries",
+        "gameplay"
+      ]
+    },
+    {
+      "id": "2.2",
+      "title": "Skater Roles",
+      "text": "For each Jam, a team must field one Jammer, and at most four Blockers. One of these Blockers may be designated as the Pivot. Any Skaters who are not completely on the track at the Jam-Starting Whistle may not participate in the Jam. Skaters serving penalties are counted toward these limits. Teams must field at least one Blocker who is not serving a penalty. Skaters may not change Roles during a Jam, except in the case of a Star Pass.",
+      "subsections": [
+        "2.2.1",
+        "2.2.2",
+        "2.2.3",
+        "2.2.4",
+        "2.2.5",
+        "2.2.6"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C2.2.F"
+      ],
+      "glossary_refs": [
+        "jammer",
+        "blocker",
+        "pivot",
+        "role",
+        "star-pass"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "roles",
+        "jammer",
+        "blocker",
+        "pivot",
+        "gameplay"
+      ]
+    },
+    {
+      "id": "2.2.1",
+      "title": "Jammers",
+      "text": "The Jammer is denoted as the Skater in visible possession of the Jammer helmet cover (the Star) at the beginning of the Jam.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Identification",
+          "text": "The Jammer for the upcoming Jam is determined based on this order: (1) The Jammer from the previous Jam who is in, or en route to, the Penalty Box; (2) The Skater who visibly controls the Star, who has lined up in the Jammer Starting Position; (3) The Skater who visibly controls the Star, who has lined up In Bounds, but out of position."
+        },
+        {
+          "name": "Controlling the Star",
+          "text": "The Star may only be carried by the Jammer wearing it on their helmet, or by that team's Jammer or Pivot holding it in their grasp. Other Skaters may not control the Star, and the Jammer and Pivot may not hide the Star."
+        },
+        {
+          "name": "Jammer Privileges",
+          "text": "The Jammer is the only Skater who can score points for their team. Jammers may also legally exit and remain outside of the Engagement Zone."
+        }
+      ],
+      "casebook_refs": [
+        "C2.2.1.A",
+        "C2.2.1.B"
+      ],
+      "glossary_refs": [
+        "jammer",
+        "the-star",
+        "engagement-zone"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "jammer",
+        "roles",
+        "star"
+      ]
+    },
+    {
+      "id": "2.2.2",
+      "title": "Lead Jammer",
+      "text": "The Lead Jammer is the first eligible Jammer who establishes superior position to the foremost in-play Blocker, having already earned a pass on all Blockers excluding those ahead of the Engagement Zone. When one Jammer is determined to be the Lead Jammer, this is indicated by two short whistle blasts.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Lead Eligibility",
+          "text": "Both Jammers begin each Jam eligible to earn Lead Jammer status. A Jammer becomes ineligible to earn Lead during a Jam if they commit a penalty during that Jam or the Lineup Time before that Jam, exit the front of the Engagement Zone without having earned Lead on their initial trip, remove their helmet cover, or have their helmet cover removed by a teammate. Only Skaters who begin the Jam as Jammers may become Lead."
+        },
+        {
+          "name": "Loss of Lead Jammer Status",
+          "text": "The Lead Jammer will lose their Lead Jammer status if they commit a penalty, intentionally remove the Star once it is on, or have the Star intentionally removed from their head by a teammate. Lead Jammer status is maintained if the Star is removed via natural gameplay or is pulled off by an opponent."
+        },
+        {
+          "name": "Calling Off the Jam",
+          "text": "The Lead Jammer is the only Skater who may call off a Jam before the full two minutes elapse. The Lead Jammer calls off the Jam by repeatedly placing their hands on their hips. The Lead Jammer retains the ability to call off the Jam even if they are not wearing the Star."
+        }
+      ],
+      "casebook_refs": [
+        "C2.2.2.A",
+        "C2.2.2.B",
+        "C2.2.2.C",
+        "C2.2.2.D",
+        "C2.2.2.E",
+        "C2.2.2.F"
+      ],
+      "glossary_refs": [
+        "lead-jammer",
+        "engagement-zone",
+        "earned-pass"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "lead-jammer",
+        "jammer",
+        "roles",
+        "calling-off"
+      ]
+    },
+    {
+      "id": "2.2.3",
+      "title": "Pivot",
+      "text": "The Pivot is a Blocker, and is denoted as the Skater in possession of the Pivot helmet cover (the Stripe) at the Jam-Starting Whistle. The Pivot wearing the Stripe with the stripe showing has several additional abilities: the Pivot may become their team's Jammer via Star Pass; the Pivot may control the Star; the Pivot may begin a Jam while touching the Pivot Line.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "pivot",
+        "the-stripe",
+        "star-pass"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "pivot",
+        "roles",
+        "blocker"
+      ]
+    },
+    {
+      "id": "2.2.4",
+      "title": "Passing the Star",
+      "text": "A team's Jammer may transfer their Role to their team's Pivot by successfully completing a legal Star Pass. A legal Star Pass requires the Jammer to hand the Star to their team's Pivot while both Skaters are Upright, In Bounds, and In Play; and while neither Skater is en route to, or In Queue for, the Penalty Box. Upon releasing the Star into the Pivot's grasp, the Role of Jammer is transferred to the Pivot.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Illegal Star Passes",
+          "text": "If the Star is passed illegally, both Skaters retain their existing Roles. Illegal Star Passes include: releasing the Star to a Skater other than the Pivot; releasing it while either Skater is Down, Out of Bounds, Out of Play, or en route to the Penalty Box; releasing it while the Pivot is In Queue for the Penalty Box; or releasing it to a Pivot not wearing the Stripe."
+        },
+        {
+          "name": "Pivot Controlling the Star",
+          "text": "If the Pivot comes into control of the Star through any means other than a legal Star Pass, they will be warned that they are not the Jammer. The Pivot may not put the Star on their own helmet, but they may hold the Star in their hand, drop it, or return it to the Jammer."
+        }
+      ],
+      "casebook_refs": [
+        "C2.2.4.A",
+        "C2.2.4.B",
+        "C2.2.4.C",
+        "C2.2.4.D",
+        "C2.2.4.E",
+        "C2.2.4.F"
+      ],
+      "glossary_refs": [
+        "star-pass",
+        "the-star",
+        "pivot",
+        "jammer",
+        "in-play",
+        "in-bounds",
+        "upright",
+        "in-queue"
+      ],
+      "penalty_ref": "4.2.4",
+      "tags": [
+        "star-pass",
+        "jammer",
+        "pivot",
+        "roles"
+      ]
+    },
+    {
+      "id": "2.2.5",
+      "title": "Blockers",
+      "text": "All other Skaters are considered Blockers. Non-Pivot Blockers' helmets or helmet covers may not have any markings that could be confused for the Stripe or the Star.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "blocker"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "blocker",
+        "roles"
+      ]
+    },
+    {
+      "id": "2.2.6",
+      "title": "Skater Starting Locations",
+      "text": "Skaters start each Jam in the following locations: Jammers must be behind or touching the Jammer Line; Blockers must be behind the Pivot Line and ahead of the Jammer Line; Pivots may be touching the Pivot Line; if either Pivot is touching the Pivot Line, all non-Pivot Blockers must be behind that Pivot.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Illegally Positioned Skaters",
+          "text": "Any skater who is In Bounds at the start of the Jam but is touching entirely out of their designated starting location should be penalized."
+        },
+        {
+          "name": "False Starting Skaters",
+          "text": "False Start conditions include: a fully In Bounds Skater touching both inside and outside their designated starting location; a non-Pivot Blocker whose hips are ahead of those of a Pivot touching the Pivot Line; a Jammer who is gaining speed in the counterclockwise direction at the Jam start. False starting skaters must yield their position to all other Skaters in the immediate vicinity."
+        }
+      ],
+      "casebook_refs": [
+        "C2.2.6.A",
+        "C2.2.6.B",
+        "C2.2.6.C",
+        "C2.2.6.D",
+        "C2.2.6.E",
+        "C2.2.6.F",
+        "C2.2.6.G"
+      ],
+      "glossary_refs": [
+        "in-bounds",
+        "yielding",
+        "false-start"
+      ],
+      "penalty_ref": "4.2.1",
+      "tags": [
+        "starting-positions",
+        "false-start",
+        "gameplay"
+      ]
+    },
+    {
+      "id": "2.3",
+      "title": "Pack & Engagement Zone",
+      "text": "The Pack is the largest group of In Bounds and Upright Blockers in proximity and containing members from both teams. If no single group of Blockers meets this definition, there is no Pack. Proximity is defined as not more than 10 ft (3.05m) in front of or behind the nearest Pack Skater. When a Skater is penalized, they are considered to no longer be on the track for Pack definition purposes.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Maintaining the Pack",
+          "text": "It is the responsibility of all Blockers to maintain a Pack, and intentionally destroying the Pack is illegal. When the Pack is moving counterclockwise, stopped, or has no established speed, clockwise skating which destroys the Pack is illegal."
+        },
+        {
+          "name": "Reforming the Pack",
+          "text": "When there is no Pack, all Blockers from both teams must act to reform a Pack. For Skaters in the rear group, this includes stepping or skating in the counterclockwise direction. For Skaters in the front group, this includes coasting, braking, or coming to a complete stop. If immediate action is not sufficient, additional effort is required."
+        },
+        {
+          "name": "Blocking Without a Pack",
+          "text": "Blocks on or by Blockers which have impact while there is no Pack should be penalized."
+        },
+        {
+          "name": "Engagement Zone",
+          "text": "The Engagement Zone extends forward and backward 20 ft (6.10m) from the foremost and rearmost Pack Skaters. Any Blocker outside of the Engagement Zone is Out of Play and cannot engage or be engaged."
+        },
+        {
+          "name": "Returning to the Engagement Zone",
+          "text": "Blockers who are outside of the Engagement Zone will be warned, and will be penalized if they do not immediately attempt to return. Blockers ahead of the Engagement Zone are only compelled to skate clockwise to return if the Pack is stopped or moving clockwise."
+        },
+        {
+          "name": "Blocking while Out of Play",
+          "text": "Skaters who are illegally blocked while Out of Play may legally counter-block, but may not initiate new blocks or continue blocking beyond what is necessary for safety."
+        },
+        {
+          "name": "Blocking while Out of Bounds",
+          "text": "Skaters who are blocked while completely Out of Bounds may actively absorb the block, but may not continue counter-blocking beyond that, and may not initiate a new block."
+        }
+      ],
+      "casebook_refs": [
+        "C2.3.A",
+        "C2.3.B",
+        "C2.3.C"
+      ],
+      "glossary_refs": [
+        "pack",
+        "engagement-zone",
+        "out-of-play",
+        "in-bounds",
+        "upright",
+        "no-pack"
+      ],
+      "penalty_ref": "4.2.1",
+      "tags": [
+        "pack",
+        "engagement-zone",
+        "gameplay",
+        "blocking"
+      ]
+    },
+    {
+      "id": "2.4",
+      "title": "Blocks and Assists",
+      "text": "During a Jam, blocking refers to any attempt at making physical contact to impede an opponent's speed or movement, whether or not contact occurs. Positional Blocking refers to any attempt to position oneself so that an opponent's speed or movement is impeded without the use of contact.",
+      "subsections": [
+        "2.4.1",
+        "2.4.2",
+        "2.4.3",
+        "2.4.4"
+      ],
+      "named_subsections": [
+        {
+          "name": "Initiation",
+          "text": "All contact between opponents has an initiator. It is possible for two or more Skaters to mutually initiate blocks against one another."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "blocking",
+        "positional-blocking",
+        "assist",
+        "initiator"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "blocking",
+        "assists",
+        "contact",
+        "gameplay"
+      ]
+    },
+    {
+      "id": "2.4.1",
+      "title": "Target Zones",
+      "text": "It is only legal to initiate a block to an opponent's chest, front and sides of the torso, arms, hands, hips, and the front and sides of the legs above mid-thigh.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "target-zones"
+      ],
+      "penalty_ref": "4.1.1",
+      "tags": [
+        "target-zones",
+        "blocking",
+        "legal-contact",
+        "contact"
+      ]
+    },
+    {
+      "id": "2.4.2",
+      "title": "Blocking Zones",
+      "text": "It is only legal to initiate a block using one's torso, arms above the elbow, and legs above mid-thigh.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "blocking-zones"
+      ],
+      "penalty_ref": "4.1.2",
+      "tags": [
+        "blocking-zones",
+        "blocking",
+        "legal-contact",
+        "contact"
+      ]
+    },
+    {
+      "id": "2.4.3",
+      "title": "Counter Blocking",
+      "text": "Counter-blocking is any movement towards an oncoming block by the receiving Skater designed to counteract an opponent's block. Counter-blocking is blocking. Actions that meet the above description are considered blocking, even if accidental. Contact made to teammates is not considered blocking even if it is a disadvantage to the initiator or teammate.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "counter-block",
+        "initiator"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "counter-blocking",
+        "blocking",
+        "contact"
+      ]
+    },
+    {
+      "id": "2.4.4",
+      "title": "Illegal Blocks and Assists",
+      "text": "Skaters may not block or assist while Out of Bounds, Out of Play, down, stopped, or moving clockwise. Skaters also may not initiate a block on an opponent who is down, Out of Play, or fully Out of Bounds. Skaters may initiate a block on someone who is straddling, stopped, or moving in any direction. Skaters may not assist a teammate who is Out of Play or fully Out of Bounds; however, they may assist a downed teammate in returning to an Upright position.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "out-of-bounds",
+        "out-of-play",
+        "down",
+        "straddling",
+        "assist"
+      ],
+      "penalty_ref": "4.1.3",
+      "tags": [
+        "illegal-blocking",
+        "assists",
+        "contact",
+        "blocking"
+      ]
+    },
+    {
+      "id": "2.5",
+      "title": "Passing",
+      "text": "Skaters gain superior position on other Skaters by passing them in the counterclockwise direction. Passing another Skater refers to moving such that one Skater's center of mass (as demarcated by their hips) moves from behind another Skater's center of mass to ahead of it.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Earned Passes",
+          "text": "Jammers only earn a pass if the pass occurs while the Jammer is wearing the Star on their helmet with the stars showing and: the Jammer is Upright and In Bounds during the pass, or another Skater skates behind the In Bounds Jammer, giving up their position."
+        },
+        {
+          "name": "Not on the Track Points",
+          "text": "As soon as a Jammer earns a pass on an opposing Blocker, they also earn a pass on any Blockers who are not on the track and who cease to be a part of active gameplay prior to the completion of the Jammer's scoring trip. This includes Skaters in the Penalty Box, Skaters who leave due to injury or equipment issues, Skaters not fielded, and Skaters who return behind the Jammer."
+        },
+        {
+          "name": "Airborne Passes",
+          "text": "A Skater who passes someone while airborne is considered in bounds if they are In Bounds when they leave the floor and the first contact they make upon landing is In Bounds. A Skater who passes someone while airborne is considered upright if they are Upright when they leave the floor and the first contact upon landing is skate to floor."
+        }
+      ],
+      "casebook_refs": [
+        "C2.5.A"
+      ],
+      "glossary_refs": [
+        "earned-pass",
+        "not-on-the-track-point",
+        "hips",
+        "relative-position"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "passing",
+        "scoring",
+        "earned-pass",
+        "NOTT"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Scoring",
+      "text": null,
+      "subsections": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "scoring"
+      ]
+    },
+    {
+      "id": "3.1",
+      "title": "Earning Points",
+      "text": "Jammers score one point every time they lap an opposing Blocker. A Jammer laps a Blocker if they pass that opponent twice in a row (without that opponent having passed that Jammer), but score a point only if the lapping pass is earned. If an opponent is lapped but a point is not scored (because the lapping pass was not earned), the Jammer may yield position to that opponent and re-pass them, earning a pass, to score on that opponent. Only Blockers can be scored upon. All Blockers are considered to be on the same trip, including former Jammers who have passed the Star.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C3.1.A",
+        "C3.1.B",
+        "C3.1.D"
+      ],
+      "glossary_refs": [
+        "lap-lapping",
+        "earned-pass",
+        "re-pass",
+        "trip-through-the-pack"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "scoring",
+        "points",
+        "lapping",
+        "jammer"
+      ]
+    },
+    {
+      "id": "3.2",
+      "title": "Scoring Trips",
+      "text": "Points are grouped by trips through the Pack. One trip through the Pack ends, and the next begins, when the Jammer exits the front of the Engagement Zone (or, if no Pack can be defined, when the Jammer is more than 20 ft ahead of the foremost in-bounds member of the previous Pack). Upon completion of a trip through the Pack, the Jammer's score for that trip can no longer be altered by returning to the previous trip. When a Jam ends, whatever trips the Jammers were on are considered to have been completed by the Jam ending.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Returning to the Previous Trip",
+          "text": "If a Jammer enters the Engagement Zone from the front, they return to their previous trip until they exit the Engagement Zone from the front again. A Jammer cannot fall behind by more than one trip. Whenever a Jammer exits the Engagement Zone from the front, they return to their latest trip. If a Jammer falls behind their initial trip through the Pack, passes on Blockers do not count toward scoring or lapping until they return to their initial trip through the Pack."
+        }
+      ],
+      "casebook_refs": [
+        "C3.2.B",
+        "C3.2.C",
+        "C3.2.D"
+      ],
+      "glossary_refs": [
+        "trip-through-the-pack",
+        "engagement-zone",
+        "no-pack"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "scoring",
+        "trips",
+        "engagement-zone",
+        "jammer"
+      ]
+    },
+    {
+      "id": "3.3",
+      "title": "Scoring Avoidance",
+      "text": "Opponents can only avoid being scored upon by remaining ahead of the Jammer, or by ensuring that when they are passed, the pass is not earned.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Blockers Unable to be Passed",
+          "text": "If a Jammer completes a trip through the Pack without the opportunity to earn a pass on an opponent, the Jammer earns a pass on that opponent. This includes opponents who are ahead of the Engagement Zone when the Jammer completes their trip; opponents ahead of the Engagement Zone at the end of the Jam when the Jammer is on a scoring trip; any Not On the Track Points the Jammer cannot earn because they complete their trip without the opportunity to earn a pass on any opposing Blocker; opponents Out of Play behind the Pack if a Jammer reenters the track from the Penalty Box in front of that Blocker."
+        },
+        {
+          "name": "Jammers Unable to Score Points",
+          "text": "If a Jammer renders themself unable to score points \u2014 for example, by committing a penalty or by removing the Star \u2014 any Not On the Track Points they would have earned while unable to score are earned once they become able to score again. If an opponent's action renders the Jammer unable to score, the Jammer continues to score Not-On-the-Track points as usual."
+        }
+      ],
+      "casebook_refs": [
+        "C3.3.A",
+        "C3.3.B",
+        "C3.3.C",
+        "C3.3.D",
+        "C3.3.E",
+        "C3.3.F",
+        "C3.3.I",
+        "C3.3.J"
+      ],
+      "glossary_refs": [
+        "earned-pass",
+        "not-on-the-track-point",
+        "engagement-zone",
+        "out-of-play"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "scoring",
+        "avoidance",
+        "earned-pass",
+        "NOTT"
+      ]
+    },
+    {
+      "id": "3.4",
+      "title": "Penalized Jammers",
+      "text": "When a Jammer is penalized, they are considered to no longer be on the track (even if they are physically still on the track). Accordingly, a penalized Jammer cannot earn passes on any further opponents until that Jammer completes their penalty. Upon release from the Penalty Box, a Jammer returns to the same trip through the Pack, having scored on (and/or being in position to score on) the same Blockers.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C3.4.A"
+      ],
+      "glossary_refs": [
+        "penalty",
+        "penalty-box",
+        "trip-through-the-pack"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "scoring",
+        "penalties",
+        "jammer",
+        "penalty-box"
+      ]
+    },
+    {
+      "id": "3.5",
+      "title": "Errors in Scoring & Score Reporting",
+      "text": "The Official Score is that which is reported and visible to teams, Officials, and spectators.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Errors with Points Awarded Incorrectly",
+          "text": "If a point is awarded (or denied) in error, or if a Jammer Referee has reported a score incorrectly, the score may be corrected no later than the end of the Jam after the one in which the error occurred. If there are fewer than 2 minutes in the game remaining on the period clock, score corrections must be made before the start (rather than the end) of the Jam after the one in which the error occurred."
+        },
+        {
+          "name": "Errors with Points Awarded Correctly",
+          "text": "Points awarded (or denied) correctly, given the information available at the time, may not be taken away (or awarded) later. For example, a Jammer who exits the Engagement Zone and is awarded four points has earned those points, even if upon review they were found to have committed a penalty two trips prior."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "points-awarded-in-error",
+        "points-denied-in-error"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "scoring",
+        "errors",
+        "officiating"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Penalties",
+      "text": "When a Skater commits a rule infraction or a foul, a penalty may be assessed as a punishment, handicap, or loss of advantage. Penalties are applied to both a Skater and the Role that Skater is currently playing. Officials signal and enforce penalties and warnings as they occur during a game. Penalties should not be assessed for actions that have little to no impact on the game or the Skaters.",
+      "subsections": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "named_subsections": [
+        {
+          "name": "Opponent's Illegal Action",
+          "text": "If one Skater's illegal action causes an opponent to unavoidably commit another illegal action, the opponent will not receive a penalty for the unavoidable illegal action. The initial Skater should be penalized if the initial illegal action has sufficient impact on the game."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "penalty",
+        "illegal-procedure"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties"
+      ]
+    },
+    {
+      "id": "4.1",
+      "title": "Contact Penalties",
+      "text": "Gaining position on an opponent, or causing an opponent to lose position to another teammate, due to illegal contact is always considered to have sufficient impact on the game. Star Passes may only be blocked by legal means. Skaters who prevent a Star Pass using illegal contact should be penalized.",
+      "subsections": [
+        "4.1.1",
+        "4.1.2",
+        "4.1.3",
+        "4.1.4",
+        "4.1.5"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "star-pass",
+        "relative-position"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "contact"
+      ]
+    },
+    {
+      "id": "4.1.1",
+      "title": "Impact to an Illegal Target Zone",
+      "text": "Making contact to an Illegal Target Zone should be penalized based on the impact it has on the target.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Illegal Target Zones",
+          "text": "Illegal Target Zones include: the back of the body, including the back of the buttocks and the back of the thighs; the head, down to the collarbone; and legs from below mid-thigh to the wheels of the skate."
+        },
+        {
+          "name": "Illegal Target Zones Penalized Regardless of Impact",
+          "text": "For safety reasons, avoidable forceful contact to the back, or any forceful contact to the head or neck should be penalized regardless of impact."
+        },
+        {
+          "name": "Initiation with an Illegal Target Zone",
+          "text": "A Skater suddenly presenting an Illegal Target Zone to an opponent, giving that opponent no reasonable opportunity to avoid illegal contact, is considered to be initiating with that target zone."
+        }
+      ],
+      "casebook_refs": [
+        "C4.1.1.A",
+        "C4.1.1.B",
+        "C4.1.1.C",
+        "C4.1.1.D",
+        "C4.1.1.E",
+        "C4.1.1.F",
+        "C4.1.1.G",
+        "C4.1.1.H",
+        "C4.1.1.I",
+        "C4.1.1.J"
+      ],
+      "glossary_refs": [
+        "target-zones",
+        "forceful-contact"
+      ],
+      "penalty_ref": "4.1.1",
+      "tags": [
+        "penalties",
+        "contact",
+        "target-zones",
+        "back-block",
+        "high-block",
+        "low-block"
+      ]
+    },
+    {
+      "id": "4.1.2",
+      "title": "Impact with an Illegal Blocking Zone",
+      "text": "Making contact with an Illegal Blocking Zone should be penalized based on the impact it has on the target.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Illegal Blocking Zones",
+          "text": "Illegal Blocking Zones include: the head, down to the collarbone; the forearm, from the point of the elbow to the fingertips; and legs from below mid-thigh to the wheels of the skate. Forearms are considered a Legal Blocking Zone when they are held close against the initiator's torso."
+        },
+        {
+          "name": "Illegal Blocking Zone Impact Examples",
+          "text": "Examples of sufficient impact to warrant a penalty include: the contact puts an opponent significantly off balance; the contact significantly alters an opponent's trajectory or speed; the contact allows the Skater to maintain an In Bounds position that otherwise would not have been maintained; or the contact allows the Skater to maintain an Upright position that otherwise would not have been maintained."
+        },
+        {
+          "name": "Illegal Blocking Zones Penalized Regardless of Impact",
+          "text": "The following types of contact should be penalized regardless of impact: forceful contact initiated with the head or neck; intentional use of the head or neck to positionally block."
+        }
+      ],
+      "casebook_refs": [
+        "C4.1.2.A",
+        "C4.1.2.B",
+        "C4.1.2.D",
+        "C4.1.2.E",
+        "C4.1.2.F",
+        "C4.1.2.G",
+        "C4.1.2.H",
+        "C4.1.2.I"
+      ],
+      "glossary_refs": [
+        "blocking-zones",
+        "forceful-contact",
+        "in-bounds",
+        "upright"
+      ],
+      "penalty_ref": "4.1.2",
+      "tags": [
+        "penalties",
+        "contact",
+        "blocking-zones",
+        "forearm",
+        "head-block",
+        "leg-block"
+      ]
+    },
+    {
+      "id": "4.1.3",
+      "title": "Other Illegal Contact",
+      "text": "Initiating a block is legal when a Skater is moving counterclockwise, in play, upright, and in bounds during a Jam using Legal Contact Zones. Accordingly, Skaters cannot initiate a block while Down, Out of Bounds, Out of Play, airborne, stopped, or skating clockwise. Skaters also cannot initiate a block on opponents who are Down, fully Out of Bounds, or Out of Play. Skaters may initiate a block on an opponent who is straddling the track boundary, stopped, or skating clockwise. Actively maintaining a stopped position which impedes an opponent should be penalized regardless of the initiator of the contact. Initiation of assists should be held to the same metrics as that of blocking, with the exception of assisting a downed teammate to return to an Upright position.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.1.3.A",
+        "C4.1.3.B",
+        "C4.1.3.C",
+        "C4.1.3.D",
+        "C4.1.3.E",
+        "C4.1.3.F",
+        "C4.1.3.G",
+        "C4.1.3.H",
+        "C4.1.3.I",
+        "C4.1.3.J"
+      ],
+      "glossary_refs": [
+        "down",
+        "out-of-bounds",
+        "out-of-play",
+        "straddling",
+        "assist",
+        "initiator"
+      ],
+      "penalty_ref": "4.1.3",
+      "tags": [
+        "penalties",
+        "contact",
+        "illegal-contact",
+        "direction",
+        "stop-block",
+        "early-hit"
+      ]
+    },
+    {
+      "id": "4.1.4",
+      "title": "Multiplayer Blocks",
+      "text": "Skaters may not form a wall by linking with or grasping a teammate, or otherwise forming an impenetrable connection. This action warrants a penalty if an opponent attempts to get between them and fails to do so due to the illegal formation.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.1.4.A"
+      ],
+      "glossary_refs": [
+        "linking",
+        "grasping",
+        "impenetrable"
+      ],
+      "penalty_ref": "4.1.4",
+      "tags": [
+        "penalties",
+        "contact",
+        "multiplayer",
+        "linking",
+        "grasping"
+      ]
+    },
+    {
+      "id": "4.1.5",
+      "title": "Unsporting Contact",
+      "text": "Some contact is considered unsporting, either because it falls outside the boundaries of expected normal gameplay or is inherently unsafe. Examples of such actions include: pinning an opponent, such as between an appendage and the body, or by hooking a limb around an opponent's limb; engaging in dangerous and illegal actions that pose a substantial hazard to oneself or another; intentional and forceful jabbing with elbows or knees. Legal means of blocking do not include pinning or holding an opponent, even if the contact is made using legal Blocking Zones.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.1.5.A",
+        "C4.1.5.B",
+        "C4.1.5.C",
+        "C4.1.5.D",
+        "C4.1.5.E",
+        "C4.1.5.F"
+      ],
+      "glossary_refs": [
+        "expulsion",
+        "forceful-contact"
+      ],
+      "penalty_ref": "4.1.5",
+      "tags": [
+        "penalties",
+        "contact",
+        "unsporting",
+        "misconduct"
+      ]
+    },
+    {
+      "id": "4.2",
+      "title": "Game Structure Penalties",
+      "text": "When the basic rules of the game are violated in a manner that would give a team an advantage, the individual or team who violates the rule should be penalized. A team gains advantage if an illegal act results in: an opponent becoming (or remaining) unable to block; a gain of position or a teammate's gain of position; or the game flow being altered.",
+      "subsections": [
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.4"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "game-structure"
+      ]
+    },
+    {
+      "id": "4.2.1",
+      "title": "Illegal Positioning",
+      "text": "If a Skater's illegal action destroys the Pack, or if a Skater's actions prevent or delay the reformation of a Pack, that Skater should be penalized.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Failure to Maintain a Pack",
+          "text": "If a Skater's illegal action destroys the Pack, or if a Skater's actions prevent or delay the reformation of a Pack, that Skater should be penalized."
+        },
+        {
+          "name": "Skaters in an Unblockable Position",
+          "text": "It is illegal to adopt or maintain a position in which one cannot be blocked. Skaters may not intentionally leave the track, nor may Blockers intentionally leave the Engagement Zone. While there are many legal actions that would cause a Skater to be put into an illegal position, intentionally adopting such a position is illegal. It is legal for Jammers and Pivots to either leave the track or adopt a Down position to retrieve an Out of Bounds helmet cover. A Skater who is illegally positioned must immediately act to regain a legal position."
+        },
+        {
+          "name": "Skaters With Reason to Believe they are Legally Positioned",
+          "text": "If a Skater has reason to believe that they are legally positioned (even though they are not), or has reason to believe that they cannot legally return to a legal position, they must be warned before being assessed a penalty for failing to return to a legal position."
+        },
+        {
+          "name": "Skaters Illegally Positioned at Jam Start",
+          "text": "If a Skater is not legally positioned at the start of a Jam, the Skater must immediately Yield position to all Skaters in the vicinity. Failing to do so after a warning is considered to be intentionally maintaining an illegal position and should be penalized."
+        }
+      ],
+      "casebook_refs": [
+        "C4.2.1.A",
+        "C4.2.1.B",
+        "C4.2.1.C",
+        "C4.2.1.D",
+        "C4.2.1.E",
+        "C4.2.1.F",
+        "C4.2.1.G",
+        "C4.2.1.H",
+        "C4.2.1.I",
+        "C4.2.1.J",
+        "C4.2.1.K",
+        "C4.2.1.L",
+        "C4.2.1.M",
+        "C4.2.1.N"
+      ],
+      "glossary_refs": [
+        "pack",
+        "no-pack",
+        "engagement-zone",
+        "out-of-bounds",
+        "yielding",
+        "warning"
+      ],
+      "penalty_ref": "4.2.1",
+      "tags": [
+        "penalties",
+        "positioning",
+        "pack",
+        "no-pack",
+        "illegal-position"
+      ]
+    },
+    {
+      "id": "4.2.2",
+      "title": "Gaining Position",
+      "text": "It is illegal for a Skater to use the Out of Bounds area to gain position on someone who is Upright and In Bounds. This action is referred to as cutting the track. Skaters who are Out of Bounds must return in bounds behind any Upright and In Bounds Skater who they were behind when they left the track. The position of Downed Skaters is not assessed until they are Upright. Cutting one single teammate does not have enough impact to warrant a penalty.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Skaters Returning to the Track",
+          "text": "Skaters who intentionally, but legally, leave the track must return to the track behind all in-play Blockers. If there is no Pack, they must return behind all Blockers within 20 ft of the last defined Pack. Skaters returning to the track from the Penalty Box must do so without illegally gaining position."
+        },
+        {
+          "name": "Skaters Out of Bounds Due to a Block",
+          "text": "If a Skater is put Out of Bounds due to an opponent's block, the Skater must return In Bounds behind that opponent, even if the Skater was in front of the opponent before being blocked. That opponent gives up this advantage if they go Down, Out of Bounds, or Out of Play prior to the Skater reentering the track."
+        },
+        {
+          "name": "Ceding Illegal Position",
+          "text": "Skaters who illegally reenter the track may immediately Cede by returning fully Out of Bounds."
+        }
+      ],
+      "casebook_refs": [
+        "C4.2.2.A",
+        "C4.2.2.B",
+        "C4.2.2.C",
+        "C4.2.2.D",
+        "C4.2.2.E",
+        "C4.2.2.F",
+        "C4.2.2.G",
+        "C4.2.2.H",
+        "C4.2.2.I",
+        "C4.2.2.J",
+        "C4.2.2.K",
+        "C4.2.2.L",
+        "C4.2.2.M"
+      ],
+      "glossary_refs": [
+        "out-of-bounds",
+        "in-bounds",
+        "ceding",
+        "relative-position",
+        "upright",
+        "down"
+      ],
+      "penalty_ref": "4.2.2",
+      "tags": [
+        "penalties",
+        "gaining-position",
+        "cutting",
+        "out-of-bounds"
+      ]
+    },
+    {
+      "id": "4.2.3",
+      "title": "Interfering with the Flow of the Game",
+      "text": "All efforts should be made by teams and Officials to ensure that the period clock runs according to the rules of the game, and that Jams start and end as specified in the rules. Any inappropriate action that interferes with the game \u2014 including causing the period clock to stop, preventing a Jam from starting, or ending a Jam prematurely \u2014 should be penalized.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.2.3.A",
+        "C4.2.3.B",
+        "C4.2.3.C",
+        "C4.2.3.D",
+        "C4.2.3.E",
+        "C4.2.3.F",
+        "C4.2.3.G",
+        "C4.2.3.H",
+        "C4.2.3.I"
+      ],
+      "glossary_refs": [
+        "jam",
+        "lineup-time"
+      ],
+      "penalty_ref": "4.2.3",
+      "tags": [
+        "penalties",
+        "game-flow",
+        "interference",
+        "delay-of-game"
+      ]
+    },
+    {
+      "id": "4.2.4",
+      "title": "Other Illegal Procedures",
+      "text": "Skaters who violate the rules of the game should be penalized if the violation has a significant impact on the game. Skaters and Officials should work to ensure that the rules are followed as swiftly as possible, and to rectify any illegal or potentially illegal play before it has sufficient impact on the game to warrant penalization.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.2.4.A",
+        "C4.2.4.B",
+        "C4.2.4.D",
+        "C4.2.4.E",
+        "C4.2.4.F",
+        "C4.2.4.G"
+      ],
+      "glossary_refs": [
+        "illegal-procedure",
+        "star-pass"
+      ],
+      "penalty_ref": "4.2.4",
+      "tags": [
+        "penalties",
+        "illegal-procedure",
+        "star-pass-violation"
+      ]
+    },
+    {
+      "id": "4.3",
+      "title": "Penalties for Unsporting Conduct (Misconduct)",
+      "text": "All participants in a game of roller derby must be respectful of one another. When Skaters or Team Staff behave in an unsporting manner, their misconduct should be penalized accordingly. Misconduct can take many forms and does not have to be intentional to be considered unsporting.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Examples of Misconduct",
+          "text": "Examples include but are not limited to: deceiving or ignoring Officials; disrespectful contact or conduct directed at another participant; forceful contact to an Official, where that contact is negligent or avoidable; being abusive toward another person; failure to abide by Governing Body policies during the game. Actions which seriously undermine the legitimacy of the sport or display a lack of respect for the sport, its execution, and those who contribute to it may also be penalized."
+        }
+      ],
+      "casebook_refs": [
+        "C4.3.A",
+        "C4.3.D",
+        "C4.3.E",
+        "C4.3.F",
+        "C4.3.H",
+        "C4.3.I",
+        "C4.3.J",
+        "C4.3.L",
+        "C4.3.M",
+        "C4.3.N",
+        "C4.3.O",
+        "C4.3.P"
+      ],
+      "glossary_refs": [
+        "insubordination",
+        "expulsion",
+        "governing-body"
+      ],
+      "penalty_ref": "4.3",
+      "tags": [
+        "penalties",
+        "misconduct",
+        "unsporting",
+        "insubordination"
+      ]
+    },
+    {
+      "id": "4.4",
+      "title": "Enforcing Penalties",
+      "text": "Upon completion of the correct verbal cue and hand signal from an Official, the penalized Skater must immediately leave the track. Upon sitting in any seat in the Penalty Box, the Skater's penalty time begins. Skaters serve 30 seconds of Jam time for each penalty assessed to them. The final 10 seconds of their penalty time must be served while standing. Penalties are only timed while a Jam is in progress. Penalty timing is paused between Jams.",
+      "subsections": [
+        "4.4.1",
+        "4.4.2",
+        "4.4.3",
+        "4.4.4"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.4.B",
+        "C4.4.C",
+        "C4.4.D"
+      ],
+      "glossary_refs": [
+        "penalty-box",
+        "penalty",
+        "sitting",
+        "standing"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "enforcement",
+        "penalty-box"
+      ]
+    },
+    {
+      "id": "4.4.1",
+      "title": "Penalty Enforcement for Blockers",
+      "text": "No more than two Blockers for the same team may sit in the Penalty Box at the same time. If a third Blocker reports to the Penalty Box while two Blockers for their team are seated, the third Blocker will be placed In Queue and instructed to return to play. A Blocker In Queue may return to the Penalty Box when there is space, unless doing so would destroy the Pack.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.4.1.A",
+        "C4.4.1.B"
+      ],
+      "glossary_refs": [
+        "in-queue",
+        "penalty-box",
+        "pack"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "enforcement",
+        "blockers",
+        "penalty-box"
+      ]
+    },
+    {
+      "id": "4.4.2",
+      "title": "Penalty Enforcement for Jammers",
+      "text": "A Jammer may have their penalty time shortened if the other Jammer also receives a penalty. In this case, the two Jammers serve as little time as possible so long as: the two Jammers serve an equivalent amount of penalty time per penalty; and whenever possible, there is at least one Jammer who is not serving a penalty. Jammers who are to be released due to the other Jammer sitting should be released immediately once the other Jammer sits. If both Jammers sit simultaneously, they will both be released immediately.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Jammers Seated Between Jams",
+          "text": "If one Jammer sits between Jams, the other Jammer should be released at the start of the next Jam. If both Jammers sit between Jams, they should both be released at the start of the next Jam."
+        },
+        {
+          "name": "Jammers Sent to the Box with No Opposing Jammer",
+          "text": "If a Jammer is sent to the Box when there is no opposing Jammer (for example, because the opposing Jammer has an equipment malfunction), the Jam will end once the Jammer is seated. This ensures that there is one Jammer who is not serving a penalty."
+        }
+      ],
+      "casebook_refs": [
+        "C4.4.2.A",
+        "C4.4.2.B",
+        "C4.4.2.C",
+        "C4.4.2.D"
+      ],
+      "glossary_refs": [
+        "penalty-box",
+        "jammer",
+        "penalty"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "enforcement",
+        "jammers",
+        "penalty-box",
+        "jammer-swap"
+      ]
+    },
+    {
+      "id": "4.4.3",
+      "title": "Skaters Unable to Serve Penalties",
+      "text": "If a Skater is assessed a penalty but unable to serve it \u2014 for example, due to an injury or an equipment malfunction \u2014 a substitute may serve in their place once the Jam ends. In this case, the Skater who was unable to serve their own penalty may not skate for the following three Jams.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.4.3.A"
+      ],
+      "glossary_refs": [
+        "substitution",
+        "penalty"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "enforcement",
+        "substitution",
+        "injury"
+      ]
+    },
+    {
+      "id": "4.4.4",
+      "title": "Protective Gear in the Penalty Box",
+      "text": "Skaters may remove their mouthguard, but no other protective gear, while seated in the Penalty Box. Skaters must replace their mouthguard prior to leaving the Penalty Box.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [
+        "C4.4.4.A"
+      ],
+      "glossary_refs": [
+        "protective-gear",
+        "penalty-box"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "enforcement",
+        "protective-gear",
+        "mouthguard"
+      ]
+    },
+    {
+      "id": "4.5",
+      "title": "Fouling Out & Expulsions",
+      "text": "When seven penalties are recorded for a Skater, that Skater fouls out of the game. This includes penalties assessed to a Skater on behalf of someone else. Expulsions are a way to penalize a Skater or Team Staff who has committed an act that is sufficiently dangerous or unsporting as to remove the individual from the game for that action alone. Negligent, intentional, or reckless actions should be considered for expulsion independently of their impact. A substitute must serve the penalty for an expelled Skater. The Head Referee is the only Official with the authority to expel a Skater, manager, coach or similar Team Staff.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Timing Skaters Removed From Play",
+          "text": "In the event that a Skater is to be removed from play (either due to fouling out or expulsion), that Skater's penalty time should begin as soon as possible. Timing for a fouled-out Skater begins either when the Skater (or an appropriate substitute between Jams) is seated in the Penalty Box, or after the foul out is confirmed between Officials during the Jam."
+        },
+        {
+          "name": "Substitutions for Skaters Removed from Play",
+          "text": "If the Jam ends before the time is complete, the Skater's team must be given the opportunity to substitute a different Skater to serve the remainder of the penalty in the same Role as the removed Skater. Substitutions may not occur during the Jam in which the Skater is removed."
+        }
+      ],
+      "casebook_refs": [
+        "C4.5.A",
+        "C4.5.B",
+        "C4.5.C"
+      ],
+      "glossary_refs": [
+        "fouling-out",
+        "expulsion",
+        "head-referee",
+        "substitution"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "penalties",
+        "fouling-out",
+        "expulsion"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Officiating",
+      "text": null,
+      "subsections": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "officiating"
+      ]
+    },
+    {
+      "id": "5.1",
+      "title": "Staffing",
+      "text": "Each game must staff enough on-skates Officials (Referees) to effectively track the following information in real time: the location of the Pack and Engagement Zone; which Blockers are Out of Play; who the Jammers are; which Jammer (if any) is Lead Jammer; how many points each Jammer has scored. One Referee is designated the Head Referee. In addition to their authority on matters such as communications with Teams and expulsions, it is also the Head Referee's responsibility to oversee the safety of all participants during a game.",
+      "subsections": [
+        "5.1.1",
+        "5.1.2"
+      ],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "head-referee"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "officiating",
+        "staffing",
+        "referees"
+      ]
+    },
+    {
+      "id": "5.1.1",
+      "title": "Distinction",
+      "text": "Referees are responsible for assessing and enforcing penalties, must be on skates, and must be uniformed in a manner that clearly identifies them as Referees. Referees must be distinguishable from each other; for example, by displaying a name or number on their uniform.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "officiating",
+        "referees",
+        "staffing"
+      ]
+    },
+    {
+      "id": "5.1.2",
+      "title": "Requirements",
+      "text": "Each game must also staff enough Officials to effectively track the state of the game such that the rules can be enforced in real time. The following information must be available upon request: the Official Score; the Official Jam Time; the Official Period Time; which Skaters have been assessed how many penalties, and which have been served; which Skaters are not allowed to skate; how long a given Skater has been seated for each penalty.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "officiating",
+        "staffing",
+        "NSO"
+      ]
+    },
+    {
+      "id": "5.2",
+      "title": "Duties",
+      "text": "All Officials are responsible for keeping the game running safely and smoothly by ensuring that the rules of the game are followed. This includes but is not limited to: ensuring each team has an acceptable number of Skaters on the track; ensuring that the game is played legally; timing Jams, Periods, penalties, and the time between Jams; signaling the starts and ends of Jams; signaling who is the Lead Jammer; signaling how many points each Jammer earns on each trip through the Pack; informing Skaters and Team Staff of the state of the game when asked; calling Official Timeouts when additional time is needed. Officials may call off Jams at their discretion.",
+      "subsections": [],
+      "named_subsections": [],
+      "casebook_refs": [],
+      "glossary_refs": [],
+      "penalty_ref": null,
+      "tags": [
+        "officiating",
+        "duties",
+        "referees"
+      ]
+    },
+    {
+      "id": "5.3",
+      "title": "Communication Between Skaters & Officials",
+      "text": "All communication between Skaters, Team Staff, and Officials must be respectful. The Head Referee may, at their discretion, limit the extent to which Skaters may communicate with Officials.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Communication of In Play Status",
+          "text": "Officials should provide any information necessary for a Skater to know whether they are In Play, including the location of the Pack. Skaters who reasonably believe that they are In Play should not be penalized for technical infractions that pertain to being Out of Play, unless such a warning has been given."
+        },
+        {
+          "name": "Erroneous Official Communication",
+          "text": "If an Official provides erroneous information to a Skater, the Skater will not be penalized for actions taken based on that information. For example, if a Penalty Box Official releases a Skater early, the Skater will not be penalized for leaving once released. An absence of information provided is not considered erroneous."
+        }
+      ],
+      "casebook_refs": [],
+      "glossary_refs": [
+        "in-play",
+        "out-of-play",
+        "warning"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "officiating",
+        "communication",
+        "skaters"
+      ]
+    },
+    {
+      "id": "5.4",
+      "title": "Assessing Penalties",
+      "text": "All Referees may assess penalties to Skaters for illegal actions that have impact on the game. Non-Skating Officials may assess penalties that are relevant to their role as an official in the game, unless prohibited from doing so by the Head Referee. Penalties must be assessed as soon as possible and at a volume sufficient to be heard by the penalized Skater and relevant Officials.",
+      "subsections": [],
+      "named_subsections": [
+        {
+          "name": "Certainty Required to Assess Penalties",
+          "text": "No penalty should be assessed unless the Official is certain that the penalty is warranted. If Officials cannot agree on whether an action warrants a penalty, the Head Referee's decision is final."
+        },
+        {
+          "name": "Assessing Penalties to the Only Blocker from a Team on the Track",
+          "text": "If the only Blocker from a team who is on the track commits a penalty, the Blocker should not be sent off the track until another Blocker from their team rejoins the Pack."
+        },
+        {
+          "name": "Penalties with Uncertain Recipients",
+          "text": "If a penalty is warranted, but it is not clear to whom the penalty should be assessed, an Official should assess the penalty to the nearest Blocker from the appropriate team if the action is committed mid-Jam, or to the team's Captain if the action is committed between Jams."
+        },
+        {
+          "name": "Penalties Assessed to Off Skates Staff",
+          "text": "If off-skates Team Staff commit a penalty, the penalty should be assessed to the appropriate team's Captain."
+        },
+        {
+          "name": "Penalties Assessed to Team Captains",
+          "text": "If a penalty is assessed to a Captain due to the fact that they are the Captain, they will serve the penalty in the next jam in which they are able to serve as a Blocker."
+        }
+      ],
+      "casebook_refs": [
+        "C5.4.A",
+        "C5.4.B",
+        "C5.4.C",
+        "C5.4.D"
+      ],
+      "glossary_refs": [
+        "penalty",
+        "head-referee",
+        "captain"
+      ],
+      "penalty_ref": null,
+      "tags": [
+        "officiating",
+        "penalties",
+        "assessing"
+      ]
+    }
+  ]
+}

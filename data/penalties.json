@@ -1,0 +1,137 @@
+{
+  "penalties": [
+    {
+      "id": "back-block",
+      "rule_ref": "4.1.1",
+      "verbal_cue": "Back Block",
+      "code": "B",
+      "description": "Contact to the back of the body, including the back of the buttocks and the back of the thighs.",
+      "signal": "Start with your arms forward, bent at a 90-degree angle, palms forward. Straighten your elbows and extend your arms forward in a 'push' motion.",
+      "tags": ["contact", "target-zone"]
+    },
+    {
+      "id": "high-block",
+      "rule_ref": "4.1.1",
+      "verbal_cue": "High Block",
+      "code": "A",
+      "description": "Contact to the head or neck, down to the collarbone.",
+      "signal": "Hand raised to the side of the head.",
+      "tags": ["contact", "target-zone"]
+    },
+    {
+      "id": "low-block",
+      "rule_ref": "4.1.1",
+      "verbal_cue": "Low Block",
+      "code": "L",
+      "description": "Contact to the legs from below mid-thigh to the wheels of the skate.",
+      "signal": "Hand pointed downward toward the lower leg.",
+      "tags": ["contact", "target-zone"]
+    },
+    {
+      "id": "head-block",
+      "rule_ref": "4.1.2",
+      "verbal_cue": "Head Block",
+      "code": "H",
+      "description": "Initiating a block using the head or neck, or intentionally using the head or neck to positionally block.",
+      "signal": "Hand placed on top of the head.",
+      "tags": ["contact", "blocking-zone"]
+    },
+    {
+      "id": "forearm",
+      "rule_ref": "4.1.2",
+      "verbal_cue": "Forearm",
+      "code": "F",
+      "description": "Initiating a block using the forearm, from the point of the elbow to the fingertips.",
+      "signal": "One forearm raised horizontally in front of the body.",
+      "tags": ["contact", "blocking-zone"]
+    },
+    {
+      "id": "leg-block",
+      "rule_ref": "4.1.2",
+      "verbal_cue": "Leg Block",
+      "code": "E",
+      "description": "Initiating a block using the legs from below mid-thigh to the wheels of the skate.",
+      "signal": "Hand pointed downward toward the lower leg.",
+      "tags": ["contact", "blocking-zone"]
+    },
+    {
+      "id": "illegal-contact",
+      "rule_ref": "4.1.3",
+      "verbal_cue": "Illegal Contact",
+      "code": "C",
+      "description": "Initiating a block while Down, Out of Bounds, Out of Play, airborne, stopped, or skating clockwise. Also includes illegal assists and early hits before the Jam starts.",
+      "sub_types": ["Illegal Assist", "Early Hit"],
+      "signal": "Arms crossed in front of the chest.",
+      "tags": ["contact", "illegal-contact"]
+    },
+    {
+      "id": "direction",
+      "rule_ref": "4.1.3",
+      "verbal_cue": "Direction",
+      "code": "D",
+      "description": "Blocking while skating clockwise, or a stop block — actively maintaining a stopped position which impedes an opponent.",
+      "sub_types": ["Stop Block"],
+      "signal": "Finger pointed and rotated in a clockwise circle.",
+      "tags": ["contact", "direction"]
+    },
+    {
+      "id": "multiplayer",
+      "rule_ref": "4.1.4",
+      "verbal_cue": "Multiplayer",
+      "code": "M",
+      "description": "Forming an impenetrable wall by linking with or grasping a teammate when an opponent attempts and fails to pass between them.",
+      "signal": "Both arms extended and linked at the elbows in front of the body.",
+      "tags": ["contact", "multiplayer"]
+    },
+    {
+      "id": "illegal-position",
+      "rule_ref": "4.2.1",
+      "verbal_cue": "Illegal Position",
+      "code": "P",
+      "description": "Illegally destroying or failing to reform the Pack, intentionally skating Out of Bounds, failing to return to the Engagement Zone, or failing to yield after a false start.",
+      "sub_types": ["Destruction", "Skating Out of Bounds", "Failure to Reform", "Failure to Return", "Failure to Yield"],
+      "signal": "Both hands placed on top of the head.",
+      "tags": ["positioning", "pack"]
+    },
+    {
+      "id": "cut",
+      "rule_ref": "4.2.2",
+      "verbal_cue": "Cut",
+      "code": "X",
+      "description": "Using the Out of Bounds area to gain position on an opponent who is Upright and In Bounds. Also includes illegal re-entry to the track.",
+      "sub_types": ["Illegal Re-Entry"],
+      "signal": "Two fingers pointed downward in a scissors motion.",
+      "tags": ["positioning", "out-of-bounds"]
+    },
+    {
+      "id": "interference",
+      "rule_ref": "4.2.3",
+      "verbal_cue": "Interference",
+      "code": "N",
+      "description": "Any action that interferes with the flow of the game, including causing the period clock to stop illegally, preventing a Jam from starting, or ending a Jam prematurely. Includes delay of game.",
+      "sub_types": ["Delay of Game"],
+      "signal": "Both arms raised and crossed overhead.",
+      "tags": ["game-structure", "flow"]
+    },
+    {
+      "id": "illegal-procedure",
+      "rule_ref": "4.2.4",
+      "verbal_cue": "Illegal Procedure",
+      "code": "I",
+      "description": "Technical violations of the rules that have significant impact on the game, including Star Pass violations and Star Pass interference.",
+      "sub_types": ["Star Pass Violation", "Star Pass Interference", "Illegal Exit"],
+      "signal": "Index finger pointed upward and rotated in a small circle.",
+      "tags": ["game-structure", "procedure"]
+    },
+    {
+      "id": "misconduct",
+      "rule_ref": "4.3",
+      "verbal_cue": "Misconduct",
+      "code": "G",
+      "description": "Unsporting conduct including deceiving or ignoring Officials, disrespectful conduct, abusive language or behavior, or actions that undermine the legitimacy of the sport. Includes insubordination.",
+      "sub_types": ["Insubordination"],
+      "signal": "Both hands placed on the hips.",
+      "tags": ["misconduct", "unsporting"]
+    }
+  ]
+}

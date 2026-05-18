@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-fontsize="medium" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bridge — Flat Track Roller Derby Reference</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function() {
+      var t = localStorage.getItem('rules-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-left">
+    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle navigation">&#9776;</button>
+    <span class="site-title">The Bridge</span>
+    <span class="rules-tagline">flat track roller derby reference</span>
+  </div>
+  <div class="topbar-right">
+    <div class="search-wrap">
+      <input type="search" id="searchInput" placeholder="Search rules, casebook, glossary…" autocomplete="off" aria-label="Search">
+      <div class="search-results" id="searchResults" hidden></div>
+    </div>
+    <div class="controls" aria-label="Display options">
+      <button class="ctrl-btn sz-sm" id="fontSmall" title="Smaller text">A</button>
+      <button class="ctrl-btn on"    id="fontMed"   title="Default text size">A</button>
+      <button class="ctrl-btn sz-lg" id="fontLarge" title="Larger text">A</button>
+      <div class="ctrl-sep"></div>
+      <button class="ctrl-btn" id="focusBtn" aria-pressed="false" title="Reading focus mode">Focus</button>
+      <div class="ctrl-sep"></div>
+      <button class="ctrl-btn theme-btn" id="themeBtn" title="Toggle dark mode">☾</button>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <nav class="sidebar" id="sidebar" aria-label="Rules navigation">
+    <div class="nav-group">
+      <div class="nav-group-label">Contents</div>
+      <ul id="tocList">
+        <!-- built by app.js -->
+        <li><span class="nav-link" style="color:var(--text-faint);font-style:italic">Loading…</span></li>
+      </ul>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-label">Reference</div>
+      <ul>
+        <li><a href="#glossary"  class="nav-link">Glossary</a></li>
+        <li><a href="#casebook"  class="nav-link">Casebook Index</a></li>
+        <li><a href="#penalties" class="nav-link">Penalty Quick Reference</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="content" id="mainContent">
+
+    <nav class="breadcrumb" id="breadcrumb" aria-label="Location">
+      <span>Rules</span>
+    </nav>
+
+    <!-- RULE VIEW -->
+    <article id="ruleView">
+      <div class="rule-header">
+        <span class="rule-num" id="ruleNum"></span>
+        <h1 class="rule-name" id="ruleName">Loading…</h1>
+      </div>
+      <div class="rule-text" id="ruleText"></div>
+      <div class="sub-blocks" id="subBlocks"></div>
+      <div id="childRules" style="display:flex;flex-direction:column;gap:6px;margin-bottom:32px"></div>
+      <div class="penalty-ref" id="penaltyRef"></div>
+      <div class="scenario-list" id="scenarioList">
+        <div class="block-label">Casebook Scenarios</div>
+        <div class="scenario-chips" id="scenarioChips"></div>
+      </div>
+      <div class="term-list" id="termList">
+        <div class="block-label">Related Terms</div>
+        <div class="term-chips" id="termChips"></div>
+      </div>
+    </article>
+
+    <!-- SCENARIO VIEW -->
+    <article id="scenarioView" hidden>
+      <div class="rule-header">
+        <span class="rule-num" id="scenarioNum"></span>
+        <div class="scenario-origin" id="scenarioOrigin"></div>
+      </div>
+      <div class="scenario-block" id="scenarioText">
+        <div class="block-title">Scenario</div>
+        <p></p>
+      </div>
+      <div class="scenario-block outcome-block" id="scenarioOutcome">
+        <div class="block-title">Outcome</div>
+        <div class="verdict-badge"></div>
+        <p id="scenarioOutcomeText"></p>
+      </div>
+      <div class="scenario-block" id="scenarioRationale">
+        <div class="block-title">Rationale</div>
+        <p></p>
+      </div>
+      <div class="scenario-block kim-block" id="scenarioKIM">
+        <div class="block-title">Keep in Mind</div>
+        <ul id="scenarioKIMList"></ul>
+      </div>
+      <nav class="scenario-nav" aria-label="Scenario navigation">
+        <a href="#" id="prevScenario">← Previous</a>
+        <a href="#" id="backToRule" class="nav-back">↑ Back to rule</a>
+        <a href="#" id="nextScenario">Next →</a>
+      </nav>
+    </article>
+
+    <!-- GLOSSARY VIEW -->
+    <article id="glossaryView" hidden>
+      <div class="rule-header">
+        <span class="rule-num" style="background:var(--text-mid)">GL</span>
+        <h1 class="rule-name" id="glossaryTerm"></h1>
+      </div>
+      <div class="rule-text">
+        <p id="glossaryDef"></p>
+      </div>
+      <div class="term-list">
+        <div class="block-label">Referenced in</div>
+        <div class="term-chips" id="glossaryRuleRefs"></div>
+      </div>
+    </article>
+
+  </main>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
