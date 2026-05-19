@@ -7,6 +7,7 @@
       "code": "B",
       "description": "Contact to the back of the body, including the back of the buttocks and the back of the thighs.",
       "signal": "Start with your arms forward, bent at a 90-degree angle, palms forward. Straighten your elbows and extend your arms forward in a 'push' motion.",
+      "image": "images/back-block.png",
       "tags": ["contact", "target-zone"]
     },
     {
@@ -16,6 +17,7 @@
       "code": "A",
       "description": "Contact to the head or neck, down to the collarbone.",
       "signal": "Hold your forearm vertically in front of your chest, palm closed in a fist and facing inward, with your fist at chin level. Move your forearm down, ending with your fist at chest level.",
+      "image": "images/high-block.png",
       "tags": ["contact", "target-zone"]
     },
     {

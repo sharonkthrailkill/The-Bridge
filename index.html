@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-fontsize="medium" data-theme="light">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,171 +13,224 @@
     })();
   </script>
 </head>
-<body>
+<body class="landing-page">
 
-<header class="topbar">
-  <div class="topbar-left">
-    <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle navigation">&#9776;</button>
-    <a href="#home" class="site-title" style="color:inherit;text-decoration:none">The Bridge</a>
-    <span class="rules-tagline">flat track roller derby reference</span>
-  </div>
-  <div class="topbar-right">
-    <div class="search-wrap">
-      <input type="search" id="searchInput" placeholder="Search rules, casebook, glossary…" autocomplete="off" aria-label="Search">
-      <div class="search-results" id="searchResults" hidden></div>
+  <!-- topbar -->
+  <header class="landing-topbar">
+    <div class="landing-topbar-left">
+      <button class="sidebar-toggle" id="landingMenuBtn" aria-label="Toggle navigation">&#9776;</button>
+      <span class="landing-topbar-title">The Bridge</span>
+      <span class="rules-tagline">flat track roller derby reference</span>
     </div>
-    <div class="controls" aria-label="Display options">
+    <div class="landing-topbar-right">
       <button class="ctrl-btn sz-sm" id="fontSmall" title="Smaller text">A</button>
       <button class="ctrl-btn on"    id="fontMed"   title="Default text size">A</button>
       <button class="ctrl-btn sz-lg" id="fontLarge" title="Larger text">A</button>
       <div class="ctrl-sep"></div>
       <button class="ctrl-btn theme-btn" id="themeBtn" title="Toggle dark mode">☾</button>
     </div>
-  </div>
-</header>
+  </header>
 
-<div class="layout">
-
-  <nav class="sidebar" id="sidebar" aria-label="Rules navigation">
-    <div class="nav-group">
-      <div class="nav-group-label">Contents</div>
-      <ul id="tocList">
-        <!-- built by app.js -->
-        <li><span class="nav-link" style="color:var(--text-faint);font-style:italic">Loading…</span></li>
-      </ul>
-    </div>
+  <!-- nav drawer -->
+  <nav class="sidebar hidden" id="landingNav" aria-label="Site navigation">
     <div class="nav-group">
       <div class="nav-group-label">Reference</div>
       <ul>
-        <li><a href="#glossary"  class="nav-link">Glossary</a></li>
-        <li><a href="#casebook"  class="nav-link">Casebook Index</a></li>
-        <li><a href="#penalties" class="nav-link">Penalty Quick Reference</a></li>
+        <li><a href="reference.html#rule-1" class="nav-link top">Rules</a></li>
+        <li><a href="reference.html#casebook" class="nav-link top">Casebook</a></li>
+        <li><a href="reference.html#glossary" class="nav-link top">Glossary</a></li>
+        <li><a href="reference.html#penalties" class="nav-link top">Penalty Quick Reference</a></li>
+      </ul>
+    </div>
+    <div class="nav-group">
+      <div class="nav-group-label">About</div>
+      <ul>
+        <li><a href="mailto:thrashpanda184@gmail.com" class="nav-link">Contact Thrash Panda</a></li>
       </ul>
     </div>
   </nav>
 
-  <main class="content" id="mainContent">
+  <!-- main -->
+  <main class="landing-main">
 
-    <nav class="breadcrumb" id="breadcrumb" aria-label="Location">
-      <span>Rules</span>
-    </nav>
-
-
-    <!-- LANDING PAGE -->
-    <div id="landingView" class="landing">
-      <div class="landing-hero">
-        <div class="landing-logo">The <span>Bridge</span></div>
-        <div class="landing-tagline">flat track roller derby reference</div>
-        <p class="landing-description">
-          A searchable, cross-linked reference for the WFTDA rules and casebook.
-          Every rule links to its casebook scenarios. Every scenario links back to its rule.
-          Built for skaters, officials, and anyone trying to actually understand what just happened on the track.
-        </p>
-      </div>
-
-      <div class="landing-search">
-        <input type="search" id="landingSearchInput" placeholder="Search rules, casebook, glossary…" autocomplete="off" aria-label="Search">
-        <div class="search-results" id="landingSearchResults" hidden></div>
-      </div>
-
-      <div class="landing-cards">
-        <a href="#rule-1" class="landing-card">
-          <div class="card-icon">📋</div>
-          <div class="card-title">Rules</div>
-          <div class="card-desc">The full 01/2025 WFTDA rulebook cross-linked to casebook scenarios and glossary terms.</div>
-        </a>
-        <a href="#casebook" class="landing-card">
-          <div class="card-icon">📖</div>
-          <div class="card-title">Casebook</div>
-          <div class="card-desc">148 scenarios with outcomes, rationale, and Keep in Mind notes, all linked back to the rule they clarify.</div>
-        </a>
-        <a href="#glossary" class="landing-card">
-          <div class="card-icon">🔤</div>
-          <div class="card-title">Glossary</div>
-          <div class="card-desc">Definitions for every term used in the rulebook, with links to the rules where each term appears.</div>
-        </a>
-        <a href="#penalties" class="landing-card">
-          <div class="card-icon">🚨</div>
-          <div class="card-title">Penalty Quick Reference</div>
-          <div class="card-desc">All 14 penalty codes, verbal cues, and hand signals.</div>
-        </a>
-      </div>
-
-      <div class="landing-footer">
-        <p>Built by Thrash Panda &mdash; <a href="mailto:thrashpanda184@gmail.com">thrashpanda184@gmail.com</a></p>
-        <p>Unofficial community resource. Rules and casebook &copy; 2025 WFTDA.</p>
-        <p>Not affiliated with or endorsed by WFTDA.</p>
-      </div>
+    <div class="hero">
+      <h1 class="hero-title">The <span>Bridge</span></h1>
+      <p class="hero-sub">Flat track roller derby reference</p>
+      <p class="hero-desc">A searchable, cross-linked reference for the WFTDA rules and casebook. Built for skaters, officials, and anyone trying to understand what just happened on the track.</p>
     </div>
 
-    <!-- RULE VIEW -->
-    <article id="ruleView">
-      <div class="rule-header">
-        <span class="rule-num" id="ruleNum"></span>
-        <h1 class="rule-name" id="ruleName">Loading…</h1>
-      </div>
-      <div class="rule-text" id="ruleText"></div>
-      <div class="sub-blocks" id="subBlocks"></div>
-      <div id="childRules" style="display:flex;flex-direction:column;gap:6px;margin-bottom:32px"></div>
-      <div class="penalty-ref" id="penaltyRef"></div>
-      <div class="scenario-list" id="scenarioList">
-        <div class="block-label">Casebook Scenarios</div>
-        <div class="scenario-chips" id="scenarioChips"></div>
-      </div>
-      <div class="term-list" id="termList">
-        <div class="block-label">Related Terms</div>
-        <div class="term-chips" id="termChips"></div>
-      </div>
-    </article>
+    <div class="landing-search-wrap">
+      <input type="search" id="landingSearch" placeholder="Search rules, casebook, glossary…" autocomplete="off">
+      <div class="search-results" id="landingResults" hidden></div>
+    </div>
 
-    <!-- SCENARIO VIEW -->
-    <article id="scenarioView" hidden>
-      <div class="rule-header">
-        <span class="rule-num" id="scenarioNum"></span>
-        <div class="scenario-origin" id="scenarioOrigin"></div>
-      </div>
-      <div class="scenario-block" id="scenarioText">
-        <div class="block-title">Scenario</div>
-        <p></p>
-      </div>
-      <div class="scenario-block outcome-block" id="scenarioOutcome">
-        <div class="block-title">Outcome</div>
-        <div class="verdict-badge"></div>
-        <p id="scenarioOutcomeText"></p>
-      </div>
-      <div class="scenario-block" id="scenarioRationale">
-        <div class="block-title">Rationale</div>
-        <p></p>
-      </div>
-      <div class="scenario-block kim-block" id="scenarioKIM">
-        <div class="block-title">Keep in Mind</div>
-        <ul id="scenarioKIMList"></ul>
-      </div>
-      <nav class="scenario-nav" aria-label="Scenario navigation">
-        <a href="#" id="prevScenario">← Previous</a>
-        <a href="#" id="backToRule" class="nav-back">↑ Back to rule</a>
-        <a href="#" id="nextScenario">Next →</a>
-      </nav>
-    </article>
-
-    <!-- GLOSSARY VIEW -->
-    <article id="glossaryView" hidden>
-      <div class="rule-header">
-        <span class="rule-num" style="background:var(--text-mid)">GL</span>
-        <h1 class="rule-name" id="glossaryTerm"></h1>
-      </div>
-      <div class="rule-text">
-        <p id="glossaryDef"></p>
-      </div>
-      <div class="term-list">
-        <div class="block-label">Referenced in</div>
-        <div class="term-chips" id="glossaryRuleRefs"></div>
-      </div>
-    </article>
+    <div class="cards">
+      <a href="reference.html#rule-1" class="card">
+        <div class="card-icon">📋</div>
+        <div class="card-title">Rules</div>
+        <div class="card-desc">The full 01/2025 WFTDA rulebook, cross-linked to casebook scenarios and glossary terms.</div>
+      </a>
+      <a href="reference.html#casebook" class="card">
+        <div class="card-icon">📖</div>
+        <div class="card-title">Casebook</div>
+        <div class="card-desc">148 scenarios with outcomes, rationale, and Keep in Mind notes — all linked back to their rule.</div>
+      </a>
+      <a href="reference.html#glossary" class="card">
+        <div class="card-icon">🔤</div>
+        <div class="card-title">Glossary</div>
+        <div class="card-desc">Definitions for every term in the rulebook, with links to the rules where each term appears.</div>
+      </a>
+      <a href="reference.html#penalties" class="card">
+        <div class="card-icon">🚨</div>
+        <div class="card-title">Penalty Quick Reference</div>
+        <div class="card-desc">All 14 penalty codes, verbal cues, and hand signals.</div>
+      </a>
+    </div>
 
   </main>
-</div>
 
-<script src="app.js"></script>
+  <footer class="landing-footer">
+    <p>Built by Thrash Panda &mdash; <a href="mailto:thrashpanda184@gmail.com">thrashpanda184@gmail.com</a></p>
+    <p>Unofficial community resource. Rules and casebook &copy; 2025 WFTDA. Not affiliated with or endorsed by WFTDA.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script>
+    // nav drawer
+    var landingNav = document.getElementById('landingNav');
+    document.getElementById('landingMenuBtn').addEventListener('click', function() {
+      landingNav.classList.toggle('hidden');
+      landingNav.classList.toggle('open');
+    });
+
+    // close drawer when clicking a link
+    landingNav.querySelectorAll('a').forEach(function(a) {
+      a.addEventListener('click', function() {
+        landingNav.classList.add('hidden');
+        landingNav.classList.remove('open');
+      });
+    });
+
+    // close drawer when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('#landingNav') && !e.target.closest('#landingMenuBtn')) {
+        landingNav.classList.add('hidden');
+        landingNav.classList.remove('open');
+      }
+    });
+
+    // apply prefs
+    (function() {
+      var sz = localStorage.getItem('rules-sz') || 'medium';
+      document.documentElement.setAttribute('data-fontsize', sz);
+    })();
+
+    // font size
+    var fontBtns = {
+      small:  document.getElementById('fontSmall'),
+      medium: document.getElementById('fontMed'),
+      large:  document.getElementById('fontLarge')
+    };
+    function setSize(sz) {
+      document.documentElement.setAttribute('data-fontsize', sz);
+      Object.keys(fontBtns).forEach(k => fontBtns[k].classList.toggle('on', k === sz));
+      localStorage.setItem('rules-sz', sz);
+    }
+    fontBtns.small.onclick  = () => setSize('small');
+    fontBtns.medium.onclick = () => setSize('medium');
+    fontBtns.large.onclick  = () => setSize('large');
+    setSize(localStorage.getItem('rules-sz') || 'medium');
+
+    // theme
+    var themeBtn = document.getElementById('themeBtn');
+    function setTheme(t) {
+      document.documentElement.setAttribute('data-theme', t);
+      themeBtn.textContent = t === 'dark' ? '☀' : '☾';
+      themeBtn.classList.toggle('on', t === 'dark');
+      localStorage.setItem('rules-theme', t);
+    }
+    themeBtn.onclick = () => {
+      setTheme(document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    };
+    setTheme(document.documentElement.getAttribute('data-theme') || 'light');
+
+    // search - loads all data and redirects to reference.html with hash
+    var searchIndex = null;
+
+    async function loadSearch() {
+      try {
+        const [rules, casebook, glossary] = await Promise.all([
+          fetch('data/rules.json').then(r => r.json()),
+          fetch('data/casebook.json').then(r => r.json()),
+          fetch('data/glossary.json').then(r => r.json()),
+        ]);
+
+        const items = [];
+        rules.rules.forEach(r => items.push({
+          type: 'rule', id: r.id, title: r.title,
+          body: r.text || '', href: `reference.html#rule-${r.id}`
+        }));
+        casebook.casebook.forEach(s => items.push({
+          type: 'scenario', id: s.id, title: s.summary,
+          body: s.scenario || '', href: `reference.html#scenario-${s.id}`
+        }));
+        glossary.glossary.forEach(g => items.push({
+          type: 'glossary', id: g.id, title: g.term,
+          body: g.definition || '', href: `reference.html#glossary-${g.id}`
+        }));
+
+        searchIndex = new Fuse(items, {
+          keys: [{ name: 'id', weight: 0.4 }, { name: 'title', weight: 0.35 }, { name: 'body', weight: 0.25 }],
+          threshold: 0.35,
+          includeScore: true,
+          minMatchCharLength: 2
+        });
+      } catch(e) {
+        console.warn('Search unavailable:', e);
+      }
+    }
+
+    const input   = document.getElementById('landingSearch');
+    const results = document.getElementById('landingResults');
+
+    input.addEventListener('input', () => {
+      const q = input.value.trim();
+      if (!q || !searchIndex) { results.hidden = true; return; }
+
+      const hits = searchIndex.search(q).slice(0, 8);
+      results.innerHTML = '';
+
+      if (!hits.length) {
+        results.innerHTML = '<div class="search-empty">No results found.</div>';
+        results.hidden = false;
+        return;
+      }
+
+      hits.forEach(hit => {
+        const item = hit.item;
+        const div = document.createElement('div');
+        div.className = 'search-result-item';
+        const label = item.type === 'rule' ? 'Rule' : item.type === 'scenario' ? 'Casebook' : 'Glossary';
+        div.innerHTML = `<span class="result-id">${label} ${item.id}</span><span class="result-title">${item.title}</span>`;
+        div.addEventListener('click', () => { window.location.href = item.href; });
+        results.appendChild(div);
+      });
+      results.hidden = false;
+    });
+
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.landing-search-wrap')) results.hidden = true;
+    });
+
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { results.hidden = true; input.blur(); }
+      if (e.key === 'Enter' && input.value.trim()) {
+        // go to reference with search query as hash
+        window.location.href = `reference.html#search-${encodeURIComponent(input.value.trim())}`;
+      }
+    });
+
+    loadSearch();
+  </script>
 </body>
 </html>
