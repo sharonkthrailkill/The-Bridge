@@ -224,8 +224,6 @@ function renderScenario(id) {
   const isPenalty = /penaliz|expelled|expulsion/i.test(scenario.outcome) ||
     (/penalty/i.test(scenario.outcome) && !/no penalty/i.test(scenario.outcome));
   outcomeBlock.className = 'scenario-block outcome-block' + (isPenalty ? ' pen' : '');
-  badge.className = 'verdict-badge ' + (isPenalty ? 'verdict-pen' : 'verdict-none');
-  badge.textContent = isPenalty ? 'Penalty' : 'No penalty';
   const outcomeTextEl = document.getElementById('scenarioOutcomeText');
   outcomeTextEl.textContent = scenario.outcome;
 

@@ -460,29 +460,11 @@ h1.rule-name {
   color: var(--text-faint);
   margin-bottom: 10px;
 }
-
-.outcome-block .verdict-badge {
-  display: inline;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 3px 10px;
-  border-radius: 20px;
-  margin-right: 10px;
-  vertical-align: middle;
-  white-space: nowrap;
-}
-
-#scenarioOutcomeText {
-  display: inline;
-  vertical-align: middle;
-}
 .outcome-block     { border-left: 5px solid var(--green); }
 .outcome-block.pen { border-left-color: var(--red); }
 
-.verdict-pen  { background: var(--red-bg);   color: var(--red); }
-.verdict-none { background: var(--green-bg); color: var(--green); }
+.outcome-block .block-title     { color: var(--green); }
+.outcome-block.pen .block-title { color: var(--red); }
 
 .kim-block { background: var(--kim-bg); border-color: var(--kim-line); }
 .kim-block .block-title { color: var(--kim-text); }
