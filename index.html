@@ -18,7 +18,7 @@
 <header class="topbar">
   <div class="topbar-left">
     <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle navigation">&#9776;</button>
-    <span class="site-title">The Bridge</span>
+    <a href="#home" class="site-title" style="color:inherit;text-decoration:none">The Bridge</a>
     <span class="rules-tagline">flat track roller derby reference</span>
   </div>
   <div class="topbar-right">
@@ -30,8 +30,6 @@
       <button class="ctrl-btn sz-sm" id="fontSmall" title="Smaller text">A</button>
       <button class="ctrl-btn on"    id="fontMed"   title="Default text size">A</button>
       <button class="ctrl-btn sz-lg" id="fontLarge" title="Larger text">A</button>
-      <div class="ctrl-sep"></div>
-      <button class="ctrl-btn" id="focusBtn" aria-pressed="false" title="Reading focus mode">Focus</button>
       <div class="ctrl-sep"></div>
       <button class="ctrl-btn theme-btn" id="themeBtn" title="Toggle dark mode">☾</button>
     </div>
@@ -63,6 +61,54 @@
     <nav class="breadcrumb" id="breadcrumb" aria-label="Location">
       <span>Rules</span>
     </nav>
+
+
+    <!-- LANDING PAGE -->
+    <div id="landingView" class="landing">
+      <div class="landing-hero">
+        <div class="landing-logo">The <span>Bridge</span></div>
+        <div class="landing-tagline">flat track roller derby reference</div>
+        <p class="landing-description">
+          A searchable, cross-linked reference for the WFTDA rules and casebook.
+          Every rule links to its casebook scenarios. Every scenario links back to its rule.
+          Built for skaters, officials, and anyone trying to actually understand what just happened on the track.
+        </p>
+      </div>
+
+      <div class="landing-search">
+        <input type="search" id="landingSearchInput" placeholder="Search rules, casebook, glossary…" autocomplete="off" aria-label="Search">
+        <div class="search-results" id="landingSearchResults" hidden></div>
+      </div>
+
+      <div class="landing-cards">
+        <a href="#rule-1" class="landing-card">
+          <div class="card-icon">📋</div>
+          <div class="card-title">Rules</div>
+          <div class="card-desc">The full 01/2025 WFTDA rulebook cross-linked to casebook scenarios and glossary terms.</div>
+        </a>
+        <a href="#casebook" class="landing-card">
+          <div class="card-icon">📖</div>
+          <div class="card-title">Casebook</div>
+          <div class="card-desc">148 scenarios with outcomes, rationale, and Keep in Mind notes, all linked back to the rule they clarify.</div>
+        </a>
+        <a href="#glossary" class="landing-card">
+          <div class="card-icon">🔤</div>
+          <div class="card-title">Glossary</div>
+          <div class="card-desc">Definitions for every term used in the rulebook, with links to the rules where each term appears.</div>
+        </a>
+        <a href="#penalties" class="landing-card">
+          <div class="card-icon">🚨</div>
+          <div class="card-title">Penalty Quick Reference</div>
+          <div class="card-desc">All 14 penalty codes, verbal cues, and hand signals.</div>
+        </a>
+      </div>
+
+      <div class="landing-footer">
+        <p>Built by Thrash Panda &mdash; <a href="mailto:thrashpanda184@gmail.com">thrashpanda184@gmail.com</a></p>
+        <p>Unofficial community resource. Rules and casebook &copy; 2025 WFTDA.</p>
+        <p>Not affiliated with or endorsed by WFTDA.</p>
+      </div>
+    </div>
 
     <!-- RULE VIEW -->
     <article id="ruleView">
