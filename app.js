@@ -116,6 +116,7 @@ function renderRule(id) {
   document.getElementById('ruleName').textContent = rule.title;
   setBreadcrumb(buildRuleBreadcrumb(rule));
 
+  document.getElementById('ruleText').hidden = false;
   const bodyEl = document.getElementById('ruleText');
   bodyEl.innerHTML = '';
   if (rule.text) {
@@ -363,6 +364,7 @@ function renderCasebookIndex() {
   document.getElementById('ruleNum').textContent = 'CB';
   document.getElementById('ruleName').textContent = 'Casebook Index';
   document.getElementById('ruleText').innerHTML = '';
+  document.getElementById('ruleText').hidden = true;
   document.getElementById('subBlocks').innerHTML = '';
   document.getElementById('penaltyRef').innerHTML = '';
   document.getElementById('termChips').innerHTML = '';
@@ -542,7 +544,7 @@ function initSearch() {
   });
 
   document.addEventListener('click', e => {
-    if (!e.target.closest('.search-wrap')) results.hidden = true;
+    if (!e.target.closest('.sidebar-search') && !e.target.closest('.search-wrap')) results.hidden = true;
   });
 
   input.addEventListener('keydown', e => {
@@ -557,6 +559,20 @@ function initControls() {
 
   document.getElementById('sidebarToggle').addEventListener('click', () => {
     sidebar.classList.toggle('hidden');
+  });
+
+  // close sidebar when clicking outside it
+  document.addEventListener('click', e => {
+    if (!sidebar.classList.contains('hidden') &&
+        !e.target.closest('#sidebar') &&
+        !e.target.closest('#sidebarToggle')) {
+      sidebar.classList.add('hidden');
+    }
+  });
+
+  // close sidebar when clicking a link inside it (including dynamic TOC links)
+  sidebar.addEventListener('click', e => {
+    if (e.target.closest('a')) sidebar.classList.add('hidden');
   });
 
   const fontBtns = {

@@ -14,7 +14,6 @@
   </script>
 </head>
 <body>
-
 <header class="topbar">
   <div class="topbar-left">
     <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle navigation">&#9776;</button>
@@ -22,10 +21,6 @@
     <span class="rules-tagline">flat track roller derby reference</span>
   </div>
   <div class="topbar-right">
-    <div class="search-wrap">
-      <input type="search" id="searchInput" placeholder="Search rules, casebook, glossary…" autocomplete="off" aria-label="Search">
-      <div class="search-results" id="searchResults" hidden></div>
-    </div>
     <div class="controls" aria-label="Display options">
       <button class="ctrl-btn sz-sm" id="fontSmall" title="Smaller text">A</button>
       <button class="ctrl-btn on"    id="fontMed"   title="Default text size">A</button>
@@ -35,10 +30,12 @@
     </div>
   </div>
 </header>
-
 <div class="layout">
-
   <nav class="sidebar hidden" id="sidebar" aria-label="Rules navigation">
+    <div class="sidebar-search">
+      <input type="search" id="searchInput" placeholder="Search…" autocomplete="off" aria-label="Search">
+      <div class="search-results" id="searchResults" hidden></div>
+    </div>
     <div class="nav-group">
       <div class="nav-group-label">Contents</div>
       <ul id="tocList">
@@ -54,14 +51,10 @@
       </ul>
     </div>
   </nav>
-
   <main class="content wide" id="mainContent">
-
     <nav class="breadcrumb" id="breadcrumb" aria-label="Location">
       <span>Rules</span>
     </nav>
-
-    <!-- RULE VIEW -->
     <article id="ruleView">
       <div class="rule-header">
         <span class="rule-num" id="ruleNum"></span>
@@ -80,8 +73,6 @@
         <div class="term-chips" id="termChips"></div>
       </div>
     </article>
-
-    <!-- SCENARIO VIEW -->
     <article id="scenarioView" hidden>
       <div class="rule-header">
         <span class="rule-num" id="scenarioNum"></span>
@@ -110,8 +101,6 @@
         <a href="#" id="nextScenario">Next →</a>
       </nav>
     </article>
-
-    <!-- GLOSSARY VIEW -->
     <article id="glossaryView" hidden>
       <div class="rule-header">
         <span class="rule-num" style="background:var(--pink)">GL</span>
@@ -125,15 +114,11 @@
         <div class="term-chips" id="glossaryRuleRefs"></div>
       </div>
     </article>
-
+    <footer class="landing-footer">
+      <p>The Bridge is not affiliated with or endorsed by the <a href="https://wftda.com">Women's Flat Track Derby Association</a>. <br>Built and maintained by <a href="mailto:thrashpanda184@gmail.com">Thrash Panda</a>.</p>
+    </footer>
   </main>
 </div>
-
-  <footer class="landing-footer" style="margin-left:var(--sidebar-w)">
- <p>The Bridge is not affiliated with or endorsed by the <a href="https://wftda.com">Women's Flat Track Derby Association</a>. Built and maintained by <a href="mailto:thrashpanda184@gmail.com">Thrash Panda</a>.</p>
-  </footer>
-
-
 <script src="app.js"></script>
 </body>
 </html>

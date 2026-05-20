@@ -15,18 +15,20 @@
 </head>
 <body class="landing-page">
 
-  <header class="landing-topbar">
-    <div class="landing-topbar-left">
+  <header class="topbar">
+    <div class="topbar-left">
       <button class="sidebar-toggle" id="landingMenuBtn" aria-label="Toggle navigation">&#9776;</button>
-      <span class="landing-topbar-title">The <span style="color:var(--pink)">Bridge</span></span>
+      <span class="site-title">The <span style="color:var(--pink)">Bridge</span></span>
       <span class="rules-tagline">flat track roller derby reference</span>
     </div>
-    <div class="landing-topbar-right">
-      <button class="ctrl-btn sz-sm" id="fontSmall" title="Smaller text">A</button>
-      <button class="ctrl-btn on"    id="fontMed"   title="Default text size">A</button>
-      <button class="ctrl-btn sz-lg" id="fontLarge" title="Larger text">A</button>
-      <div class="ctrl-sep"></div>
-      <button class="ctrl-btn theme-btn" id="themeBtn" title="Toggle dark mode">☾</button>
+    <div class="topbar-right">
+      <div class="controls">
+        <button class="ctrl-btn sz-sm" id="fontSmall" title="Smaller text">A</button>
+        <button class="ctrl-btn on"    id="fontMed"   title="Default text size">A</button>
+        <button class="ctrl-btn sz-lg" id="fontLarge" title="Larger text">A</button>
+        <div class="ctrl-sep"></div>
+        <button class="ctrl-btn theme-btn" id="themeBtn" title="Toggle dark mode">☾</button>
+      </div>
     </div>
   </header>
 
@@ -34,7 +36,7 @@
     <div class="nav-group">
       <div class="nav-group-label">Reference</div>
       <ul>
-        <li><a href="reference.html#rule-1" class="nav-link top">Rules</a></li>
+        <li><a href="reference.html#rule-0" class="nav-link top">Rules</a></li>
         <li><a href="reference.html#casebook" class="nav-link top">Casebook</a></li>
         <li><a href="reference.html#glossary" class="nav-link top">Glossary</a></li>
         <li><a href="reference.html#penalties" class="nav-link top">Penalty Quick Reference</a></li>
@@ -92,11 +94,11 @@
       </a>
     </div>
 
-  </main>
+    <footer class="landing-footer">
+      <p>The Bridge is not affiliated with or endorsed by the <a href="https://wftda.com">Women's Flat Track Derby Association</a>. <br>Built and maintained by <a href="mailto:thrashpanda184@gmail.com">Thrash Panda</a>.</p>
+    </footer>
 
-  <footer class="landing-footer">
-    <p>The Bridge is not affiliated with or endorsed by the <a href="https://wftda.com">Women's Flat Track Derby Association</a>. Built and maintained by <a href="mailto:thrashpanda184@gmail.com">Thrash Panda</a>.</p>
-  </footer>
+  </main>
 
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
   <script>
@@ -193,16 +195,13 @@
     input.addEventListener('input', () => {
       const q = input.value.trim();
       if (!q || !searchIndex) { results.hidden = true; return; }
-
       const hits = searchIndex.search(q).slice(0, 8);
       results.innerHTML = '';
-
       if (!hits.length) {
         results.innerHTML = '<div class="search-empty">No results found.</div>';
         results.hidden = false;
         return;
       }
-
       hits.forEach(hit => {
         const item = hit.item;
         const div = document.createElement('div');
