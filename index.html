@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Bridge — Flat Track Roller Derby Reference</title>
+  <title>The Bridge - Flat Track Roller Derby Reference</title>
   <link rel="stylesheet" href="style.css">
   <script>
     (function() {
@@ -15,7 +15,6 @@
 </head>
 <body class="landing-page">
 
-  <!-- topbar -->
   <header class="landing-topbar">
     <div class="landing-topbar-left">
       <button class="sidebar-toggle" id="landingMenuBtn" aria-label="Toggle navigation">&#9776;</button>
@@ -31,7 +30,6 @@
     </div>
   </header>
 
-  <!-- nav drawer -->
   <nav class="sidebar hidden" id="landingNav" aria-label="Site navigation">
     <div class="nav-group">
       <div class="nav-group-label">Reference</div>
@@ -50,13 +48,12 @@
     </div>
   </nav>
 
-  <!-- main -->
   <main class="landing-main">
 
     <div class="hero">
       <h1 class="hero-title">The <span>Bridge</span></h1>
       <p class="hero-sub">Flat track roller derby reference</p>
-      <p class="hero-desc">A searchable, cross-linked reference for the WFTDA rules and casebook. Built for skaters, officials, and anyone trying to understand what just happened on the track.</p>
+      <p class="hero-desc">WFTDA's rules, casebook, penalty codes, signals and more - all in one place, cross-linked and searchable.</p>
     </div>
 
     <div class="landing-search-wrap">
@@ -68,42 +65,40 @@
       <a href="reference.html#rule-1" class="card">
         <div class="card-icon">📋</div>
         <div class="card-title">Rules</div>
-        <div class="card-desc">The full 01/2025 WFTDA rulebook, cross-linked to casebook scenarios and glossary terms.</div>
+        <div class="card-desc">The full WFTDA rulebook, cross-linked to casebook scenarios and glossary terms.</div>
       </a>
       <a href="reference.html#casebook" class="card">
         <div class="card-icon">📖</div>
         <div class="card-title">Casebook</div>
-        <div class="card-desc">148 scenarios with outcomes, rationale, and Keep in Mind notes — all linked back to their rule.</div>
+        <div class="card-desc">148 scenarios with outcomes, rationale, and Keep in Mind notes - all linked back to their rule.</div>
       </a>
       <a href="reference.html#glossary" class="card">
         <div class="card-icon">🔤</div>
         <div class="card-title">Glossary</div>
-        <div class="card-desc">Definitions for every term in the rulebook, with links to the rules where each term appears.</div>
+        <div class="card-desc">Definitions with links to the rules where each term appears.</div>
       </a>
       <a href="reference.html#penalties" class="card">
         <div class="card-icon">🚨</div>
         <div class="card-title">Penalty Quick Reference</div>
-        <div class="card-desc">All 14 penalty codes, verbal cues, and hand signals.</div>
+        <div class="card-desc">Penalty codes, verbal cues, and hand signals.</div>
       </a>
     </div>
 
   </main>
 
   <footer class="landing-footer">
-    <p>Built by Thrash Panda &mdash; <a href="mailto:thrashpanda184@gmail.com">thrashpanda184@gmail.com</a></p>
-    <p>Unofficial community resource. Rules and casebook &copy; 2025 WFTDA. Not affiliated with or endorsed by WFTDA.</p>
+    <p>Built by Thrash Panda, skater and official with <a href="https://greenvillerollerderby.com" target="_blank" rel="noopener">Greenville Roller Derby</a>.</p>
+    <p><b>The Bridge</b> is an independent reference tool, not affiliated with or endorsed by the WFTDA. Rules, casebook, and officiating content are the property of the <a href="https://wftda.com" target="_blank" rel="noopener">Women's Flat Track Derby Association</a> and are reproduced here for educational purposes.</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
   <script>
-    // nav drawer
     var landingNav = document.getElementById('landingNav');
     document.getElementById('landingMenuBtn').addEventListener('click', function() {
       landingNav.classList.toggle('hidden');
       landingNav.classList.toggle('open');
     });
 
-    // close drawer when clicking a link
     landingNav.querySelectorAll('a').forEach(function(a) {
       a.addEventListener('click', function() {
         landingNav.classList.add('hidden');
@@ -111,7 +106,6 @@
       });
     });
 
-    // close drawer when clicking outside
     document.addEventListener('click', function(e) {
       if (!e.target.closest('#landingNav') && !e.target.closest('#landingMenuBtn')) {
         landingNav.classList.add('hidden');
@@ -119,13 +113,11 @@
       }
     });
 
-    // apply prefs
     (function() {
       var sz = localStorage.getItem('rules-sz') || 'medium';
       document.documentElement.setAttribute('data-fontsize', sz);
     })();
 
-    // font size
     var fontBtns = {
       small:  document.getElementById('fontSmall'),
       medium: document.getElementById('fontMed'),
@@ -141,7 +133,6 @@
     fontBtns.large.onclick  = () => setSize('large');
     setSize(localStorage.getItem('rules-sz') || 'medium');
 
-    // theme
     var themeBtn = document.getElementById('themeBtn');
     function setTheme(t) {
       document.documentElement.setAttribute('data-theme', t);
@@ -154,7 +145,6 @@
     };
     setTheme(document.documentElement.getAttribute('data-theme') || 'light');
 
-    // search - loads all data and redirects to reference.html with hash
     var searchIndex = null;
 
     async function loadSearch() {
@@ -225,7 +215,6 @@
     input.addEventListener('keydown', e => {
       if (e.key === 'Escape') { results.hidden = true; input.blur(); }
       if (e.key === 'Enter' && input.value.trim()) {
-        // go to reference with search query as hash
         window.location.href = `reference.html#search-${encodeURIComponent(input.value.trim())}`;
       }
     });

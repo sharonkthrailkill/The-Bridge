@@ -1,4 +1,4 @@
-// the bridge — reference app
+// the bridge - reference app
 
 (function() {
   var t = localStorage.getItem('rules-theme') ||
@@ -94,9 +94,7 @@ function setActiveNavLink(hash) {
   if (!hash) return;
   let target = hash;
   if (hash.startsWith('#scenario-')) {
-    const id = hash.replace('#scenario-', '');
-    const s = getScenario(id);
-    if (s) target = `#rule-${s.rule_ref}`;
+    target = '#casebook';
   }
   const link = document.querySelector(`a[href="${target}"]`);
   if (link) link.classList.add('active');
@@ -139,9 +137,19 @@ function renderRule(id) {
   penaltyEl.innerHTML = '';
   if (rule.penalty_ref) {
     getPenalty(rule.penalty_ref).forEach(p => {
-      const tag = document.createElement('div');
+      const tag = document.createElement('a');
+      tag.href = `#penalties`;
       tag.className = 'penalty-tag';
       tag.innerHTML = `<span class="lbl">Penalty</span><span class="code">${p.code}</span><span class="name">${p.verbal_cue}</span>`;
+      tag.addEventListener('click', () => {
+        setTimeout(() => {
+          const el = document.getElementById(`penalty-${p.id}`);
+          if (el) {
+            const top = el.getBoundingClientRect().top + window.scrollY - 70;
+            window.scrollTo({ top, behavior: 'smooth' });
+          }
+        }, 50);
+      });
       penaltyEl.appendChild(tag);
     });
   }
@@ -189,7 +197,7 @@ function renderRule(id) {
     });
   }
 
-  document.title = `${rule.id} ${rule.title} — The Bridge`;
+  document.title = `${rule.id} ${rule.title} - The Bridge`;
 }
 
 function buildRuleBreadcrumb(rule) {
@@ -215,7 +223,7 @@ function renderScenario(id) {
   document.getElementById('scenarioNum').textContent = scenario.id;
   const rule = getRule(scenario.rule_ref);
   document.getElementById('scenarioOrigin').innerHTML =
-    `Origin: <a href="#rule-${scenario.rule_ref}">Section ${scenario.rule_ref}${rule ? ' — ' + rule.title : ''}</a>`;
+    `Origin: <a href="#rule-${scenario.rule_ref}">Section ${scenario.rule_ref}${rule ? ' - ' + rule.title : ''}</a>`;
 
   document.getElementById('scenarioText').querySelector('p').textContent = scenario.scenario;
 
@@ -259,7 +267,7 @@ function renderScenario(id) {
   if (rule) crumbs.push({ label: `${rule.id} ${rule.title}`, href: `#rule-${rule.id}` });
   crumbs.push({ label: scenario.id, href: null });
   setBreadcrumb(crumbs);
-  document.title = `${scenario.id} — The Bridge`;
+  document.title = `${scenario.id} - The Bridge`;
 }
 
 function renderGlossaryTerm(id) {
@@ -270,8 +278,10 @@ function renderGlossaryTerm(id) {
 
   document.getElementById('glossaryTerm').textContent = term.term;
   document.getElementById('glossaryDef').textContent = term.definition;
-
+  const termListEl = document.getElementById('glossaryView').querySelector('.term-list');
+  if (termListEl) termListEl.querySelector('.block-label').style.display = '';
   const refsEl = document.getElementById('glossaryRuleRefs');
+  refsEl.style.display = '';
   refsEl.innerHTML = '';
   (term.rule_refs || []).forEach(ref => {
     const rule = getRule(ref);
@@ -283,7 +293,7 @@ function renderGlossaryTerm(id) {
   });
 
   setBreadcrumb([{ label: 'Glossary', href: '#glossary' }, { label: term.term, href: null }]);
-  document.title = `${term.term} — The Bridge`;
+  document.title = `${term.term} - The Bridge`;
 }
 
 function renderGlossaryIndex() {
@@ -293,29 +303,55 @@ function renderGlossaryIndex() {
 
   document.getElementById('glossaryTerm').textContent = 'Glossary';
   document.getElementById('glossaryDef').textContent = '';
+  const termListEl = document.getElementById('glossaryView').querySelector('.term-list');
+  if (termListEl) termListEl.querySelector('.block-label').style.display = 'none';
 
   const refsEl = document.getElementById('glossaryRuleRefs');
   refsEl.innerHTML = '';
+  refsEl.style.display = 'block';
+
+  const grouped = {};
   data.glossary.forEach(term => {
-    const a = document.createElement('a');
-    a.href = `#glossary-${term.id}`;
-    a.className = 'term-chip';
-    a.textContent = term.term;
-    refsEl.appendChild(a);
+    const letter = term.term[0].toUpperCase();
+    if (!grouped[letter]) grouped[letter] = [];
+    grouped[letter].push(term);
+  });
+
+  Object.keys(grouped).sort().forEach(letter => {
+    const section = document.createElement('div');
+    section.className = 'glossary-group';
+
+    const header = document.createElement('div');
+    header.className = 'glossary-letter';
+    header.textContent = letter;
+    section.appendChild(header);
+
+    const chips = document.createElement('div');
+    chips.className = 'term-chips';
+    grouped[letter].forEach(term => {
+      const a = document.createElement('a');
+      a.href = `#glossary-${term.id}`;
+      a.className = 'term-chip';
+      a.textContent = term.term;
+      chips.appendChild(a);
+    });
+    section.appendChild(chips);
+    refsEl.appendChild(section);
   });
 
   setBreadcrumb([{ label: 'Glossary', href: null }]);
-  document.title = 'Glossary — The Bridge';
+  document.title = 'Glossary - The Bridge';
 }
 
 function renderCasebookIndex() {
   showView('ruleView');
   document.getElementById('ruleNum').textContent = 'CB';
   document.getElementById('ruleName').textContent = 'Casebook Index';
-  document.getElementById('ruleText').innerHTML = '<p>All casebook scenarios, grouped by rule section.</p>';
+  document.getElementById('ruleText').innerHTML = '';
   document.getElementById('subBlocks').innerHTML = '';
   document.getElementById('penaltyRef').innerHTML = '';
   document.getElementById('termChips').innerHTML = '';
+  document.getElementById('termList').hidden = true;
   document.getElementById('childRules').innerHTML = '';
 
   const chipsEl = document.getElementById('scenarioChips');
@@ -331,7 +367,7 @@ function renderCasebookIndex() {
   });
 
   setBreadcrumb([{ label: 'Casebook Index', href: null }]);
-  document.title = 'Casebook Index — The Bridge';
+  document.title = 'Casebook Index - The Bridge';
 }
 
 function renderPenaltiesIndex() {
@@ -349,6 +385,7 @@ function renderPenaltiesIndex() {
   data.penalties.forEach(p => {
     const block = document.createElement('div');
     block.className = 'sub-block';
+    block.id = `penalty-${p.id}`;
     block.innerHTML = `
       <div class="sub-block-title">
         <span class="penalty-code-inline">${p.code}</span>
@@ -357,11 +394,14 @@ function renderPenaltiesIndex() {
       </div>
       <div class="penalty-block-body${p.image ? ' has-image' : ''}">
         <div class="penalty-block-text">
-          <p>${p.description}</p>
-          ${p.signal ? `<p class="signal-text">${p.signal}</p>` : ''}
-          <p style="margin-top:8px;font-size:var(--size-sm);color:var(--text-mid)">
+          <p style="font-size:var(--size-sm);color:var(--text-mid);margin-bottom:8px">
             Rule: <a href="#rule-${p.rule_ref}">${p.rule_ref}</a>
           </p>
+          <p>${p.description}</p>
+          ${p.signal ? `
+            <p class="signal-label" style="margin-top:12px">Hand Signal</p>
+            <p class="signal-text">${p.signal}</p>
+          ` : ''}
         </div>
         ${p.image ? `<div class="signal-img-wrap"><img src="${p.image}" alt="${p.verbal_cue} hand signal" class="signal-img"></div>` : ''}
       </div>
@@ -370,7 +410,7 @@ function renderPenaltiesIndex() {
   });
 
   setBreadcrumb([{ label: 'Penalty Quick Reference', href: null }]);
-  document.title = 'Penalty Quick Reference — The Bridge';
+  document.title = 'Penalty Quick Reference - The Bridge';
 }
 
 function renderNotFound() {

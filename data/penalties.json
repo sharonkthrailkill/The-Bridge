@@ -27,6 +27,7 @@
       "code": "L",
       "description": "Contact to the legs from below mid-thigh to the wheels of the skate.",
       "signal": "Fold your arm, bent at the elbow, diagonally across your chest. Your hand should touch just below your opposite shoulder.",
+      "image": "images/low-block.png",
       "tags": ["contact", "target-zone"]
     },
     {
@@ -36,6 +37,7 @@
       "code": "H",
       "description": "Initiating a block using the head or neck, or intentionally using the head or neck to positionally block.",
       "signal": "Hold your hand, palm open, on the back of your helmet. Your elbow should be bent out to the side.",
+      "image": "images/head-block.png",
       "tags": ["contact", "blocking-zone"]
     },
     {
@@ -45,6 +47,7 @@
       "code": "F",
       "description": "Initiating a block using the forearm, from the point of the elbow to the fingertips.",
       "signal": "Hold up your forearm vertically in front of your body, with your elbow bent at a 90-degree angle. With the opposite hand, touch the middle of your forearm.",
+      "image": "images/forearm.png",
       "tags": ["contact", "blocking-zone"]
     },
     {
@@ -54,6 +57,7 @@
       "code": "E",
       "description": "Initiating a block using the legs from below mid-thigh to the wheels of the skate.",
       "signal": "Hold your hands over one shoulder with bent elbows, forearms parallel and fingers extended and facing in direction of the forearms. Move the arms across the body to the opposite hip, straightening your elbows.",
+      "image": "images/leg-block.png",
       "tags": ["contact", "blocking-zone"]
     },
     {
@@ -64,6 +68,7 @@
       "description": "Initiating a block while Down, Out of Bounds, Out of Play, airborne, stopped, or skating clockwise. Also includes illegal assists and early hits before the Jam starts.",
       "sub_types": ["Illegal Assist", "Early Hit", "Late Hit", "Out of Play Block"],
       "signal": "Extend one arm in front of your body, parallel to the floor and perpendicular to your torso. Your palm should be facing up, fingers together. With your other hand, palm facing inward, make a chopping motion into your other palm.",
+      "image": "images/illegal-contact.png",
       "tags": ["contact", "illegal-contact"]
     },
     {
@@ -74,6 +79,7 @@
       "description": "Blocking while skating clockwise, or a stop block - actively maintaining a stopped position which impedes an opponent.",
       "sub_types": ["Stop Block"],
       "signal": "Hold your arm out, forearm extended, palm up. Keep your elbow stationary and slowly rotate your forearm a full 180 degrees back and forth.",
+      "image": "images/direction.png",
       "tags": ["contact", "direction"]
     },
     {
@@ -83,6 +89,7 @@
       "code": "M",
       "description": "Forming an impenetrable wall by linking with or grasping a teammate when an opponent attempts and fails to pass between them.",
       "signal": "With elbows bent and to the sides, hold your forearms horizontally in front of you. With your palms facing each other and fingers together, hook the fingers of both hands together.",
+      "image": "images/multiplayer.png",
       "tags": ["contact", "multiplayer"]
     },
     {
@@ -93,6 +100,7 @@
       "description": "Illegally destroying or failing to reform the Pack, intentionally skating Out of Bounds, failing to return to the Engagement Zone, or failing to yield after a false start.",
       "sub_types": ["Destruction", "Skating Out of Bounds", "Failure to Reform", "Failure to Return", "Failure to Yield"],
       "signal": "Hold your arm out with the elbow bent and hand up at a 90-degree angle in the direction of the offending Skater(s). Drop the arm in a chopping motion. The chop is done once per signal.",
+      "image": "images/illegal-position.png",
       "tags": ["positioning", "pack"]
     },
     {
@@ -103,6 +111,7 @@
       "description": "Using the Out of Bounds area to gain position on an opponent who is Upright and In Bounds. Also includes illegal re-entry to the track.",
       "sub_types": ["Illegal Re-Entry"],
       "signal": "With your arms bent at the elbows, cross your forearms in front of your body.",
+      "image": "images/cut.png",
       "tags": ["positioning", "out-of-bounds"]
     },
     {
@@ -113,6 +122,7 @@
       "description": "Any action that interferes with the flow of the game, including causing the period clock to stop illegally, preventing a Jam from starting, or ending a Jam prematurely. Includes delay of game.",
       "sub_types": ["Delay of Game"],
       "signal": "Hold one arm out straight, aimed at the floor at an angle. Place your other hand at the top of your shoulder, palm down, all fingers extended. Move your hand down the length of your outstretched arm.",
+      "image": "images/interference.png",
       "tags": ["game-structure", "flow"]
     },
     {
@@ -123,6 +133,7 @@
       "description": "Technical violations of the rules that have significant impact on the game, including Star Pass violations and Star Pass interference.",
       "sub_types": ["Star Pass Violation", "Star Pass Interference", "Illegal Exit"],
       "signal": "Hold your fists in front of your chest with forearms parallel to the floor and one another. Rotate your forearms around one another.",
+      "image": "images/illegal-procedure.png",
       "tags": ["game-structure", "procedure"]
     },
     {
@@ -133,6 +144,7 @@
       "description": "Unsporting conduct including deceiving or ignoring Officials, disrespectful conduct, abusive language or behavior, or actions that undermine the legitimacy of the sport. Includes insubordination.",
       "sub_types": ["Insubordination"],
       "signal": "Place one hand on the opposite shoulder, just below the clavicle, palm facing inwards. Sweep that hand across your collarbone.",
+      "image": "images/misconduct.png",
       "tags": ["misconduct", "unsporting"]
     }
   ]
