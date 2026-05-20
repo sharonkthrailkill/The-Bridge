@@ -18,7 +18,7 @@
   <header class="landing-topbar">
     <div class="landing-topbar-left">
       <button class="sidebar-toggle" id="landingMenuBtn" aria-label="Toggle navigation">&#9776;</button>
-      <span class="landing-topbar-title">The Bridge</span>
+      <span class="landing-topbar-title">The <span style="color:var(--pink)">Bridge</span></span>
       <span class="rules-tagline">flat track roller derby reference</span>
     </div>
     <div class="landing-topbar-right">
@@ -53,7 +53,7 @@
     <div class="hero">
       <h1 class="hero-title">The <span>Bridge</span></h1>
       <p class="hero-sub">Flat track roller derby reference</p>
-      <p class="hero-desc">WFTDA's rules, casebook, penalty codes, signals and more - all in one place, cross-linked and searchable.</p>
+      <p class="hero-desc">WFTDA's rules, casebook, penalty codes, signals and more - all in one place.</p>
     </div>
 
     <div class="landing-search-wrap">
@@ -63,23 +63,31 @@
 
     <div class="cards">
       <a href="reference.html#rule-1" class="card">
-        <div class="card-icon">📋</div>
-        <div class="card-title">Rules</div>
+        <div class="card-header">
+          <div class="card-icon">📋</div>
+          <div class="card-title">Rules</div>
+        </div>
         <div class="card-desc">The full WFTDA rulebook, cross-linked to casebook scenarios and glossary terms.</div>
       </a>
       <a href="reference.html#casebook" class="card">
-        <div class="card-icon">📖</div>
-        <div class="card-title">Casebook</div>
+        <div class="card-header">
+          <div class="card-icon">📖</div>
+          <div class="card-title">Casebook</div>
+        </div>
         <div class="card-desc">148 scenarios with outcomes, rationale, and Keep in Mind notes - all linked back to their rule.</div>
       </a>
       <a href="reference.html#glossary" class="card">
-        <div class="card-icon">🔤</div>
-        <div class="card-title">Glossary</div>
+        <div class="card-header">
+          <div class="card-icon">🔤</div>
+          <div class="card-title">Glossary</div>
+        </div>
         <div class="card-desc">Definitions with links to the rules where each term appears.</div>
       </a>
       <a href="reference.html#penalties" class="card">
-        <div class="card-icon">🚨</div>
-        <div class="card-title">Penalty Quick Reference</div>
+        <div class="card-header">
+          <div class="card-icon">🚨</div>
+          <div class="card-title">Penalty Quick Reference</div>
+        </div>
         <div class="card-desc">Penalty codes, verbal cues, and hand signals.</div>
       </a>
     </div>
@@ -87,10 +95,11 @@
   </main>
 
   <footer class="landing-footer">
-    <p>Built by Thrash Panda, skater and official with <a href="https://greenvillerollerderby.com" target="_blank" rel="noopener">Greenville Roller Derby</a>.</p>
-    <p><b>The Bridge</b> is an independent reference tool, not affiliated with or endorsed by the WFTDA. Rules, casebook, and officiating content are the property of the <a href="https://wftda.com" target="_blank" rel="noopener">Women's Flat Track Derby Association</a> and are reproduced here for educational purposes.</p>
+    <p>Built and maintained by <a href="mailto:thrashpanda184@gmail.com">Thrash Panda</a></p>
+    <p><b>The Bridge</b> is an independent reference tool, not affiliated with or endorsed by the Women's Flat Track Derby Association.</p>
+    <p>Rules, casebook, and officiating content are the property of the <a href="https://wftda.com" target="_blank" rel="noopener">WFTDA</a> and are reproduced here for educational purposes.</p>
   </footer>
-
+  
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
   <script>
     var landingNav = document.getElementById('landingNav');
