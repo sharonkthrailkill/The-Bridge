@@ -697,7 +697,7 @@ h1.rule-name {
 .landing-footer a { color: var(--text-faint); text-decoration: underline; }
 .landing-footer a:hover { color: var(--pink); }
 
-@media (max-width: 520px) {
+@media (max-width: 440px) {
   .cards { grid-template-columns: 1fr; }
   .hero-title { font-size: 38px; }
   .landing-main { padding-top: calc(var(--bar-h) + 24px); }
