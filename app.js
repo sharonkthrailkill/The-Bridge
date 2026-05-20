@@ -129,7 +129,22 @@ function renderRule(id) {
   (rule.named_subsections || []).forEach(sub => {
     const block = document.createElement('div');
     block.className = 'sub-block';
-    block.innerHTML = `<div class="sub-block-title">${sub.name}</div><p>${sub.text}</p>`;
+    // detect numbered list: text starting with "1. "
+    const isNumberedList = /\d+\.\s/.test(sub.text.trim());
+    let content;
+    if (isNumberedList) {
+      const listStart = sub.text.search(/\d+\.\s/);
+      const intro = sub.text.slice(0, listStart).trim();
+      const listText = sub.text.slice(listStart);
+      const items = listText.split(/(?=\d+\.\s)/).filter(s => s.trim());
+      const ol = '<ol class="sub-block-list">' + items.map(item =>
+        `<li>${item.replace(/^\d+\.\s/, '').trim()}</li>`
+      ).join('') + '</ol>';
+      content = (intro ? `<p>${intro}</p>` : '') + ol;
+    } else {
+      content = sub.text.split('\n\n').map(p => `<p style="margin-bottom:10px">${p.trim()}</p>`).join('');
+    }
+    block.innerHTML = `<div class="sub-block-title">${sub.name}</div>${content}`;
     subsEl.appendChild(block);
   });
 
@@ -541,8 +556,7 @@ function initControls() {
   const content = document.getElementById('mainContent');
 
   document.getElementById('sidebarToggle').addEventListener('click', () => {
-    const isHidden = sidebar.classList.toggle('hidden');
-    content.classList.toggle('wide', isHidden);
+    sidebar.classList.toggle('hidden');
   });
 
   const fontBtns = {
