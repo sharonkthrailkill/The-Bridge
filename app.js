@@ -213,6 +213,28 @@ function renderRule(id) {
     });
   }
 
+  const allRules = data.rules;
+  const currentIdx = allRules.findIndex(r => r.id === id);
+  const prevRule = allRules[currentIdx - 1];
+  const nextRule = allRules[currentIdx + 1];
+
+  const ruleNavEl = document.getElementById('ruleNav');
+  ruleNavEl.innerHTML = '';
+  if (prevRule) {
+    const prev = document.createElement('a');
+    prev.href = `#rule-${prevRule.id}`;
+    prev.textContent = `← ${prevRule.id} ${prevRule.title}`;
+    ruleNavEl.appendChild(prev);
+  } else {
+    ruleNavEl.appendChild(document.createElement('span'));
+  }
+  if (nextRule) {
+    const next = document.createElement('a');
+    next.href = `#rule-${nextRule.id}`;
+    next.textContent = `${nextRule.id} ${nextRule.title} →`;
+    ruleNavEl.appendChild(next);
+  }
+
   document.title = `${rule.id} ${rule.title} - The Bridge`;
 }
 
@@ -616,6 +638,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.error('Failed to load data:', err);
     document.getElementById('ruleName').textContent = 'Error loading data';
     document.getElementById('ruleText').innerHTML =
-      '<p>Could not load data. Make sure you are running this through Live Server, not opening the file directly.</p>';
+      '<p>Could not load data.</p>';
   }
 });
