@@ -4,9 +4,9 @@
       "id": "C2.2.F",
       "rule_ref": "2.2",
       "summary": "White Pivot is seated in the Penalty Box. A second White Blocker lines up wearing a Stripe.",
-      "scenario": "White Pivot is seated in the Penalty Box. Between Jams, three White Blockers \u2014 one of whom is wearing a Stripe \u2014 line up on the track.",
-      "outcome": "No penalty. If the Jam starts with two White Skaters wearing the Stripe, the Officials should direct the White Blocker on the track to remove their Stripe.",
-      "rationale": "The Skater seated in the Box is considered to be the White Pivot for the Jam. As the White team fielded the correct number of Blockers, there is no need to send the extra White Pivot back to their bench.",
+      "scenario": "White Pivot is seated in the Penalty Box. Between Jams, three White Blockers—one of whom is wearing a Stripe—line up on the track.",
+      "outcome": "If the Jam starts with two White Skaters wearing the Stripe, the Officials should direct the White Blocker on the track to remove their Stripe.",
+      "rationale": "The Skater seated in the Box is considered to be the White Pivot for the Jam. As the White team fielded the correct number of Blockers, there is no need to send the “extra” White Pivot back to their bench.",
       "keep_in_mind": [
         "If the White Blocker refuses to remove the Stripe, that White Blocker should be penalized. Refusal to obey an instruction about improper gameplay is insubordinate.",
         "If the White Blocker engages in any privileges reserved for the Pivot before they have removed the Stripe, even if no warning has yet been issued, that White Blocker should be penalized, as their illegal Stripe had impact on the game."
@@ -23,11 +23,10 @@
       "rule_ref": "2.2.1",
       "summary": "Red 34 is behind the Jammer Line without the Star. Red 27 is ahead of the Jammer Line wearing the Star.",
       "scenario": "Red and White Skaters repeatedly shift positions between Jams. As the Jam starts, Red 34 is lined up fully behind the Jammer Line but is not wearing the Star, while Red 27 is lined up fully in front of the Jammer Line and is wearing the Star.",
-      "outcome": "Red 27 is the Jammer. Both Skaters should receive a penalty for beginning the Jam fully out of position.",
-      "rationale": "Red 27 is the Skater in possession of the Star. The Star denotes who the Jammer is. Starting position should not take precedence over wearing the Star.",
+      "outcome": "Red 27 is the Jammer.",
+      "rationale": "Red 27 is the Skater in possession of the Star. The Star denotes who the Jammer is. Both Skaters should receive a penalty for beginning the Jam fully out of position.",
       "keep_in_mind": [
-        "Once the Jam starts, the Jammer Referee should communicate to Red 27 that they are the Jammer for this Jam.",
-        "In this case, both the Jammer (Red 27) and the Blocker (Red 34) have started the Jam in illegal starting positions."
+        "Once the Jam starts, the Jammer Referee should communicate to Red 27 that they are the Jammer for this Jam. Since the rules do not accommodate for Jammers who forget their helmet covers, starting position should not take precedence over wearing the Star. In this case, both the Jammer (Red 27) and the Blocker (Red 34) have started the Jam in illegal starting positions."
       ],
       "tags": [
         "jammer",
@@ -71,7 +70,7 @@
       "id": "C2.2.2.B",
       "rule_ref": "2.2.2",
       "summary": "White Jammer is knocked down but not Out of Bounds. All Red Blockers skate clockwise behind them. White Jammer then stands.",
-      "scenario": "Red Jammer exits the Engagement Zone but does not earn Lead Jammer. White Jammer is knocked down, but not Out of Bounds. While White Jammer is down, the opposing Blockers \u2014 including the foremost Blocker \u2014 all skate clockwise behind them. White Jammer then stands back up.",
+      "scenario": "Red Jammer exits the Engagement Zone but does not earn Lead Jammer. White Jammer is knocked down, but not Out of Bounds. While White Jammer is down, the opposing Blockers—including the foremost Blocker—all skate clockwise behind them. White Jammer then stands back up.",
       "outcome": "White Jammer should be declared Lead when they stand.",
       "rationale": "By skating clockwise behind White Jammer, the Red Blockers gave up their superior position. As such, White Jammer earned those passes and they count toward earning Lead.",
       "keep_in_mind": [],
@@ -87,7 +86,7 @@
       "rule_ref": "2.2.2",
       "summary": "White Jammer earns a pass on every Blocker but never establishes superior position to the foremost in-play Blocker.",
       "scenario": "White Jammer makes their way through the Pack on their initial trip, while Red Jammer remains stuck at the rear. Through numerous blocks and changes in position, White Jammer earns a pass on all Blockers, but none of them are the foremost Blocker in the Pack when White Jammer earns the pass.",
-      "outcome": "The Jammer Referee should not declare White Jammer Lead yet.",
+      "outcome": "The Jammer Referee should not declare White Jammer Lead (yet).",
       "rationale": "White Jammer has earned a pass on all Blockers, but has never established superior position to the foremost Blocker in the Pack. Lead Jammer is earned when the Jammer has earned a pass on all In Play Blockers and established a superior position to the foremost In Play Blocker.",
       "keep_in_mind": [],
       "tags": [
@@ -132,8 +131,8 @@
       "rule_ref": "2.2.2",
       "summary": "Red Jammer has passed all Blockers except White Pivot when a No Pack is declared. Red Jammer remains behind White Pivot.",
       "scenario": "Red Jammer passes all Blockers on their initial trip through the Pack, except White Pivot. Due to unrelated gameplay, Officials declare a No Pack situation. Red Jammer remains behind White Pivot.",
-      "outcome": "The Jammer Referee should not declare Red Jammer Lead yet.",
-      "rationale": "Although White Pivot is now out of play, No Pack situations are different from Out of Play situations regarding earning passes and gaining position to earn Lead Jammer status. During a No Pack situation, a Jammer must still earn passes.",
+      "outcome": "The Jammer Referee should not declare Red Jammer Lead (yet).",
+      "rationale": "Although White Pivot is now out of play, No Pack situations are different from Out of Play situations regarding earning passes and gaining position to earn Lead Jammer status. During a No Pack situation, a Jammer must still earn passes and may not illegally gain position on Skaters while the Jammer is Out of Bounds.",
       "keep_in_mind": [
         "As White Pivot is currently the foremost Blocker, Red Jammer could earn Lead Jammer status by passing White Pivot.",
         "If the Pack was reformed and White Pivot was ahead of the Engagement Zone, at that point Red Jammer would meet the requirements to earn Lead Jammer status."
@@ -150,7 +149,7 @@
       "rule_ref": "2.2.4",
       "summary": "White Jammer hands the Star directly to a Non-Pivot Blocker, who immediately drops it.",
       "scenario": "White Jammer removes their helmet cover and directly hands it to a White Non-Pivot Blocker. White Jammer releases the helmet cover. White Non-Pivot Blocker immediately drops the helmet cover.",
-      "outcome": "No penalty.",
+      "outcome": "No penalty",
       "rationale": "While White Jammer may only pass the Star to their Pivot, because the White Blocker immediately dropped the Star, there has been no impact on gameplay.",
       "keep_in_mind": [
         "If White Blocker did not immediately relinquish control of the helmet cover, a penalty would be issued to White Jammer.",
@@ -168,7 +167,7 @@
       "summary": "White Pivot is knocked Out of Bounds just before White Jammer releases the Star to them.",
       "scenario": "White Jammer removes their helmet cover and hands it to White Pivot. Before White Jammer releases their grip on the Star, White Pivot is knocked Out of Bounds. White Jammer then releases the Star to the Out of Bounds Pivot.",
       "outcome": "The Star Pass is unsuccessful. Both Skaters retain their existing Roles. No penalty is warranted at this time, but the Pivot is warned they are not the Jammer.",
-      "rationale": "A Star Pass is a single point of exchange: the moment at which the Star is released. Since the Star was released while the Pivot was Out of Bounds, the pass is incomplete.",
+      "rationale": "Although White Jammer attempted to pass the Star while White Pivot was eligible, a Star Pass is a single point of exchange: the moment at which the Star is released. Since the Skaters’ Roles are not affected, and it is legal for the Pivot to control the helmet cover, there is no impact on gameplay.",
       "keep_in_mind": [
         "If, after being warned that they are not the Jammer, the Pivot puts the Star on (or fails to remove it), they should be penalized."
       ],
@@ -182,9 +181,9 @@
       "id": "C2.2.4.C",
       "rule_ref": "2.2.4",
       "summary": "White Pivot's Stripe falls off during gameplay. White Jammer then hands them the Star.",
-      "scenario": "White Pivot's Stripe falls off in normal gameplay. White Jammer removes their helmet cover, hands it to White Pivot, and releases the Star.",
+      "scenario": "White Pivot’s Stripe falls off in normal gameplay. White Jammer removes their helmet cover, hands it to White Pivot, and releases the Star.",
       "outcome": "The Star Pass is unsuccessful. Both Skaters retain their existing Roles. No penalty is warranted at this time, but the Pivot is instructed to drop the Star.",
-      "rationale": "A Pivot who is not visibly wearing the Stripe cannot use the privileges of being a Pivot, such as receiving a Star Pass. Because the Pivot's helmet cover came off due to gameplay, they are warned and allowed to relinquish control of the Star.",
+      "rationale": "A Pivot who is not visibly wearing the Stripe cannot use the privileges of being a Pivot, such as receiving a Star Pass or even recovering the Star after an incomplete Star Pass. Because the Pivot’s helmet cover came off due to gameplay (as opposed to the Pivot intentionally removing it), they are warned that they are not the Pivot and allowed to relinquish control of the Star.",
       "keep_in_mind": [
         "Once White Pivot is aware that they are not visibly wearing the Stripe, they must immediately relinquish control of the Star."
       ],
@@ -198,9 +197,9 @@
       "id": "C2.2.4.D",
       "rule_ref": "2.2.4",
       "summary": "Red Jammer throws the Star at Red Pivot, who catches it and hands it back. They then complete a proper handoff.",
-      "scenario": "Red 21 is the Jammer. They remove their helmet cover and throw it at Red 45, who is the Pivot. Red 45 catches the helmet cover and hands it back to Red 21. Both Skaters grip the Star, then Red 21 releases it. Red 45 maintains control of the Star and puts it on their helmet.",
+      "scenario": "Red 21 is the Jammer. They remove their helmet cover and throw it at Red 45, who is the Pivot. Red 45 (still the Pivot) catches the helmet cover and hands it back to Red 21 (still the Jammer). Both Skaters grip the Star, then Red 21 releases it. Red 45 maintains control of the Star and puts it on their helmet.",
       "outcome": "Red 45 is now the Jammer.",
-      "rationale": "Throwing the Star is an incomplete Star Pass, not an illegal one. A Star Pass cannot be successfully completed by throwing. Once Red Jammer clutches the helmet cover again, they reestablish their control of the Star and then complete the Star Pass legally.",
+      "rationale": "Throwing the Star is an incomplete Star Pass, not an illegal one. A Star Pass cannot be successfully completed by throwing. Catching the Star (out of the air) is equivalent to retrieving it (from the floor); the Pivot is not required to let the Star fall to the track first. Once Red Jammer clutches the helmet cover, they reestablish their control of the Star regardless of whether the Pivot lets go or not. They then complete the Star Pass in a legal fashion.",
       "keep_in_mind": [],
       "tags": [
         "star-pass",
@@ -213,12 +212,12 @@
       "id": "C2.2.4.E",
       "rule_ref": "2.2.4",
       "summary": "The Star gets stuck to a White Blocker's Velcro wrist guard. White Blocker pulls it free and drops it.",
-      "scenario": "While moving through the Pack, the Star comes off Red Jammer's helmet and sticks to the Velcro on White Blocker's wrist guard. White Blocker pulls the helmet cover free and drops it.",
+      "scenario": "While moving through the Pack, the Star comes off Red Jammer’s helmet and sticks to the Velcro on White Blocker’s wrist guard. White Blocker pulls the helmet cover free and drops it.",
       "outcome": "White Blocker is not issued a penalty.",
-      "rationale": "White Blocker gained temporary possession of the helmet cover and dropped it. Because White Blocker did not intentionally attempt to remove the Star from Red Jammer's helmet, they should not be penalized as long as they immediately relinquish control.",
+      "rationale": "White Blocker gained temporary possession of the helmet cover and dropped it. Because White Blocker did not intentionally attempt to remove the Star from Red Jammer’s helmet, they should not be issued a penalty for accidentally coming into control of the Star as long as they immediately relinquish control of the Star. The Star may get moved as part of normal gameplay, but may not be controlled by anyone other than the Jammer or Pivot.",
       "keep_in_mind": [
-        "If White Blocker had not touched the Star, which was stuck to their wrist guard, and allowed Red Jammer or Pivot to recover it once they were aware of it, similarly no penalty would be warranted.",
-        "If White Blocker had pulled the Star off their Velcro but not immediately relinquished control once they removed it, a penalty would be warranted."
+        "If White Blocker had not touched the Star, which was stuck to their wrist guard and allowed Red Jammer or Pivot to recover it once they were aware of it, similarly no penalty would be warranted.",
+        "If White Blocker had pulled the Star off their Velcro, but not immediately relinquished control of the Star once they removed it from their wrist guard, a penalty would be warranted."
       ],
       "tags": [
         "star-pass",
@@ -231,9 +230,9 @@
       "id": "C2.2.4.F",
       "rule_ref": "2.2.4",
       "summary": "After a legal Star Pass, the original Jammer receives a penalty on review for an action taken while they were Jammer.",
-      "scenario": "White Jammer legally passes the Star to White Pivot. Later in the Jam, White Pivot-turned-Jammer receives a penalty and goes to the Penalty Box. The Jam ends and Red team calls an Official Review. As a result, the original White Jammer receives a penalty for an illegal action they took as Jammer.",
-      "outcome": "The additional penalty should be served by White Pivot-turned-Jammer and recorded for the original White Jammer. The original White Jammer should not be allowed to participate until the penalty time has completed.",
-      "rationale": "A penalty is assigned to a Skater, but the penalty time is assigned to a Role. The current White Jammer (former Pivot) serves the time. Reverting the current Jammer to a Pivot or having the original Jammer serve the time as a Blocker would deprive Red team of earned advantages.",
+      "scenario": "White Jammer legally passes the Star to White Pivot. Later in the Jam, White Pivot-turned-Jammer receives a penalty and goes to the Penalty Box. The Jam ends and Red team calls an Official Review. As a result of the review, the original White Jammer receives a penalty for an illegal action they took as Jammer.",
+      "outcome": "The additional penalty should be served by White Pivot-turned-Jammer and recorded for the original White Jammer. The original White Jammer should not be allowed to participate in the game until time for the penalty they earned has completed.",
+      "rationale": "White Jammer legally passed the Star, making White Pivot the new Jammer, but received a penalty upon review for an action committed while they were the Jammer. This would put two different White Skaters in the Box as a Jammer. A penalty is assigned to a Skater. The penalty time is assigned to a Role, with the Skater originally in that Role not allowed to participate until it has been served.\n\nIn this example, the original White Jammer receives the penalty and the current White Jammer (former Pivot) serves the time. Reverting the current Jammer to a Pivot or having the original Jammer serve the time as a Blocker would deprive Red team of earned advantages.",
       "keep_in_mind": [],
       "tags": [
         "star-pass",
@@ -246,7 +245,7 @@
       "id": "C2.2.6.A",
       "rule_ref": "2.2.6",
       "summary": "Red Jammer's skate rolls past the Jammer Line just as the whistle blows.",
-      "scenario": "As the Jam-Starting Whistle sounds, Red Jammer's left skate has rolled forward, past the Jammer Line.",
+      "scenario": "As the Jam-Starting Whistle sounds, Red Jammer’s left skate has rolled forward, past the Jammer Line.",
       "outcome": "Red Jammer is issued a False Start warning and must yield their position to all Skaters in their immediate vicinity. If they do not Yield, they will receive a penalty.",
       "rationale": "At the Jam-Starting Whistle, Red Jammer was touching both their correct starting location and an illegal starting location.",
       "keep_in_mind": [
@@ -294,9 +293,9 @@
       "id": "C2.2.6.D",
       "rule_ref": "2.2.6",
       "summary": "Red Pivot places their skate on the Pivot Line just before the whistle, pushing all White Non-Pivot Blockers into a False Start.",
-      "scenario": "All White Blockers line up legally between Jams at the Pivot Line, but not touching the line. Red Pivot lines up behind them. Immediately before the Jam starts, Red Pivot reaches forward with their leg and places their skate on the Pivot Line.",
+      "scenario": "All White Blockers (including White Pivot) line up legally between Jams at the Pivot Line, but not touching the line. Red Pivot lines up behind them. Immediately before the Jam starts, Red Pivot reaches forward with their leg and places their skate on the Pivot Line.",
       "outcome": "The White Non-Pivot Blockers should all be issued False Start warnings, and must Yield their positions to all nearby Skaters; any who do not Yield should receive a penalty.",
-      "rationale": "Red Pivot established their position in contact with the Pivot Line before the beginning of the Jam. Non-Pivot Blockers must begin the Jam behind the hips of any Pivots in contact with the Pivot Line.",
+      "rationale": "Red Pivot established their position in contact with the Pivot Line before the beginning of the Jam. Non-Pivot Blockers must begin the Jam behind the hips of any Pivots in contact with the Pivot Line. All Non-Pivot Blockers with hips ahead of the Red Pivot are therefore required to Yield.",
       "keep_in_mind": [],
       "tags": [
         "false-start",
@@ -310,8 +309,8 @@
       "rule_ref": "2.2.6",
       "summary": "Red Blocker jumps from out of bounds and is still airborne when the whistle blows, landing in bounds after the Jam starts.",
       "scenario": "In an attempt to reach the track before the Jam begins, Red Blocker jumps from out of bounds. The Jam-Starting Whistle blows while they are still airborne. Red Blocker lands in bounds and upright after the Jam begins.",
-      "outcome": "Red Blocker should be ordered back to their bench and may not participate in the Jam.",
-      "rationale": "While airborne, a Skater retains the attributes of their previous status. Red Blocker's previous status was Out of Bounds. As such, they remain Out of Bounds while airborne and were not on the track when the Jam began.",
+      "outcome": "Red Blocker attempted to enter the track from an out of bounds state and was still airborne at the start of the Jam. They should be ordered back to their bench and may not participate in the Jam.",
+      "rationale": "While airborne, a Skater retains the attributes of their previous status. Red Blocker’s previous status was Out of Bounds. As such, they remain Out of Bounds while airborne. Red Blocker was not on the track when the Jam began.",
       "keep_in_mind": [],
       "tags": [
         "starting-position",
@@ -324,7 +323,7 @@
       "id": "C2.2.6.F",
       "rule_ref": "2.2.6",
       "summary": "Red Pivot gets a False Start warning and attempts to Yield, but no nearby Skaters take advantage of the opportunity.",
-      "scenario": "As the Jam-Starting Whistle sounds, Red Pivot's left skate has rolled backward, behind the Jammer Line. Red Pivot is issued a False Start warning. Red Pivot disengages from play, attempting to Yield to Skaters in the immediate proximity. No other Skaters take advantage of Red Pivot's attempt to Yield.",
+      "scenario": "As the Jam-Starting Whistle sounds, Red Pivot’s left skate has rolled backward, behind the Jammer Line. Red Pivot is issued a False Start warning. Red Pivot disengages from play, attempting to Yield to Skaters in the immediate proximity. No other Skaters take advantage of Red Pivot’s attempt to Yield.",
       "outcome": "Red Pivot is no longer required to Yield and may continue to play.",
       "rationale": "Red Pivot made a genuine attempt to Yield their position, allowing time for Skaters in proximity to take advantage. Giving Skaters in the immediate vicinity a reasonable opportunity to take advantage, even if that opportunity is not exercised, is enough to relieve Red Pivot of their requirement to Yield.",
       "keep_in_mind": [],
@@ -340,11 +339,11 @@
       "rule_ref": "2.2.6",
       "summary": "White Blocker intentionally straddles the Pivot Line in front of a full Red wall to gain a starting advantage.",
       "scenario": "All four Red Blockers line up directly behind the Pivot Line, leaving no room for another Skater to be legally positioned in front of them. White Blocker positions themself in front of the Red Blockers by straddling the Pivot Line.",
-      "outcome": "White Blocker is penalized immediately upon the Jam starting whistle.",
-      "rationale": "Even though the White Blocker is partially legally positioned, they have intentionally adopted an illegal starting position to gain an advantage. The White Blocker has already gained a strategic advantage by being positioned ahead of the Red wall.",
+      "outcome": "White Blocker is penalized immediately upon the jam starting whistle.",
+      "rationale": "Even though the White Blocker is partially legally positioned, they have intentionally adopted an illegal starting position to gain an advantage. Even if a False Start warning was issued, the White Blocker has already gained a strategic advantage by being positioned ahead of the Red Wall and impeding the Red Blockers’ ability to immediately move forward. Because of this advantage and the intentional nature of the illegal position, an immediate penalty is warranted.",
       "keep_in_mind": [
         "If White Blocker had been touching or had part of their skate ahead of the Pivot Line, but are otherwise not ahead of it, a False Start warning should be issued, and they should be given an opportunity to yield their position.",
-        "If the Red Blockers moved towards the Jammer Line so that the White Blocker's immediate advantage is removed, then a False Start Warning should be given."
+        "If the Red Blockers moved towards the Jammer Line so that the White Blocker’s immediate advantage is removed, then a False Start Warning should be given."
       ],
       "tags": [
         "false-start",
@@ -359,45 +358,70 @@
       "summary": "Red Blocker knocks the only White Blocker Out of Bounds, leaving no mixed group within 10 ft.",
       "scenario": "Red Blocker 1 blocks White Blocker 1 Out of Bounds.",
       "outcome": "No Pack. No penalty. White Blocker 1 must return in bounds to reform the Pack as soon as they legally can do so, and Red Blocker 1 must skate counterclockwise to allow White Blocker 1 to do so.",
-      "rationale": "Because there were no White Blockers within 10 ft of any Red Blockers, no Pack could be defined. All Blockers must work together to allow a Pack to reform as quickly as possible.",
+      "rationale": "Because there were no White Blockers within 10 ft (3.05 m) of any Red Blockers, no Pack could be defined. All Blockers must work together to allow a Pack to reform as quickly as possible.",
       "keep_in_mind": [],
       "tags": [
         "pack",
         "no-pack",
         "out-of-bounds",
         "no-penalty"
-      ]
+      ],
+      "image": "images/c2.3.a.png"
     },
     {
       "id": "C2.3.B",
       "rule_ref": "2.3",
       "summary": "The Red wall skates slowly forward while White Blockers stand still, creating a No Pack situation.",
       "scenario": "The Red wall skates forward slowly while the White Blockers stand still.",
-      "outcome": "No Pack is declared. No penalty.",
-      "rationale": "The Red Blockers' slow skating provided opportunity for White Pivot to maintain a Pack, so the Red Blockers should not be penalized. White Pivot is prohibited from making sudden movements that destroy the Pack.",
+      "outcome": "“No Pack” is declared. No penalty.",
+      "rationale": "The Red Blockers’ slow skating provided opportunity for White Pivot to maintain a Pack, so the Red Blockers should not be penalized. White Pivot is not required to maintain the Pack, but is required to work to reform a Pack if there is no Pack. Also, White Pivot is prohibited from making sudden movements that destroy the Pack.",
       "keep_in_mind": [
-        "If instead of moving forward, the Red Blockers stayed still while White Pivot skated backward or took a knee, White Pivot should be penalized. Roller derby is played counterclockwise, so clockwise movement is held to a different standard, and taking a knee is always a sudden action."
+        "If, instead of moving forward, the Red Blockers stayed still while White Pivot skated backward or took a knee, White Pivot should be penalized. Roller derby is played in the counterclockwise direction, so clockwise movement is held to a different standard than counterclockwise movement, and taking a knee is always a sudden action. Subtle movements such as shifting one’s weight while standing should not be considered sudden actions."
       ],
       "tags": [
         "pack",
         "no-pack",
         "destroying-pack",
         "no-penalty"
-      ]
+      ],
+      "image": "images/c2.3.b.png"
     },
     {
       "id": "C2.3.C",
       "rule_ref": "2.3",
       "summary": "Complex Pack scenario showing how Pack membership changes as specific Blockers fall down.",
-      "scenario": "In the described image, Red 3 and White Pivot are more than 10 ft apart, as are Red 1 and White 3. Accordingly, the Pack is composed of White Pivot, Red 2, White 1, and White 2. Red 1 and Red Pivot are out of play.",
-      "outcome": "Pack membership changes depending on which Skaters fall: if White 2 falls \u2014 White 1, Red 2, White Pivot; if White 1 falls \u2014 No Pack; if Red 2 falls \u2014 White 3 and Red 3; if White Pivot falls \u2014 White 1, White 2, Red 2; if Red 3 or anyone ahead of them falls \u2014 the Pack does not change.",
-      "rationale": "The Pack is always the largest group of In Bounds and Upright Blockers in proximity containing members from both teams.",
+      "scenario": "In the above image, Red 3 and White Pivot are more than 10 ft (3.05 m) apart, as are Red 1 and White 3. Accordingly, the Pack is composed of White Pivot, Red 2, White 1, and White 2. Red 1 and Red Pivot are out of play.",
+      "outcome": "The Pack would be composed of the following Skaters if the following Blockers fell down:",
+      "rationale": "",
       "keep_in_mind": [],
       "tags": [
         "pack",
         "pack-definition",
         "proximity",
         "in-bounds"
+      ],
+      "image": "images/c2.3.c.png",
+      "table": [
+        {
+          "if_blocker_falls": "White 2",
+          "pack_becomes": "White 1, Red 2, White Pivot"
+        },
+        {
+          "if_blocker_falls": "White 1",
+          "pack_becomes": "No Pack. Red 3 and White 3 could be a Pack of two, but so could White Pivot and Red 2."
+        },
+        {
+          "if_blocker_falls": "Red 2",
+          "pack_becomes": "White 3 and Red 3"
+        },
+        {
+          "if_blocker_falls": "White Pivot",
+          "pack_becomes": "White 1, White 2, Red 2"
+        },
+        {
+          "if_blocker_falls": "Red 3 or anybody ahead of them",
+          "pack_becomes": "The Pack does not change."
+        }
       ]
     },
     {
@@ -406,7 +430,7 @@
       "summary": "Red Pivot is penalized and heading to the box but is still in bounds. White Jammer passes them before they exit.",
       "scenario": "White Jammer is on their second trip through the Pack and has not yet earned any passes on Red Blockers. Red Pivot receives a penalty, and begins to exit the track. White Jammer passes Red Pivot while Red Pivot is still in bounds.",
       "outcome": "One point.",
-      "rationale": "Blockers who have been directed to the Penalty Box but are still touching In Bounds can still be scored upon as if they had not been penalized. White Jammer earns a pass on penalized Red Pivot by gaining superior position before Red Pivot exits the track.",
+      "rationale": "Blockers who have been directed to the Penalty Box but are still touching In Bounds (including Straddling) can still be scored upon as if they had not been penalized. White Jammer earns a pass on penalized Red Pivot by gaining superior position before Red Pivot exits the track.",
       "keep_in_mind": [
         "If there were other Red Blockers in the Penalty Box, earning a pass on Red Pivot would also result in earned passes on those penalized Red Blockers."
       ],
@@ -439,9 +463,9 @@
       "id": "C3.1.B",
       "rule_ref": "3.1",
       "summary": "Red Jammer passes the Star, then White Jammer passes all four Red Blockers including the original Red Jammer (now a Blocker).",
-      "scenario": "Red Jammer enters the Pack ahead of White Jammer, while White Jammer is approaching the Pack for their second trip. Red Jammer passes the Star, and the new Red Jammer escapes the Pack. White Jammer enters the Pack and passes all four Red Blockers (including the original Red Jammer).",
+      "scenario": "Red Jammer enters the Pack ahead of White Jammer, while White Jammer is approaching the Pack\n\nfor their second trip. Red Jammer passes the Star, and the new Red Jammer escapes the Pack. White Jammer enters the Pack and passes all four Red Blockers (including the original Red Jammer).",
       "outcome": "White Jammer scores four points.",
-      "rationale": "All Blockers are considered to be tied together with respect to the opposing Jammer's trip through the Pack. When Red Jammer became a Blocker, this gave White Jammer lapping position.",
+      "rationale": "All Blockers are considered to be tied together with respect to the opposing Jammer’s trip through the Pack. Even though White Jammer did not lap the original Red Jammer, when Red Jammer became a Blocker, this gave White Jammer lapping position.",
       "keep_in_mind": [],
       "tags": [
         "scoring",
@@ -454,9 +478,9 @@
       "id": "C3.1.D",
       "rule_ref": "3.1",
       "summary": "White Jammer jumps the apex passing all four Red Blockers mid-air. Right skate lands in bounds first, left skate lands out of bounds.",
-      "scenario": "White Jammer is on their second trip through the Pack and jumps the apex, passing all four Red Blockers while mid-air. White Jammer's right skate lands in bounds, with their hips ahead of all Blockers. As a result of the same action, White Jammer's left skate subsequently lands out of bounds.",
+      "scenario": "White Jammer is on their second trip through the Pack and jumps the apex, passing all four Red Blockers while mid-air. White Jammer’s right skate lands in bounds, with their hips ahead of all Blockers. As a result of the same action, White Jammer’s left skate subsequently lands out of bounds.",
       "outcome": "Four points.",
-      "rationale": "White Jammer's in-bounds status was maintained while airborne because the first part of their skate to touch back down touched in bounds. White Jammer's upright status was maintained because they touched the floor skate first. The fact that White Jammer touched out of bounds with the other skate does not affect points.",
+      "rationale": "White Jammer’s in-bounds status was maintained while airborne because the first part of their skate to touch back down touched in bounds. White Jammer’s upright status was maintained while airborne because they touched the floor skate first. The fact that White Jammer touched out of bounds with the other skate does not affect points (but does affect their subsequent position relative to the Skaters they passed while airborne).",
       "keep_in_mind": [],
       "tags": [
         "scoring",
@@ -472,7 +496,7 @@
       "summary": "White Pivot goes to the box early in the Jam. Red Jammer earns passes on two White Blockers on their second trip before the Jam ends.",
       "scenario": "White Pivot is sent to the Penalty Box shortly after the Jam begins. Red Jammer completes their first trip through the Pack, and begins their second. Red Jammer earns a pass on two White Blockers before White Pivot returns to the track and the Jam is called.",
       "outcome": "Three points.",
-      "rationale": "On Red Jammer's second trip through the Pack, they earned a pass on White Pivot by earning a pass on the first White Blocker while White Pivot was penalized.",
+      "rationale": "On Red Jammer’s second trip through the Pack, they earned a pass on White Pivot by earning a pass on the first White Blocker while White Pivot was penalized.",
       "keep_in_mind": [],
       "tags": [
         "scoring",
@@ -485,9 +509,9 @@
       "id": "C3.2.C",
       "rule_ref": "3.2",
       "summary": "Red Jammer skates clockwise out of the Engagement Zone, re-enters from the front, then completes their initial trip.",
-      "scenario": "At the start of the Jam, Red Jammer blocks White Jammer out of bounds and skates clockwise. Red Jammer leaves the Engagement Zone from the rear, reenters it from the front, and skates in bounds to the rear of the Pack. White Jammer comes in behind Red Jammer and gets stuck in the Pack. Red Jammer then skates forward, exits the Engagement Zone from the front, enters from the rear, earns passes on all opponents, and completes their initial trip through the Pack.",
+      "scenario": "At the start of the Jam, Red Jammer blocks White Jammer out of bounds and skates clockwise. Red Jammer leaves the Engagement Zone from the rear, reenters it from the front, and skates in bounds to the rear of the Pack. White Jammer comes in behind Red Jammer, and gets stuck in the Pack prior to restarting their initial trip through the Pack. Red Jammer skates forward, exits the Engagement Zone from the front, enters the Engagement Zone from the rear, earns passes on all opponents, and completes their initial trip through the Pack.",
       "outcome": "Zero points.",
-      "rationale": "Even though Red Jammer earned passes while lapping all opposing Blockers on their initial trip through the Pack, passes prior to the initial trip do not count toward lapping Blockers.",
+      "rationale": "Even though Red Jammer earned passes while “lapping” all opposing Blockers on their initial trip through the Pack, passes prior to the initial trip do not count toward lapping Blockers.",
       "keep_in_mind": [],
       "tags": [
         "scoring",
@@ -519,10 +543,9 @@
       "summary": "Red Pivot remains ahead of White Jammer throughout the Pack and exits the Engagement Zone in front of them.",
       "scenario": "White Jammer is on their second trip through the Pack and earns a pass on all opposing Blockers except Red Pivot, who is in front of them. White Jammer exits the front of the Engagement Zone with Red Pivot still in front of them.",
       "outcome": "Four points.",
-      "rationale": "Leaving the Engagement Zone ahead of the opposing Jammer is not a valid means for a Blocker to avoid being scored upon. Via this action, Red Pivot denied White Jammer the opportunity to earn a pass on them, so White Jammer is considered to have earned a pass on Red Pivot upon completing their second trip.",
+      "rationale": "Leaving the Engagement Zone ahead of the opposing Jammer is not a valid means for a Blocker such as Red Pivot to avoid being scored upon. Via this action, they denied White Jammer the opportunity to earn a pass on them during their second trip through the Pack. Thus, White Jammer is considered to have earned a pass on Red Pivot upon completing their second trip through the Pack. The other opposing Blockers had already been scored upon as usual.",
       "keep_in_mind": [
-        "Had the Jam ended before White Jammer exited the Engagement Zone but while Red Pivot was ahead of them and also ahead of the Engagement Zone, White Jammer would have earned the pass on Red Pivot for the same reason.",
-        "Had Red Pivot remained inside the Engagement Zone but ahead of White Jammer, White Jammer would not have earned a pass on Red Pivot because they had the opportunity to do so while inside the Engagement Zone."
+        "Had the Jam ended before White Jammer exited the Engagement Zone but while Red Pivot was ahead of them and also ahead of the Engagement Zone, White Jammer would have earned the pass on Red Pivot for the same reason because the Jam ending completes the scoring trip. However, had Red Pivot remained inside the Engagement Zone but ahead of White Jammer, White Jammer would not have earned a pass on Red Pivot because they had the opportunity to do so while inside the Engagement Zone."
       ],
       "tags": [
         "scoring",
@@ -535,9 +558,9 @@
       "id": "C3.3.B",
       "rule_ref": "3.3",
       "summary": "Red Pivot blocks White Jammer out of bounds, goes out of play, then ends up behind White Jammer before they reenter.",
-      "scenario": "White Jammer is on their second trip through the Pack. They earn a pass on all opposing Blockers except Red Pivot, who is in front of them. Red Pivot forces White Jammer out of bounds, and then goes out of play. Red Pivot turns around, returns to play, and ends up behind White Jammer who is still out of bounds. White Jammer reenters the track in front of Red Pivot, just ahead of the Engagement Zone.",
+      "scenario": "White Jammer is on their second trip through the Pack. They earn a pass on all opposing Blockers except Red Pivot, who is in front of them. Red Pivot forces White Jammer out of bounds, and then goes out of play. Red Pivot turns around, returns to play, and ends up behind White Jammer who is still out of bounds. White Jammer reenters in front of Red Pivot, and just ahead of the Engagement Zone.",
       "outcome": "Three points.",
-      "rationale": "When White Jammer reentered the track outside the Engagement Zone, their second trip through the Pack was complete. At that time, Red Pivot was in play. As such, White Jammer had the opportunity to earn a pass on Red Pivot during that trip by returning to play inside the Engagement Zone.",
+      "rationale": "When White Jammer reentered the track outside the Engagement Zone, their second trip through the Pack was complete. At that time, Red Pivot was in play. As such, White Jammer had the opportunity to earn a pass on Red Pivot during that trip through the Pack by returning to play inside the Engagement Zone, and then passing the Red Pivot.",
       "keep_in_mind": [],
       "tags": [
         "scoring",
@@ -566,7 +589,7 @@
     {
       "id": "C3.3.D",
       "rule_ref": "3.3",
-      "summary": "All four opposing Blockers are unavailable \u2014 two in the box, one penalized mid-jam, one addressing equipment. White Jammer skates past teammates.",
+      "summary": "All four opposing Blockers are unavailable — two in the box, one penalized mid-jam, one addressing equipment. White Jammer skates past teammates.",
       "scenario": "White Jammer begins their second trip through the Pack. Red Blockers 1 and 2 are already seated in the Penalty Box. Red Blocker 3 goes to the Box for a penalty. Red Blocker 4 removes themself from play to address an equipment issue. White Jammer skates past their own teammates.",
       "outcome": "Four points.",
       "rationale": "Because there was no opportunity for White Jammer to earn a pass on any of their opponents, White Jammer earns a pass on all of them by completing the trip through the Engagement Zone as defined during a No Pack situation.",
@@ -586,7 +609,7 @@
       "outcome": "Four points.",
       "rationale": "Because Red Blocker 4 was not sent off the track to the Box, that Blocker is still part of active gameplay (just out of bounds). When White Jammer skated past Red Blocker 4, the pass was earned as usual even though Red Blocker 4 was out of bounds at the time.",
       "keep_in_mind": [
-        "If Red Blocker 4 had taken off quickly so that White Jammer was denied the opportunity to earn a pass on Red Blocker 4, then when White Jammer completed their trip through the Engagement Zone, they would have earned the pass on Red Blocker 4 just as though they were ahead of the Engagement Zone."
+        "If Red Blocker 4 had taken off quickly so that White Jammer was denied the opportunity to earn a pass on Red Blocker 4, then when White Jammer completed their trip through the Engagement Zone, they would have earned the pass on Red Blocker 4 just as though Red Blocker 4 were ahead of the Engagement Zone (but still in bounds). Because there is no Pack, White Jammer’s trip through the Engagement Zone is completed when they are 20 ft (6.10 m) in front of the foremost In Bounds member of the prior Pack (in this case, their teammate)."
       ],
       "tags": [
         "scoring",
@@ -601,7 +624,7 @@
       "summary": "Red Jammer goes to the box on their second trip without earning any passes. Two White Blockers are also penalized while Red Jammer is seated.",
       "scenario": "Red Jammer commits a penalty at the beginning of their second trip through the Pack, not having earned any passes on opponents during that trip. While Red Jammer is in the Penalty Box, two White Blockers are sent to the Box. Red Jammer is released and returns to the Engagement Zone. The Pack is moving fast, and Red Jammer does not pass anybody. The other two White Blockers are released and return to the track behind Red Jammer. The Jam ends.",
       "outcome": "Zero points.",
-      "rationale": "Red Jammer had an opportunity to earn a pass on the two penalized White Blockers by earning a pass on one of the unpenalized White Blockers, but did not do so.",
+      "rationale": "Red Jammer had an opportunity to earn a pass on the two penalized White Blockers by earning a pass on one of the unpenalized White Blockers.",
       "keep_in_mind": [],
       "tags": [
         "scoring",
@@ -614,7 +637,7 @@
       "id": "C3.3.I",
       "rule_ref": "3.3",
       "summary": "Red Jammer removes the Star mid-trip. While the Star is off, three opponents are sent to the Penalty Box. Jam ends with Star still in hand.",
-      "scenario": "Red Jammer completes their first trip through the Pack and has passed one opposing Blocker when they remove the Star. While the Star is off, the three other opposing Blockers commit penalties and are sent to the Penalty Box. The Jam ends while Red Jammer's Star is still in their hand.",
+      "scenario": "Red Jammer completes their first trip through the Pack and has passed one opposing Blocker when they remove the Star. While the Star is off, the three other opposing Blockers commit penalties and are sent to the Penalty Box. The Jam ends while Red Jammer’s Star is still in their hand.",
       "outcome": "One point.",
       "rationale": "Red Jammer was not able to earn points while the Star was off, but they still receive the point earned while the Star was on.",
       "keep_in_mind": [
@@ -633,7 +656,7 @@
       "summary": "White Pivot receives a Star Pass but the original White Jammer (now a Blocker) remains behind Red Jammer for the duration of Red Jammer's scoring trip.",
       "scenario": "Red Jammer begins a scoring trip and is ahead of White Jammer. Red Jammer earns passes on three White Blockers but remains behind White Pivot. White Jammer successfully passes the Star to White Pivot, but remains behind Red Jammer. Red Jammer completes their scoring trip having never earned a pass on the original White Jammer (now Blocker).",
       "outcome": "Four points.",
-      "rationale": "Red Jammer must have at least one opportunity to earn a pass on all opposing Blockers on every trip through the Pack, including a Jammer-turned-Blocker as a result of a Star Pass. When the Jammer becomes a Blocker, they are considered a Blocker returning to active gameplay.",
+      "rationale": "Red Jammer must have at least one opportunity to earn a pass on all opposing Blockers on every trip through the Pack, including a Jammer-turned-Blocker as a result of a Star Pass. When the Jammer becomes a Blocker, they are considered a Blocker returning to active gameplay (see Section 2.5).",
       "keep_in_mind": [],
       "tags": [
         "scoring",
@@ -664,11 +687,11 @@
       "id": "C4.1.1.A",
       "rule_ref": "4.1.1",
       "summary": "White Blocker falls small after contact. Red Jammer trips over them and falls.",
-      "scenario": "White Blocker, falling as a result of contact with Red Blocker, falls small by tucking their arms and legs close into their body. Red Jammer, skating close behind, trips over White Blocker and falls.",
+      "scenario": "White Blocker, falling as a result of contact with Red Blocker, “falls small” by tucking their arms and legs close into their body. Red Jammer, skating close behind, trips over White Blocker and falls.",
       "outcome": "No penalty.",
       "rationale": "White Blocker did everything in their power to prevent themself from being a hazard.",
       "keep_in_mind": [
-        "Were this the third time White Blocker had caused an opponent to fall in this manner, they should receive a penalty. While falling small mitigates safety risk, excessive falling with impact represents a larger safety risk that should result in a penalty."
+        "Were this the third time White Blocker had caused an opponent to fall in this manner, they should receive a penalty. While “falling small” mitigates the safety risk of a Skater falling on the track, excessive falling with impact represents a larger safety risk that should result in a penalty."
       ],
       "tags": [
         "falling-small",
@@ -681,9 +704,9 @@
       "id": "C4.1.1.B",
       "rule_ref": "4.1.1",
       "summary": "Red Jammer falls small after a legal block on an apex jump attempt, but slides back onto the track and trips White Blocker.",
-      "scenario": "Red Jammer skates along the inside line and attempts to jump the apex. White Pivot legally initiates a block to Red Jammer's upper arm, knocking Red Jammer off balance. Red Jammer falls out of bounds, falls small, but their momentum causes them to slide back onto the track into White Blocker's legs. White Blocker trips and falls.",
+      "scenario": "Red Jammer skates along the inside line and attempts to jump the apex to pass the Pack. White Pivot legally initiates a block to Red Jammer’s upper arm, which knocks Red Jammer off balance, and their jump comes up short. Red Jammer falls out of bounds. They fall small, but their momentum causes them to slide back onto the track, into White Blocker’s legs. White Blocker trips over Red Jammer and falls.",
       "outcome": "Red Jammer is penalized.",
-      "rationale": "Though Red Jammer fell small, their forward momentum back onto the track means that they are a safety risk for more than just a small space. White Blocker's loss of position as a result of that risk is enough to warrant a penalty.",
+      "rationale": "Red Jammer is considered in bounds when White Pivot initiates a legal block. Though Red Jammer fell small, their forward momentum back onto the track means that they are a safety risk for more than just a “small” space. White Blocker’s loss of position as a result of that risk is enough to warrant a penalty.",
       "keep_in_mind": [],
       "tags": [
         "falling-small",
@@ -697,7 +720,7 @@
       "id": "C4.1.1.C",
       "rule_ref": "4.1.1",
       "summary": "White Blocker hits the back of Red Pivot with a legal blocking zone, pushing Red Pivot out of a wall. White Jammer passes through as a result.",
-      "scenario": "Red Pivot and two Red Blockers form a three-person wall. White Blocker initiates a block to the back of Red Pivot with a Legal Blocking Zone. Red Pivot does not fall but is pushed out of the center of the wall. White Jammer is able to pass the other two Red Blockers at the hips before Red Pivot reclaims their position.",
+      "scenario": "Red Pivot and two Red Blockers form a three-person wall. White Blocker initiates a block to the back of Red Pivot with a Legal Blocking Zone. Red Pivot does not fall but is pushed out of the center of the\n\nwall. White Jammer is able to pass the other two Red Blockers at the hips before Red Pivot reclaims their position.",
       "outcome": "White Blocker is penalized.",
       "rationale": "White Blocker did not gain advantage from their block to an Illegal Target Zone, but a teammate did: White Jammer earned passes and therefore scored points.",
       "keep_in_mind": [
@@ -714,9 +737,9 @@
       "id": "C4.1.1.D",
       "rule_ref": "4.1.1",
       "summary": "A legal chest-to-chest block causes secondary contact of Red Blocker's upper arm to White Blocker's neck. White Blocker's head jerks back.",
-      "scenario": "Red Blocker initiates a chest-to-chest block against White Blocker. The force of the impact causes secondary contact of Red Blocker's upper arm to White Blocker's neck. White Blocker's head jerks back, but they do not fall off balance or go down.",
+      "scenario": "Red Blocker initiates a chest-to-chest block against White Blocker. The force of the impact causes secondary contact of Red Blocker’s upper arm to White Blocker’s neck. White Blocker’s head jerks back, but they do not fall off balance or go down.",
       "outcome": "Red Blocker is penalized.",
-      "rationale": "Though Red Blocker's hit was to a Legal Target Zone with a Legal Blocking Zone, and White Blocker lost neither position nor advantage, forceful contact to the head or neck should always result in a penalty.",
+      "rationale": "Though Red Blocker’s hit was to a Legal Target Zone with a Legal Blocking Zone, and White Blocker lost neither position nor advantage, forceful contact to the head or neck should always result in a penalty.",
       "keep_in_mind": [
         "Incidental contact to the neck or head that is not forceful and does not have any other impact should not result in a penalty."
       ],
@@ -732,7 +755,7 @@
       "id": "C4.1.1.E",
       "rule_ref": "4.1.1",
       "summary": "Red Blocker skates clockwise. White Blocker steps behind them and positionally blocks their back with a legal target zone.",
-      "scenario": "Red Blocker skates clockwise when White Blocker steps behind them, positionally blocking Red Blocker's back with a Legal Target Zone. Red Blocker stops skating clockwise.",
+      "scenario": "Red Blocker skates clockwise when White Blocker steps behind them, positionally blocking Red Blocker’s back with a Legal Target Zone. Red Blocker stops skating clockwise.",
       "outcome": "No penalty.",
       "rationale": "A Skater cannot be penalized for positionally blocking an Illegal Target Zone. Skaters may be oriented and be moving in various directions during a game.",
       "keep_in_mind": [],
@@ -747,11 +770,11 @@
       "id": "C4.1.1.F",
       "rule_ref": "4.1.1",
       "summary": "White Jammer approaches Red Blocker, who sidesteps and presents their back at the last moment. White Jammer makes contact and knocks Red Blocker down.",
-      "scenario": "White Jammer approaches the rear of the Pack, targeting Red Blocker. Well before impact is made, Red Blocker side-steps, presenting their back. White Jammer makes contact anyway and knocks Red Blocker down.",
+      "scenario": "White Jammer approaches the rear of the Pack, targeting Red Blocker. Well before impact is made, Red Blocker side-steps, presenting their back (an Illegal Target Zone). White Jammer makes contact anyway and knocks Red Blocker down.",
       "outcome": "White Jammer is penalized.",
       "rationale": "Red Blocker established a new position before White Jammer made contact. White Jammer is responsible for their initiated block, regardless of what their original target had been.",
       "keep_in_mind": [
-        "If White Jammer had no reasonable opportunity to avoid Red Blocker's Illegal Target Zone because Red Blocker had presented that Illegal Target Zone at the last moment, Red Blocker would then be initiating with their back. Because White Jammer would not be considered the initiator, no penalty is warranted."
+        "If White Jammer had no reasonable opportunity to avoid Red Blocker’s Illegal Target Zone because Red Blocker had presented that Illegal Target Zone at the last moment, Red Blocker would then be initiating with their back, a Legal Blocking Zone. Because White Jammer would not be considered the initiator, no penalty is warranted."
       ],
       "tags": [
         "back-block",
@@ -764,7 +787,7 @@
       "id": "C4.1.1.G",
       "rule_ref": "4.1.1",
       "summary": "White Jammer skates fast into Red Blocker's back. Red Blocker falls wildly into a White Blocker wall.",
-      "scenario": "White Jammer skates fast and directly into Red Blocker's back, who was not prepared for the contact. Red Blocker falls wildly and slides into the skates of a wall of White Blockers in front of them, who fall.",
+      "scenario": "White Jammer skates fast and directly into Red Blocker’s back, who was not prepared for the contact. Red Blocker falls wildly and slides into the skates of a wall of White Blockers in front of them, who fall.",
       "outcome": "White Jammer is penalized. Red Blocker is not penalized.",
       "rationale": "White Jammer made illegal contact to Red Blocker. Due to this illegal contact, Red Blocker was unable to avoid committing their illegal action and should not be penalized.",
       "keep_in_mind": [],
@@ -779,9 +802,9 @@
       "id": "C4.1.1.H",
       "rule_ref": "4.1.1",
       "summary": "Red Jammer slams very forcefully into White Blocker's back with no attempt to avoid illegal contact. White Blocker does not fall and no position is gained.",
-      "scenario": "Red Jammer skates around the track at a high rate of speed. They slam very forcefully into White Blocker's back without making any attempt to avoid illegal contact. White Blocker, however, does not fall and Red Jammer does not gain position on anybody.",
+      "scenario": "Red Jammer skates around the track at a high rate of speed. They slam very forcefully into White Blocker’s back without making any attempt to avoid illegal contact. White Blocker, however, does not fall and Red Jammer does not gain position on anybody as a result of this action.",
       "outcome": "Red Jammer is penalized and should be considered for an expulsion.",
-      "rationale": "Contact to an opponent's back is illegal, in part because it is unsafe. A flagrant violation of this rule poses a safety hazard which has sufficient impact on the game to expel Red Jammer if judged to be negligent, intentional, or reckless, regardless of whether White Blocker lost position.",
+      "rationale": "Contact to an opponent’s back is illegal, in part because it is unsafe. A flagrant violation of this rule poses a safety hazard to White Blocker, which has sufficient impact on the game to expel Red Jammer if judged to be negligent, intentional, or reckless, regardless of if White Blocker lost position.",
       "keep_in_mind": [],
       "tags": [
         "back-block",
@@ -797,7 +820,7 @@
       "summary": "Red Jammer forcefully back-blocks White Blocker 1. White Blocker 2 assists to keep White Blocker 1 in position.",
       "scenario": "Red Jammer is stuck behind a wall of White Blockers. Red Jammer forcefully blocks White Blocker 1 in the back, but due to a legal assist from White Blocker 2, White Blocker 1 remains in position.",
       "outcome": "Red Jammer is penalized.",
-      "rationale": "Contact to an opponent's back is illegal, in part, because it is unsafe. Red Jammer was in control of their actions and initiated illegal forceful contact to the back of White Blocker 1. This action is penalized regardless of impact or outcome.",
+      "rationale": "Contact to an opponent’s back is illegal, in part, because it is unsafe. Red Jammer was in control of their actions and initiated illegal forceful contact to the back of White Blocker 1. This action is penalized regardless of impact or outcome.",
       "keep_in_mind": [
         "If Red Jammer initiated non-forceful contact to the back of White Blocker 1 with a Legal Blocking Zone, the threshold for a penalty would be that of Illegal Target Zone contact."
       ],
@@ -812,9 +835,9 @@
       "id": "C4.1.1.J",
       "rule_ref": "4.1.1",
       "summary": "White Blocker 2 legally blocks Red Jammer into the back of White Blocker 1 with no opportunity to recover. White Blocker 1 maintains position.",
-      "scenario": "Red Jammer is approaching White Blocker 1. White Blocker 2 initiates a legal block on Red Jammer at the last second, forcing them out of their trajectory and directly into the back of White Blocker 1 without any opportunity to recover. White Blocker 1 receives forceful contact but maintains their position.",
+      "scenario": "Red Jammer is approaching White Blocker 1. White Blocker 2 initiates a legal block on Red Jammer at the last second, forcing them out of their trajectory and directly into the back of White Blocker 1 (without any opportunity to recover before making contact). White Blocker 1 receives forceful contact but maintains their position ahead of Red Jammer and does not otherwise lose position.",
       "outcome": "No penalty.",
-      "rationale": "Red Jammer was hit into the illegal contact with White Blocker 1 by an opponent's legal gameplay; as such, their forceful contact to the back was unavoidable. The illegal contact did not result in any other impact that warranted a penalty.",
+      "rationale": "Red Jammer was hit into the illegal contact with White Blocker 1 by an opponent’s legal gameplay; as such, their forceful contact to the back was unavoidable. The illegal contact did not result in any other impact (such as loss of position) that warranted a penalty.",
       "keep_in_mind": [
         "A Skater is responsible for maintaining control of their body and the contact they initiate as a result of legal gameplay. If White Blocker 1 had lost position, Red Jammer would be penalized.",
         "If Red Jammer made forceful contact to the back of White Blocker 1 due to the assist of a Red teammate, then the contact would be considered avoidable and Red Jammer penalized."
@@ -832,7 +855,7 @@
       "summary": "Red Jammer blocks with forearms fully tucked into their torso, knocking White Blocker out of bounds.",
       "scenario": "Red Jammer initiates a block with their forearms tucked into their torso, to a Legal Target Zone of White Blocker. White Blocker is knocked out of bounds.",
       "outcome": "No penalty.",
-      "rationale": "Red Jammer's forearms were fully tucked into their torso. While forearms are an Illegal Blocking Zone, tucking them into the torso effectively makes them part of the torso, and thus a Legal Blocking Zone.",
+      "rationale": "Red Jammer’s forearms were fully tucked into their torso. While forearms are an Illegal Blocking Zone, tucking them into the torso effectively makes them part of the torso, and thus a Legal Blocking Zone.",
       "keep_in_mind": [],
       "tags": [
         "forearm",
@@ -845,9 +868,9 @@
       "id": "C4.1.2.B",
       "rule_ref": "4.1.2",
       "summary": "White Blocker initiates with their upper arm but momentum causes the elbow to slide into contact. Red Jammer ends up out of bounds.",
-      "scenario": "White Blocker initiates a block against Red Jammer, using their upper arm against a Legal Target Zone. The natural momentum of the impact causes additional contact, sliding down to White Blocker's elbow. Red Jammer ends up out of bounds as a result of the action.",
+      "scenario": "White Blocker initiates a block against Red Jammer, using their upper arm against a Legal Target Zone. The natural momentum of the impact causes additional contact, sliding down to White Blocker’s elbow. Red Jammer ends up out of bounds as a result of the action.",
       "outcome": "No penalty.",
-      "rationale": "White Blocker used their upper arm to initiate the block. Red Jammer's loss of position was a result of a block from a Legal Blocking Zone and not the additional contact that resulted from the momentum of the impact.",
+      "rationale": "White Blocker used their upper arm to initiate the block. Red Jammer’s loss of position was a result of a block from a Legal Blocking Zone and not the additional contact that resulted from the momentum of the impact. Both examples are legal play.",
       "keep_in_mind": [
         "Many legal blocks include incidental or meaningless contact using an Illegal Blocking Zone, or to an Illegal Target Zone. If the illegal contact does not have further impact, no penalty should be assessed."
       ],
@@ -862,11 +885,11 @@
       "id": "C4.1.2.D",
       "rule_ref": "4.1.2",
       "summary": "Red Blocker bends over after being knocked off balance, accidentally placing their head in front of White Jammer. White Jammer stops to avoid contact.",
-      "scenario": "As White Jammer advances, Red Blocker is knocked off balance and into White Jammer's path, bending over and positionally placing their head in front of White Jammer. White Jammer comes to a complete stop to avoid contact with Red Blocker's head.",
+      "scenario": "As White Jammer advances, Red Blocker is knocked off balance and into White Jammer’s path, bending over and positionally placing their head in front of White Jammer. White Jammer comes to a complete stop to avoid contact with Red Blocker’s head.",
       "outcome": "No penalty.",
-      "rationale": "Though White Jammer lost significant momentum as a result of Red Blocker's positional block with an Illegal Blocking Zone (head), unintentional positional blocking with the head does not warrant a penalty.",
+      "rationale": "Though White Jammer lost significant momentum as a result of Red Blocker’s positional block with an Illegal Blocking Zone (head), unintentional positional blocking with the head does not warrant a penalty.",
       "keep_in_mind": [
-        "If Red Blocker had intentionally presented their head in order to slow White Jammer's momentum, or continued to use the threat of harm to their own head as a barrier, Red Blocker should be penalized for unsafe and unsporting conduct."
+        "If Red Blocker had intentionally presented their head in order to slow White Jammer’s momentum, or continued to use the threat of harm to their own head as a barrier, Red Blocker should be penalized for unsafe and unsporting conduct."
       ],
       "tags": [
         "head-block",
@@ -879,7 +902,7 @@
       "id": "C4.1.2.E",
       "rule_ref": "4.1.2",
       "summary": "White Blocker grabs Red Blocker's jersey to avoid falling, significantly slowing Red Blocker in the process.",
-      "scenario": "White Blocker is knocked off balance and grabs hold of Red Blocker's jersey in an attempt to regain their balance. Red Blocker remains standing, but is significantly slowed by the pulling at their jersey. White Blocker regains their balance.",
+      "scenario": "White Blocker is knocked off balance and grabs hold of Red Blocker’s jersey in an attempt to regain their balance. Red Blocker remains standing, but is significantly slowed by the pulling at their jersey. White Blocker regains their balance.",
       "outcome": "White Blocker is penalized.",
       "rationale": "Assists taken from an opponent, such as whips or braces, are penalizable if they result in some kind of advantage for the initiator or disadvantage for the opponent. White Blocker significantly slowed Red Blocker by using an Illegal Blocking Zone.",
       "keep_in_mind": [],
@@ -909,7 +932,7 @@
       "id": "C4.1.2.G",
       "rule_ref": "4.1.2",
       "summary": "White Blocker faces clockwise with arms outstretched and blocks Red Jammer using their entire arm including elbow and forearm. Red Jammer stops.",
-      "scenario": "Red Jammer has passed all but the foremost White Blocker. White Blocker faces clockwise with their arms outstretched and initiates a block against Red Jammer with the entirety of their arm: upper arm, elbow, and forearm. Red Jammer is not knocked down, but they are brought to a stop.",
+      "scenario": "Red Jammer has passed all but the foremost White Blocker. White Blocker faces clockwise with their\n\narms outstretched and initiates a block against Red Jammer with the entirety of their arm: upper arm, elbow, and forearm. Red Jammer is not knocked down, but they are brought to a stop.",
       "outcome": "White Blocker is penalized.",
       "rationale": "Though Red Jammer did not lose position, their progress was significantly impeded by Illegal Blocking Zones.",
       "keep_in_mind": [
@@ -926,7 +949,7 @@
       "id": "C4.1.2.H",
       "rule_ref": "4.1.2",
       "summary": "Red Jammer grabs White Pivot's jersey while being blocked toward the outside line, staying in bounds but not gaining position.",
-      "scenario": "Red Jammer enters the rear of the pack and is blocked towards the outside line by White Pivot. Red Jammer is knocked off-balance and grabs onto White Pivot's jersey, which prevents Red Jammer from stepping out of bounds. Red Jammer regains their balance in-bounds, without gaining relative position. White Pivot remains stable and unimpeded.",
+      "scenario": "Red Jammer enters the rear of the pack and is blocked towards the outside line by White Pivot. Red Jammer is knocked off-balance and grabs onto White Pivot’s jersey, which prevents Red Jammer from stepping out of bounds. Red Jammer regains their balance in-bounds, without gaining relative position. White Pivot remains stable and unimpeded.",
       "outcome": "Red Jammer is penalized.",
       "rationale": "Red Jammer used their forearms to maintain an in-bounds position that they otherwise would not have been able to maintain.",
       "keep_in_mind": [],
@@ -941,11 +964,11 @@
       "id": "C4.1.2.I",
       "rule_ref": "4.1.2",
       "summary": "Red Pivot loses balance due to a teammate's action and grabs White Blocker's arm to avoid falling.",
-      "scenario": "Red Pivot loses their balance due to a teammate's action and grabs onto White Blocker's arm \u2014 which prevents Red Pivot from falling down.",
+      "scenario": "Red Pivot loses their balance due to a teammate’s action and grabs onto White Blocker’s arm - which prevents Red Pivot from falling down.",
       "outcome": "Red Pivot is penalized.",
       "rationale": "Red Pivot used their forearms to maintain an upright position that they otherwise would not have been able to maintain.",
       "keep_in_mind": [
-        "If White Blocker had grabbed onto and stabilized Red Pivot, preventing Red Pivot from falling \u2014 no penalty would be warranted."
+        "If White Blocker had grabbed onto and stabilized Red Pivot, preventing Red Pivot from falling - no penalty would be warranted."
       ],
       "tags": [
         "forearm",
@@ -960,9 +983,9 @@
       "summary": "White Pivot stands still on toe stops and blocks Red Jammer, who counter-blocks but is brought to a stop.",
       "scenario": "White Pivot stands still on their toe stops and initiates a block against Red Jammer. Red Jammer counter-blocks, but is brought to a stop by the White Pivot, who remains stopped.",
       "outcome": "White Pivot is penalized.",
-      "rationale": "If Red Jammer loses position or has their momentum or trajectory severely affected by a block initiated in an illegal way, the initiator should receive a penalty. If White Pivot had returned to counterclockwise motion while blocking, no penalty would be warranted.",
+      "rationale": "If Red Jammer loses position or has their momentum or trajectory severely affected by a block initiated in an illegal way, the initiator should receive a penalty. In this example, if White Pivot had not maintained their stopped position, but had returned to counterclockwise motion while blocking, no penalty would be warranted.",
       "keep_in_mind": [
-        "It is not the use of toe stops that warrants penalization in this scenario, but the fact that the White Pivot had an impact on the Red Jammer while stopped. If White Pivot had continued to move counterclockwise on the track while on their toe stops, no penalty would have been warranted."
+        "It is not the use of toe stops that warrants penalization in this scenario, but the fact that the White Pivot had an impact on the Red Jammer while stopped. If White Pivot had continued to move counter-clockwise on the track while on their toe stops, no penalty would have been warranted."
       ],
       "tags": [
         "stop-block",
@@ -975,7 +998,7 @@
       "id": "C4.1.3.B",
       "rule_ref": "4.1.3",
       "summary": "Red Blocker legally blocks White Blocker until one skate is out of bounds, then re-initiates a new block that knocks White Blocker fully down.",
-      "scenario": "Red Blocker uses a Legal Blocking Zone to initiate a block to a Legal Target Zone of White Blocker. White Blocker is pushed until one skate is in bounds and one skate is out of bounds. Red Blocker continues to block until White Blocker is fully out of bounds. Red Blocker re-initiates a new block that knocks White Blocker down.",
+      "scenario": "Red Blocker uses a Legal Blocking Zone to initiate a block to a Legal Target Zone of White Blocker.\n\nWhite Blocker is pushed until one skate is in bounds and one skate is out of bounds. Red Blocker continues to block until White Blocker is fully out of bounds. Red Blocker re-initiates a new block that knocks White Blocker down.",
       "outcome": "Red Blocker is penalized.",
       "rationale": "A Skater should not expect to be blocked while out of bounds. It is only legal to block a Skater who is in bounds or straddling. The secondary block is what warrants the penalty.",
       "keep_in_mind": [],
@@ -1022,7 +1045,7 @@
       "summary": "Red Jammer contacts White Jammer before the Jam-Starting Whistle, knocking White Jammer out of bounds.",
       "scenario": "White Jammer, having lined up just behind the Jammer Line, is contacted by Red Jammer attempting to take the same space. White Jammer falls Out of Bounds before the Jam-Starting Whistle.",
       "outcome": "Red Jammer is penalized for blocking before the Jam start. White Jammer is allowed to participate in this Jam. Red Jammer has lost the ability to earn Lead Jammer status in this Jam.",
-      "rationale": "It is illegal to block before a Jam has begun. Because White Jammer was not in a legal starting position due to an opponent's illegal action, they are allowed to participate in the Jam.",
+      "rationale": "It is illegal to block before a Jam has begun. Because White Jammer was not in a legal starting position due to an opponent’s illegal action, they are allowed to participate in the Jam.",
       "keep_in_mind": [
         "Should White Jammer be blocked into a false starting position rather than Out of Bounds, White Jammer is allowed to participate in the Jam (without the need to Yield). Red Jammer would still receive a penalty for blocking before the Jam start.",
         "A Skater penalized before the start of a Jam should serve their penalty in the Role in which they appear to be acting."
@@ -1041,9 +1064,9 @@
       "summary": "White Blocker initiates contact during the Jam-Ending Whistle. Red Jammer stumbles significantly after the whistle completes.",
       "scenario": "White Blocker initiates contact to Red Jammer during the Jam-Ending Whistle. Red Jammer stumbles significantly off balance after the Jam-Ending Whistle.",
       "outcome": "White Blocker initiated legally before the end of the Jam. No penalty.",
-      "rationale": "It is illegal to block after a Jam has ended. It is, however, legal to initiate during the Jam-Ending Whistle, even if the outcome happens once the Jam has ended.",
+      "rationale": "It is illegal to block after a Jam has ended. It is, however, legal to initiate during the JamEnding Whistle, even if the outcome happens once the Jam has ended.",
       "keep_in_mind": [
-        "Should that same hit start after the Jam-Ending Whistle, Red Jammer need not fall nor be knocked Out of Bounds. Being hit significantly off balance after the Jam-Ending Whistle is sufficient to penalize the initiator.",
+        "Should that same hit start after the Jam-Ending Whistle, Red Jammer need not fall nor be knocked Out of Bounds. Being hit significantly off balance after the Jam-Ending Whistle is sufficient to penalize the initiator of that hit.",
         "A Skater penalized after the end of the Jam should serve their penalty in the Role in which they appear to be acting."
       ],
       "tags": [
@@ -1057,11 +1080,11 @@
       "id": "C4.1.3.G",
       "rule_ref": "4.1.3",
       "summary": "White Pivot receives an Out of Play warning then blocks Red Jammer. Red Jammer counter-blocks and White Pivot falls.",
-      "scenario": "Red Jammer is 18 ft ahead of the Pack alongside White Pivot. An Official gives an Out of Play warning to both players. White Pivot continues to skate alongside Red Jammer, and then blocks Red Jammer, making hip-to-hip contact. Red Jammer counter-blocks White Pivot in an attempt to remain upright and continue on their way. White Pivot falls as a result.",
+      "scenario": "Red Jammer is 18 ft (5.48 m) ahead of the Pack alongside White Pivot. They continue to skate, and an Official gives an Out of Play warning to both players. White Pivot continues to skate alongside Red Jammer, and then blocks Red Jammer, making hip-to-hip contact. Red Jammer counter-blocks White Pivot in an attempt to remain upright and continue on their way. White Pivot falls as a result.",
       "outcome": "White Pivot is penalized. Red Jammer is not.",
-      "rationale": "White Pivot received an Out of Play warning and failed to immediately attempt to return to the Engagement Zone; rather, they continued to block Red Jammer. Skaters who are illegally blocked while Out of Play may legally counter-block.",
+      "rationale": "White Pivot received an Out of Play warning and failed to immediately attempt to return to the Engagement Zone; rather, they continued to block Red Jammer. Skaters who are illegally blocked while Out of Play may legally counter-block, so Red Jammer’s actions do not warrant a penalty.",
       "keep_in_mind": [
-        "If Red Jammer's action was not a counter-block, but instead a separate and distinct initiation of a block, Red Jammer should be penalized as White Pivot falling is enough impact to warrant a penalty for illegal contact."
+        "If Red Jammer’s action was not a counter-block, but instead a separate and distinct initiation of a block, Red Jammer should be penalized as White Pivot falling is enough impact to warrant a penalty for illegal contact."
       ],
       "tags": [
         "out-of-play",
@@ -1074,12 +1097,10 @@
       "id": "C4.1.3.H",
       "rule_ref": "4.1.3",
       "summary": "White Pivot blocks Red Jammer after an Out of Play warning. Red Jammer counter-blocks then continues actively blocking until White Pivot is out of bounds.",
-      "scenario": "Red Jammer is 18 ft ahead of the pack. White Pivot is alongside Red Jammer. An Official gives an Out of Play warning to both players. After the warning is given, White Pivot initiates a block to Red Jammer. Red Jammer counter-blocks and is able to maintain their upright status and their momentum. Red Jammer then actively continues blocking White Pivot until White Pivot is Out of Bounds.",
+      "scenario": "Red Jammer is 18 ft (5.48 m) ahead of the pack. White Pivot is alongside Red Jammer. They skate forward, and an Official gives an Out of Play warning to both players. After the warning is given, White Pivot initiates a block to Red Jammer. Red Jammer counter-blocks and is able to maintain their upright status and their momentum. Red Jammer then actively continues blocking White Pivot until White Pivot is Out of Bounds.",
       "outcome": "Both players are penalized.",
-      "rationale": "White Pivot illegally failed to immediately attempt to return to the Engagement Zone. Skaters who are illegally blocked while Out of Play may legally counter-block, so Red Jammer's initial counter-block does not warrant a penalty. However, Red Jammer's continued blocking after absorbing the impact should be considered a new block, which was illegal against an Out of Play skater.",
-      "keep_in_mind": [
-        "Initiating a block after an Out of Play warning is, by definition, failing to attempt to return to the Engagement Zone. As such, White Pivot should be penalized for maintaining an illegal position regardless of the impact of their block on Red Jammer."
-      ],
+      "rationale": "Both players received an Out of Play warning. White Pivot illegally failed to immediately attempt to return to the engagement zone. Skaters who are illegally blocked while Out of Play may legally counter-block, so Red Jammer’s initial counter-block does not warrant a penalty. Red Jammer’s continued blocking after absorbing the impact of White Pivot’s block should be considered a new block. While Jammers are never considered Out of Play, blocking an Out of Play skater is illegal for all Skaters. By significantly altering White Pivot’s trajectory, Red Jammer’s illegal block had sufficient impact to warrant a penalty. Keep In Mind: Initiating a block after an Out of Play warning is, by definition, failing to attempt to return to the engagement zone. As such, White Pivot should be penalized for maintaining an illegal position regardless of the impact of their block on the Red Jammer.",
+      "keep_in_mind": [],
       "tags": [
         "out-of-play",
         "counter-block",
@@ -1093,7 +1114,7 @@
       "summary": "White Blocker is out of bounds and actively absorbs a collision from a Red Blocker who was knocked off the track. Red Blocker falls.",
       "scenario": "White Blocker is standing while legally out of bounds. A Red Blocker is blocked off the track and collides with the White Blocker. White Blocker moves toward the Red Blocker and brings up their arms to actively absorb the force of the contact and protect both Skaters. Red Blocker falls to the ground as a result of the contact.",
       "outcome": "No penalty.",
-      "rationale": "While White Blocker moved towards the opposing block, the purpose of the action was to actively absorb the contact, rather than intentionally force the Red Blocker down. The White Blocker's action was taken in the interest of safety.",
+      "rationale": "While White Blocker moved towards the opposing block, the purpose of the action was to actively absorb the contact, rather than intentionally force the Red Blocker down. The White Blocker’s action was taken in the interest of safety, and should not be penalized. The preservation of player safety supersedes any gameplay concern not already enumerated in the Rules.",
       "keep_in_mind": [],
       "tags": [
         "actively-absorbing",
@@ -1106,11 +1127,11 @@
       "id": "C4.1.3.J",
       "rule_ref": "4.1.3",
       "summary": "White Jammer takes a whip off White Pivot, abruptly reducing White Pivot's speed enough to cause a No Pack.",
-      "scenario": "White Pivot is currently the only White Blocker in the Pack. White Jammer approaches White Pivot and initiates an assist off White Pivot, which abruptly reduces White Pivot's speed enough to cause them to fall back more than 10 ft.",
+      "scenario": "White Pivot is currently the only white Blocker in the Pack. White Jammer approaches White Pivot and\n\ninitiates an assist off White Pivot, which abruptly reduces White Pivot’s speed enough to cause them to fall back more than 10 ft. (3 meters).",
       "outcome": "Officials declare a No Pack situation. No penalty.",
       "rationale": "The destruction of the Pack occurred as a result of normal gameplay. It should not be considered an illegal Pack destruction.",
       "keep_in_mind": [
-        "Taking or giving assists are considered parts of normal gameplay. If the White Jammer instead pushed White Pivot Out of Bounds or to the ground, White Jammer should be penalized. This action is considered a deliberate destruction of the Pack, and the White Jammer should be issued a penalty for Unsporting Conduct."
+        "Taking or giving assists are considered parts of normal gameplay. If the White Jammer instead pushed White Pivot Out of Bounds or to the ground, White Jammer should be penalized instead. This action is considered a deliberate destruction of the Pack, and the White Jammer should be issued a penalty for Unsporting Conduct (Misconduct)."
       ],
       "tags": [
         "assist",
@@ -1124,7 +1145,7 @@
       "id": "C4.1.4.A",
       "rule_ref": "4.1.4",
       "summary": "Middle Red Blocker hooks arms with outside Red Blocker. White Pivot attempts to drive between them and fails.",
-      "scenario": "Red Blockers form a three-person wall, separating White Pivot from the other White Blockers. The middle Red Blocker hooks arms with the outside Red Blocker. White Pivot initiates a block against the middle and outside Red Blockers, attempting to drive between the two Skaters, but fails to make any progress.",
+      "scenario": "Red Blockers form a three-person wall, separating White Pivot from the other White Blockers. The middle Red Blocker hooks arms with the outside Red Blocker. White Pivot initiates a block against the middle and outside Red Blockers, attempting to drive between the two Skaters, but fails to make any progress. All Blockers remain upright.",
       "outcome": "The middle Red Blocker was most responsible for hooking arms and should receive a penalty.",
       "rationale": "The middle and outside Red Blockers gained an advantage by creating a link that White Pivot cannot break. Once White Pivot challenged that link, their action became worthy of a penalty.",
       "keep_in_mind": [
@@ -1142,11 +1163,11 @@
       "id": "C4.1.5.A",
       "rule_ref": "4.1.5",
       "summary": "White Jammer intentionally and forcefully knees Red Blocker in the buttocks while stuck behind a wall.",
-      "scenario": "White Jammer is stuck behind a Red wall. They push forward, but cannot find a way to break through. They strike their knee into Red Blocker's buttocks. Red Blocker stumbles but does not go down or out. White Jammer fails to break through the wall.",
+      "scenario": "White Jammer is stuck behind a Red wall. They push forward, but cannot find a way to break through. They strike their knee into Red Blocker’s buttocks. Red Blocker stumbles but does not go down or out. White Jammer fails to break through the wall.",
       "outcome": "White Jammer is penalized.",
       "rationale": "A Skater who intentionally and forcefully jabs an opponent with their elbow or strikes with their knee should receive a penalty regardless of whether it leads to a loss of position or advantage. This action is unsafe and unsporting.",
       "keep_in_mind": [
-        "The fact that this action was intentional is only part of the reason a penalty is warranted. Intentional actions designed to harm an opponent should always be penalized."
+        "The fact that this action was intentional is only part of the reason a penalty is warranted. Intentional illegal action is not always penalized even though it is tacitly unsporting. Intentional actions designed to harm an opponent should always be penalized."
       ],
       "tags": [
         "unsporting-contact",
@@ -1162,7 +1183,7 @@
       "summary": "Red Blocker knocks down White Blocker and then positions their chest above them to prevent White Blocker from standing.",
       "scenario": "Red Blocker knocks down White Blocker. Red Blocker bends over at the waist, positioning their chest above White Blocker in such a way as to prevent White Blocker from standing.",
       "outcome": "Red Blocker is penalized.",
-      "rationale": "In this instance, Red Blocker intentionally positionally blocks a downed opponent. White Blocker cannot initiate a block from a downed status and thus cannot reestablish their position without earning a penalty of their own. This is unsporting conduct.",
+      "rationale": "Though most positional blocks don’t typically result in a penalty, in this instance, Red Blocker intentionally positionally blocks a downed opponent. White Blocker cannot initiate a block from a downed status and thus cannot reestablish their position without earning a penalty of their own. This is unsporting conduct on the part of Red Blocker.",
       "keep_in_mind": [],
       "tags": [
         "unsporting-contact",
@@ -1180,7 +1201,7 @@
       "rationale": "Falling onto an opponent is extremely dangerous and is an extraordinary physical threat to Red Blocker. Even though White Blocker was attempting to initiate into a Legal Target Zone, intentionally falling onto an opponent is unsporting conduct.",
       "keep_in_mind": [
         "A Skater who is crouched with one hand on the floor does not count as down.",
-        "Skaters accidentally falling on each other due to natural gameplay is not unsporting conduct."
+        "Skaters accidentally falling on each other due to natural gameplay is not unsporting conduct"
       ],
       "tags": [
         "unsporting-contact",
@@ -1198,7 +1219,7 @@
       "rationale": "It is dangerous to block a Skater onto or over another downed Skater.",
       "keep_in_mind": [
         "If Red Blocker had committed to their block before White Blocker had fallen down, a penalty would not be warranted.",
-        "If contact between White Pivot and White Blocker was not directly caused by Red Blocker's actions (for example, there was a significant distance between White Pivot and White Blocker), a penalty would not be warranted."
+        "If contact between White Pivot and White Blocker was not directly caused by Red Blocker’s actions (for example, there was a significant distance between White Pivot and White Blocker), a penalty would not be warranted."
       ],
       "tags": [
         "unsporting-contact",
@@ -1211,12 +1232,12 @@
       "id": "C4.1.5.E",
       "rule_ref": "4.1.5",
       "summary": "White Blocker traps Red Jammer's shoulder between their inner upper arm and body and applies constant downward force.",
-      "scenario": "White Blocker and White Pivot make a two person wall with their shoulders touching. Red Jammer attempts to get between them by initiating with their shoulder. White Pivot disengages while White Blocker adjusts so that Red Jammer's shoulder is between the White Blocker's inner upper arm and body. White Blocker then exerts constant downward force on Red Jammer's shoulder.",
+      "scenario": "White Blocker and White Pivot make a two person wall with their shoulders touching. Red Jammer attempts to get between them by initiating with their shoulder. White Pivot disengages while White Blocker adjusts so that Red Jammer’s shoulder is between the White Blocker’s inner upper arm and body. White Blocker then exerts constant downward force on Red Jammer’s shoulder.",
       "outcome": "White Blocker is penalized.",
-      "rationale": "Legal forms of blocking do not include holding an opponent, even when that contact is otherwise made with legal Blocking Zones and/or to legal Target Zones. A Skater must be able to disengage from a one-on-one block without breaking an opponent's hold.",
+      "rationale": "Legal forms of blocking do not include holding an opponent, even when that contact is otherwise made with legal Blocking Zones and/or to legal Target Zones. A Skater must be able to disengage from a one-on-one block without breaking an opponent’s hold.",
       "keep_in_mind": [
         "During the course of normal gameplay Skaters may unintentionally become entangled. If this contact is accidental, such as due to two Skaters falling, no penalty is warranted.",
-        "If instead of applying constant downwards force, White Blocker rapidly applied their entire body weight downwards onto Red Jammer's shoulder, White Blocker should be expelled."
+        "If instead of applying constant downwards force, White Blocker rapidly applied their entire body weight downwards onto Red Jammer’s shoulder, White Blocker should be expelled."
       ],
       "tags": [
         "unsporting-contact",
@@ -1229,9 +1250,9 @@
       "id": "C4.1.5.F",
       "rule_ref": "4.1.5",
       "summary": "White Pivot intentionally traps Red Blocker's leg between their upper arm and body and does not release when Red Blocker tries to remove their leg.",
-      "scenario": "Red Blocker initiates a shoulder-to-shoulder block against White Pivot. As White Pivot moves laterally, Red Blocker adjusts and places their leg in front of White Pivot's leg so that the back of their upper thigh initiates to the front of White Pivot's hip. White Pivot leans over and traps Red Blocker's thigh between their upper arm and body and does not release the contact when Red Blocker attempts to remove their leg.",
+      "scenario": "Red Blocker initiates a shoulder-to-shoulder block against White Pivot. As White Pivot moves laterally, Red Blocker adjusts and places their leg in front of White Pivot’s leg so that the back of their upper thigh initiates to the front of White Pivot’s hip. White Pivot leans over and traps Red Blocker’s thigh between their upper arm and body and does not release the contact when Red Blocker attempts to remove their leg.",
       "outcome": "White Pivot is expelled from the game.",
-      "rationale": "Restricting opponents by intentionally trapping or grabbing is considered outside the realm of normal gameplay. Grabbing an opponent's leg in this way is an additionally dangerous and unsporting tactic, as it directly affects a Skater's ability to balance and maintain a safe skating stance.",
+      "rationale": "Restricting opponents by intentionally trapping or grabbing is considered outside the realm of normal gameplay. Grabbing an opponent’s leg in this way is an additionally dangerous and unsporting tactic, as it directly affects a Skater’s ability to balance and maintain a safe skating stance.",
       "keep_in_mind": [],
       "tags": [
         "unsporting-contact",
@@ -1276,8 +1297,8 @@
       "rule_ref": "4.2.1",
       "summary": "Red Pivot is the only Red Blocker and intentionally skates Out of Bounds, destroying the Pack.",
       "scenario": "Red Pivot is the only Red Blocker on the track. Red Pivot intentionally skates Out of Bounds.",
-      "outcome": "Officials declare a No Pack situation. Red Pivot is instructed to remain on the track and is penalized.",
-      "rationale": "Red Pivot's illegal action (stepping Out of Bounds) destroyed the Pack. Red Pivot is the final remaining Red Blocker, and must remain on the track so that a Pack can be formed.",
+      "outcome": "Officials declare a No Pack situation. Red Pivot is instructed to remain on the track, and is penalized.",
+      "rationale": "Red Pivot’s illegal action (stepping Out of Bounds) destroyed the Pack. Red Pivot is the final remaining Red Blocker, and must remain on the track so that a Pack can be formed.",
       "keep_in_mind": [],
       "tags": [
         "no-pack",
@@ -1290,9 +1311,9 @@
       "id": "C4.2.1.D",
       "rule_ref": "4.2.1",
       "summary": "Red Pivot is forced Out of Bounds. All other Blockers skate ahead of them. Red Pivot still does not return to the track.",
-      "scenario": "Red Pivot is the only Red Blocker on the track, and is being blocked by White Pivot and White Blocker. White Pivot forces Red Pivot Out of Bounds, and Officials declare a No Pack situation. White Pivot and White Blocker immediately skate ahead of Red Pivot. Red Pivot still does not return to the track. As a result, the Pack is unable to be reformed.",
+      "scenario": "Red Pivot is the only Red Blocker on the track, and is being blocked by White Pivot and White Blocker. White Pivot forces Red Pivot Out of Bounds, and Officials declare a No Pack situation. White Pivot and White Blocker immediately skate ahead of Red Pivot, who is now behind all other Blockers. Red Pivot still does not return to the track. As a result, the Pack is unable to be reformed.",
       "outcome": "Red Pivot is penalized and instructed to return to and remain on the track until another Red Blocker returns to the Pack.",
-      "rationale": "Red Pivot was able to legally reenter the track once all other Blockers were ahead of them. Red Pivot did not heed the warning from the Officials, and thus should be penalized for preventing a Pack from reforming.",
+      "rationale": "Red Pivot was able to legally reenter the track once all other Blockers were ahead of them. Red Pivot is not required to return to the track until they can legally do so, and is not required to skate\n\nclockwise in order to find a legal reentry point. In this scenario, however, Red Pivot had a legal opportunity because all other Blockers were ahead of them. Further, Red Pivot did not heed the warning from the Officials, and thus should be penalized for preventing a Pack from reforming. As Red Pivot is the final remaining Red Blocker, they must remain on the track so that a Pack can be formed.",
       "keep_in_mind": [
         "If White Pivot or White Blocker had not skated forward, one or both of them would have been penalized instead of Red Pivot for preventing a Pack from reforming by forcing the only opposing Blocker to remain Out of Bounds."
       ],
@@ -1307,9 +1328,9 @@
       "id": "C4.2.1.E",
       "rule_ref": "4.2.1",
       "summary": "Red Pivot takes themselves off the track to fix a slipped knee pad, creating a No Pack.",
-      "scenario": "Red Pivot is skating 9 ft behind the White Blockers and 9 ft ahead of the other Red Blockers. Their knee pad slips down their leg, and is no longer protecting their knee. Red Pivot takes themself off the track in order to adjust their equipment, creating a No Pack situation.",
+      "scenario": "Red Pivot is skating 9 ft (2.74 m) behind the White Blockers and 9 ft (2.74 m) ahead of the other Red Blockers. Their knee pad slips down their leg, and is no longer protecting their knee. Red Pivot takes themself off the track in order to adjust their equipment, creating a No Pack situation.",
       "outcome": "Officials declare a No Pack situation. No penalty.",
-      "rationale": "Although Red Pivot's actions directly caused a No Pack situation, it was in order to resolve a safety issue. Skaters should not be penalized for rectifying a safety issue.",
+      "rationale": "Although Red Pivot’s actions directly caused a No Pack situation, it was in order to resolve a safety issue. Skaters should not be penalized for rectifying a safety issue.",
       "keep_in_mind": [],
       "tags": [
         "no-pack",
@@ -1368,9 +1389,9 @@
       "id": "C4.2.1.I",
       "rule_ref": "4.2.1",
       "summary": "All Red Blockers remain stationary at the Jam start while all White Blockers skate counterclockwise, creating a No Pack.",
-      "scenario": "Immediately after the Jam-Starting Whistle, all Red Blockers remain stationary. All White Blockers skate counterclockwise, resulting in more than 10 ft between any White Blocker and Red Blocker.",
+      "scenario": "Immediately after the Jam-Starting Whistle, all Red Blockers remain stationary. All White Blockers skate counterclockwise, resulting in more than 10 ft (3.05 m) between any White Blocker and Red Blocker.",
       "outcome": "Officials declare a No Pack situation. No penalty. Officials assess penalties for failing to reform a Pack, as warranted.",
-      "rationale": "For a penalty to be issued, one team or Skater must be clearly at fault for the Pack's destruction. In this scenario, neither team's speed has changed from the start: Red team remained stationary, while White team skated counterclockwise when the Jam started. No penalty is warranted.",
+      "rationale": "Destroying the Pack penalties are issued when Skaters illegally create a No Pack situation. For a penalty to be issued, one team or Skater must be clearly at fault for the Pack’s destruction. Usually, this will be the team or Skater who changes their speed from the established speed of the Pack. In this\n\nscenario, neither team’s speed has changed: Red team remained stationary, while White team skated counterclockwise when the Jam started. As there has been no speed change, neither team is clearly at fault for the Pack’s destruction. No penalty is warranted.",
       "keep_in_mind": [
         "Had White skated clockwise at the start of the jam and caused a No Pack, a penalty for destroying the pack should be issued, as destroying the pack by skating clockwise is illegal when there is no established pack speed."
       ],
@@ -1385,7 +1406,7 @@
       "id": "C4.2.1.J",
       "rule_ref": "4.2.1",
       "summary": "No Pack is declared. One White Blocker skates forward to reform while the other three continue blocking Red Jammer.",
-      "scenario": "White Blockers form a four-person wall, blocking Red Jammer at the rear of the Pack when No Pack is declared. One White Blocker skates forward to reform the Pack but does not do so for several seconds. The remaining three White Blockers continue to actively block Red Jammer before the Pack is declared reformed.",
+      "scenario": "White Blockers form a four-person wall, blocking Red Jammer at the rear of the Pack when “No Pack” is declared. One White Blocker skates forward to reform the Pack but does not do so for several seconds. The remaining three White Blockers continue to actively block Red Jammer before the Pack is declared reformed.",
       "outcome": "One of the White Blockers who was actively blocking Red Jammer should be penalized.",
       "rationale": "All Blockers are obligated to attempt to reform the Pack, not just those who choose to do so. Continued blocking during a No Pack situation is considered a failure to attempt to reform the Pack.",
       "keep_in_mind": [
@@ -1422,10 +1443,10 @@
       "summary": "Red Blocker's penalty time completes but they remain in the Penalty Box after being properly released.",
       "scenario": "Red Blocker is serving a penalty in the Penalty Box. Once their time completes, they are informed by the Penalty Box Official with the proper verbal cue, but Red Blocker remains within the designated Penalty Box area. The Penalty Box Official notices and warns Red Blocker to return to play. Red Blocker acknowledges the warning but remains in the Penalty Box area.",
       "outcome": "Red Blocker is penalized.",
-      "rationale": "By remaining in the Penalty Box beyond their allotted penalty time, a Skater maintains an unblockable position. The Skater's maintained position also interferes with normal Penalty Box operation.",
+      "rationale": "By remaining in the Penalty Box beyond their allotted penalty time, a Skater maintains an unblockable position. The Skater’s maintained position also interferes with normal Penalty Box operation (see Scenario C4.2.4.F).",
       "keep_in_mind": [
-        "If a Skater has been warned multiple times within the course of a game but returns to play after each warning, the Skater should receive a penalty.",
-        "Skaters who maintain their position in or near the Penalty Box momentarily due to safety reasons before they return to play should not be warned or penalized."
+        "If a Skater has been warned multiple times within the course of a game but returns to play after each warning, the Skater should receive a penalty. By repeatedly requiring a warning for the same action, the Skater is continually interfering with normal Penalty Box operation.",
+        "Skaters who maintain their position in or near the Penalty Box momentarily due to safety reasons (for example, waiting for an Outside Pack Referee to pass) before they return to play should not be warned or penalized."
       ],
       "tags": [
         "penalty-box",
@@ -1438,11 +1459,11 @@
       "id": "C4.2.1.M",
       "rule_ref": "4.2.1",
       "summary": "No Pack declared. White Blockers continue blocking Red Jammer with no attempt to reform. Red Blockers in the rear remain stationary.",
-      "scenario": "White Blockers form a four-person wall blocking Red Jammer at the front of the Pack when No Pack is declared. White Blockers continue to engage the Red Jammer and make no attempt to reform the Pack. Red Blockers in the rear of the Pack remain stationary for several seconds until one of the Red Blockers skates forward to reform the Pack.",
+      "scenario": "White Blockers form a four-person wall blocking Red Jammer at the front of the Pack when “No Pack” is declared. White Blockers continue to engage the Red Jammer and make no attempt to reform the Pack. Red Blockers in the rear of the Pack remain stationary for several seconds until one of the Red Blockers skates forward to reform the Pack.",
       "outcome": "One White Blocker and one Red Blocker should be penalized.",
       "rationale": "All Blockers are obligated to attempt to reform the Pack, not just those who choose to do so.",
       "keep_in_mind": [
-        "Even if multiple blockers fail to reform the Pack, only one blocker per team should be penalized, as it is the team's responsibility to maintain a Pack.",
+        "Even if multiple blockers fail to reform the Pack, only one blocker per team should be penalized, as it is the team’s responsibility to maintain a Pack.",
         "Both teams should be penalized again if the Pack continues to remain undefined."
       ],
       "tags": [
@@ -1460,7 +1481,7 @@
       "outcome": "No penalty.",
       "rationale": "The Jammer or Pivot may briefly adopt a Down position to recover a helmet cover on the ground. There is not sufficient impact on gameplay if the Skater immediately acts to reestablish themself in a legal position after the recovery.",
       "keep_in_mind": [
-        "Assuming a downed position to recover a helmet cover is only legal if it is brief and has no other impact on gameplay. A Skater who fails to immediately return to a blockable status should be penalized."
+        "Assuming a downed position to recover a helmet cover is only legal if it is brief and has no other impact on gameplay. A Skater who fails to immediately return to a blockable status (by crawling or continued kneeling, for example) should be penalized."
       ],
       "tags": [
         "star",
@@ -1488,11 +1509,11 @@
       "id": "C4.2.2.B",
       "rule_ref": "4.2.2",
       "summary": "No Pack is declared. White Pivot illegally blocks Red Pivot Out of Bounds. Red Pivot reenters behind White Pivot but ahead of White Blocker.",
-      "scenario": "White Pivot and White Blocker are ahead of Red Pivot when No Pack is declared. Red Pivot is forced Out of Bounds by White Pivot. White Blocker skates clockwise behind both Skaters. Red Pivot reenters the track behind White Pivot and ahead of White Blocker.",
+      "scenario": "White Pivot and White Blocker are ahead of Red Pivot when “No Pack” is declared. Red Pivot is forced Out of Bounds by White Pivot. White Blocker skates clockwise behind both Skaters. Red Pivot reenters the track behind White Pivot and ahead of White Blocker.",
       "outcome": "White Pivot and Red Pivot are both penalized.",
       "rationale": "White Pivot is penalized because they executed a block while Out of Play (due to the No Pack situation). Accordingly, Red Pivot was not required to reenter behind White Pivot. Even though there is no Pack, White Blocker had superior position when Red Pivot went out of bounds. Red Pivot must enter behind White Blocker.",
       "keep_in_mind": [
-        "If White Blocker were more than 20 ft from the last defined Pack, Red Pivot should not be penalized."
+        "If White Blocker were more than 20 ft (6.10 m) from the last defined Pack, Red Pivot should not be penalized."
       ],
       "tags": [
         "cutting",
@@ -1586,9 +1607,9 @@
       "id": "C4.2.2.H",
       "rule_ref": "4.2.2",
       "summary": "Red Jammer is blocked Out of Bounds 18 ft ahead of a stopped Pack. White Pivot and Blocker go Out of Play, are warned, then skate back. Red Jammer reenters ahead of both.",
-      "scenario": "White Pivot, White Blocker, and Red Jammer are 18 ft ahead of a stopped Pack. Red Jammer is blocked Out of Bounds by White Pivot. White Pivot and White Blocker roll forward, and both are given an Out of Play warning. White Pivot and White Blocker skate clockwise back to the Pack. Red Jammer reenters the track ahead of both Skaters.",
+      "scenario": "White Pivot, White Blocker, and Red Jammer are 18 ft (5.48 m) ahead of a stopped Pack. Red Jammer is blocked Out of Bounds by White Pivot. White Pivot and White Blocker roll forward, and both are given an Out of Play warning. White Pivot and White Blocker skate clockwise back to the Pack. Red Jammer reenters the track ahead of both Skaters.",
       "outcome": "Red Jammer is penalized.",
-      "rationale": "White Pivot, as initiator of the block, lost their superior position on Red Jammer by leaving the Engagement Zone. Although White Blocker lost their superior position briefly by going Out of Play, they regained it by returning to the Engagement Zone before Red Jammer reentered. White Blocker was not the initiator of the block and thus is able to reestablish their superior position.",
+      "rationale": "White Pivot, as initiator of the block, lost their superior position on Red Jammer by leaving the Engagement Zone. Although White Blocker lost their superior position briefly by going Out of Play, they regained it by returning to the Engagement Zone before Red Jammer reentered. White Blocker was not the initiator of the block that forced Red Jammer Out of Bounds, and thus is able to reestablish their superior position.",
       "keep_in_mind": [],
       "tags": [
         "cutting",
@@ -1602,7 +1623,7 @@
       "id": "C4.2.2.I",
       "rule_ref": "4.2.2",
       "summary": "White Blocker is Out of Play when White Pivot blocks Red Jammer Out of Bounds. White Blocker returns to the Pack. Red Jammer reenters ahead of White Blocker.",
-      "scenario": "White Pivot, White Blocker, and Red Jammer are 18 ft ahead of a stopped Pack. White Blocker skates forward and is given an Out of Play warning as White Pivot blocks Red Jammer Out of Bounds. White Blocker skates clockwise back to the Pack. Red Jammer reenters the track ahead of White Blocker and behind White Pivot.",
+      "scenario": "White Pivot, White Blocker, and Red Jammer are 18 ft (5.48 m) ahead of a stopped Pack. White Blocker skates forward and is given an Out of Play warning as White Pivot blocks Red Jammer Out of Bounds. White Blocker skates clockwise back to the Pack. Red Jammer reenters the track ahead of White Blocker and behind White Pivot.",
       "outcome": "No penalty.",
       "rationale": "White Blocker was out of play when Red Jammer went Out of Bounds, and thus did not have superior position.",
       "keep_in_mind": [],
@@ -1650,7 +1671,7 @@
       "id": "C4.2.2.L",
       "rule_ref": "4.2.2",
       "summary": "White Jammer blocks Red Jammer Out of Bounds at Jam start and legally passes the Star mid-jam. Red Jammer reenters behind the Pack.",
-      "scenario": "Immediately after the Jam start, White Jammer blocks Red Jammer Out of Bounds. The Pack remains stopped while White Jammer skates clockwise around the track. Red Jammer remains Out of Bounds. White Jammer approaches the front of the Pack and legally passes the Star to White Pivot. Red Jammer re-enters the track behind the Pack, and ahead of both the new and former White Jammers.",
+      "scenario": "Immediately after the Jam start, White Jammer blocks Red Jammer Out of Bounds. The Pack remains stopped while White Jammer skates clockwise around the track. Red Jammer remains Out of Bounds.\n\nWhite Jammer approaches the front of the Pack and legally passes the Star to White Pivot. Red Jammer re-enters the track behind the Pack, and ahead of both the new and former White Jammers.",
       "outcome": "No penalty.",
       "rationale": "When Out of Bounds, Skaters must reenter the track without improving their position relative to other Skaters. Because the new White Jammer did not earn position on Red Jammer, Red Jammer did not need to reenter behind the new White Jammer. The former White Jammer, becoming a Blocker, is considered to be far ahead of Red Jammer (like all the other Blockers).",
       "keep_in_mind": [],
@@ -1696,8 +1717,8 @@
       "rule_ref": "4.2.3",
       "summary": "Five White Skaters approach the track but are all Out of Bounds or straddling when Lineup Time expires.",
       "scenario": "Officials give Skaters a five-second warning before the start of the next Jam. White team finishes their discussion, and five White Skaters approach the track. All are Out of Bounds or straddling as the Lineup Time expires.",
-      "outcome": "Instead of starting the next Jam, Officials must call an Official Timeout. White Captain is penalized.",
-      "rationale": "White team's failure to field any Skaters in correct position prevented the Jam from starting in a timely manner, thus stopping the period clock illegally.",
+      "outcome": "Instead of starting the next Jam, at that moment, the Officials must call an Official Timeout. White Captain is penalized.",
+      "rationale": "White team’s failure to field any Skaters in correct position prevented the Jam from starting in a timely manner, thus stopping the period clock illegally.",
       "keep_in_mind": [],
       "tags": [
         "delay-of-game",
@@ -1712,8 +1733,8 @@
       "rule_ref": "4.2.3",
       "summary": "Five White Skaters approach the track and are all In Bounds but ahead of the Pivot Line when Lineup Time expires.",
       "scenario": "Officials give Skaters a five-second warning before the start of the next Jam. White team finishes their discussion, and five White Skaters approach the track. All are In Bounds, but ahead of the Pivot Line as the Lineup Time expires.",
-      "outcome": "Instead of starting the next Jam, Officials must call an Official Timeout. White Captain is penalized.",
-      "rationale": "White team's failure to field any Blockers in the correct position prevented the Jam from starting in a timely manner.",
+      "outcome": "Instead of starting the next Jam, at that moment, the Officials must call an Official Timeout instead of starting the next Jam. White Captain is penalized.",
+      "rationale": "White team’s failure to field any Blockers in the correct position prevented the Jam from starting in a timely manner.",
       "keep_in_mind": [],
       "tags": [
         "delay-of-game",
@@ -1728,11 +1749,11 @@
       "rule_ref": "4.2.3",
       "summary": "White team has four Blockers correctly positioned but White Jammer is still Out of Bounds when Lineup Time expires.",
       "scenario": "As the Lineup Time expires, White team has four Blockers correctly positioned, but White Jammer is still Out of Bounds.",
-      "outcome": "Instead of starting the next Jam, Officials must call an Official Timeout. White Captain is penalized.",
-      "rationale": "White team's failure to field a Jammer in the correct position prevented the Jam from starting in a timely manner.",
+      "outcome": "Instead of starting the next Jam, at that moment, the Officials must call an Official Timeout. White Captain is penalized.",
+      "rationale": "White team’s failure to field a Jammer in the correct position prevented the Jam from starting in a timely manner.",
       "keep_in_mind": [
-        "If Red Jammer had also been Out of Bounds, both Captains would have received a penalty.",
-        "If a White Skater had been correctly positioned as a Jammer but did not possess a visible Star, they are not the Jammer. Assuming White does not have a Jammer serving a penalty, White's Captain would receive a penalty."
+        "If Red Jammer had also been Out of Bounds, both Captains would have received a penalty for preventing the Jam from starting in a timely manner.",
+        "If a White Skater had been correctly positioned as a Jammer but did not possess a visible Star, they are not the Jammer. Assuming the White team does not have a Jammer serving a penalty, White’s team’s Captain would receive a penalty for preventing the Jam from starting in a timely fashion."
       ],
       "tags": [
         "delay-of-game",
@@ -1747,8 +1768,8 @@
       "rule_ref": "4.2.3",
       "summary": "White team has used all three Team Timeouts. White Captain calls for another and Officials mistakenly grant it.",
       "scenario": "White team has used three Team Timeouts during the game. White Captain calls for a Team Timeout. Officials, mistakenly believing that White team has timeouts remaining, grant the request.",
-      "outcome": "If White team has an Official Review remaining, they should be considered to have used it as a timeout. If not, White Captain is penalized and the next Jam is started as soon as possible.",
-      "rationale": "White Captain's successful, but illegal attempt to stop the period clock prevented the next Jam from starting in a timely manner. If White Captain had legal means to prevent the Jam from starting, legal means should be assumed.",
+      "outcome": "If White team has an Official Review remaining, they should be considered to have used it as a timeout. If not, White Captain is penalized and the next Jam is started as soon as possible, but at least 30 seconds after the end of the previous Jam.",
+      "rationale": "White Captain’s successful, but illegal attempt to stop the period clock prevented the next Jam from starting in a timely manner. If White Captain had legal means to prevent the Jam from starting, legal means should be assumed.",
       "keep_in_mind": [
         "Officials should deny requests for a Team Timeout if that team has none remaining. No penalty is warranted if an invalid request for a Team Timeout is denied."
       ],
@@ -1764,10 +1785,10 @@
       "rule_ref": "4.2.3",
       "summary": "A Skater whose Jam was called for injury lines up again three Jams later, one Jam too early.",
       "scenario": "Jam 23 is called off for an injury sustained by White Pivot. The same Skater lines up on the track for the start of Jam 26.",
-      "outcome": "Officials should attempt to communicate to the White Skater that they are not allowed to participate. If the Officials fail, when 30 seconds have passed since the end of the previous Jam, Officials must call an Official Timeout. White Pivot is returned to their team bench. White Captain is penalized.",
-      "rationale": "The White Skater's failure to sit out the required number of Jams prevented the next Jam from starting in a timely manner.",
+      "outcome": "Officials should attempt to communicate to the White Skater that they are not allowed to participate. If the Officials fail, when 30 seconds have passed since the end of the previous Jam, Officials must call an Official Timeout instead of starting the next Jam. White Pivot is returned to their team bench to sit out the remaining Jam, as required. White Captain is penalized.",
+      "rationale": "The White Skater’s failure to sit out the required number of Jams prevented the next Jam from starting in a timely manner. The White Skater cannot serve the penalty at this time for the same reason, so it is issued to their Captain instead.",
       "keep_in_mind": [
-        "If Officials believe the White Skater's injury poses a serious and immediate threat to that Skater or others, Officials should not allow the White Skater to skate no matter how many Jams have elapsed."
+        "If Officials believe the White Skater’s injury poses a serious and immediate threat to that Skater or others, Officials should not allow the White Skater to skate no matter how many Jams have elapsed."
       ],
       "tags": [
         "injury",
@@ -1782,10 +1803,10 @@
       "rule_ref": "4.2.3",
       "summary": "White Pivot (not the Captain or Alternate) successfully requests a Team Timeout from an Official who mistakes them for the Captain.",
       "scenario": "White Pivot (who is neither the Captain nor the Alternate) walks up to an Official and requests a Team Timeout. That Official, mistakenly believing White Pivot is the Captain, grants the request.",
-      "outcome": "When the mistake is realized, Officials must call an Official Timeout. White Pivot is penalized. The next Jam is started as soon as possible.",
-      "rationale": "White Pivot's successful, but illegal attempt to stop the period clock prevented the next Jam from starting in a timely manner.",
+      "outcome": "When the mistake is realized, Officials must call an Official Timeout. White Pivot is penalized. The next Jam is started as soon as possible, but at least 30 seconds after the end of the previous Jam.",
+      "rationale": "White Pivot’s successful, but illegal attempt to stop the period clock prevented the next Jam from starting in a timely manner.",
       "keep_in_mind": [
-        "If the illegal requester is not a Skater, the penalty is issued to the Captain instead. Officials should deny requests for a Team Timeout if the requester is neither a Captain nor an Alternate. No penalty is warranted if an invalid request is denied."
+        "If the illegal requester is not a Skater, the penalty is issued to the Captain instead. Officials should deny requests for a Team Timeout if the requester is neither a Captain nor a Alternate. No penalty is warranted if an invalid request for a Team Timeout is denied."
       ],
       "tags": [
         "team-timeout",
@@ -1799,8 +1820,8 @@
       "id": "C4.2.3.H",
       "rule_ref": "4.2.3",
       "summary": "White Pivot uses hand signals to ask their Captain to call a timeout. Officials mistake it for a legal request.",
-      "scenario": "White Pivot (who is neither the Captain nor the Alternate) uses hand signals to communicate with their Captain, asking for a Team Timeout to be called. Officials, mistaking the White Pivot's hand signals for a legal request, call a Team Timeout.",
-      "outcome": "When the mistake is realized, Officials must call an Official Timeout. White Pivot is not issued a penalty. White team is not charged for a Team Timeout. No penalty.",
+      "scenario": "White Pivot (who is neither the Captain nor the Alternate) uses hand signals to communicate with their Captain, asking for a Team Timeout to be called. Officials, mistaking the White Pivot’s hand signals for a legal request, call a Team Timeout.",
+      "outcome": "When the mistake is realized, Officials must call an Official Timeout. White Pivot is not issued a penalty. White team is not charged for a Team Timeout. The next Jam is started as soon as possible, but at least 30 seconds after the end of the previous Jam. No penalty.",
       "rationale": "White Pivot was attempting to communicate with their Captain. They were not attempting to request a Team Timeout from the Officials.",
       "keep_in_mind": [],
       "tags": [
@@ -1815,11 +1836,10 @@
       "summary": "An extra Red Blocker lines up on the track unnoticed. An Official spots them immediately after the Jam starts.",
       "scenario": "During the Lineup Time, a Red Blocker is seated in the Penalty Box. Red team fields four Blockers on the track. Officials do not notice the extra Blocker, and the next Jam begins. Immediately after the Jam starts an Official notices and instructs a Red Blocker to return to their team bench. The Red Blocker leaves as instructed.",
       "outcome": "No penalty.",
-      "rationale": "The extra Blocker was removed from gameplay before their presence had any impact on the Jam in progress.",
+      "rationale": "The extra Blocker was removed from gameplay before their presence had any impact on the Jam in progress. If the Skater who was instructed to leave instead remains on the track, the Officials should end the Jam and assess a penalty to the Skater.",
       "keep_in_mind": [
-        "If the Skater who was instructed to leave instead remains on the track, the Officials should end the Jam and assess a penalty to the Skater.",
         "If the extra Blocker was not immediately noticed, and therefore had impact on the Jam in progress, the Officials should end the Jam and assess a penalty to the Captain instead.",
-        "If an Official notices the extra Blocker before the five-second warning, they should attempt to warn the team before the five-second warning occurs."
+        "If an Official notices the extra Blocker before the five-second warning, they should attempt to warn the team that there are too many Skaters on the track before the five-second warning occurs."
       ],
       "tags": [
         "too-many-skaters",
@@ -1832,11 +1852,11 @@
       "id": "C4.2.4.A",
       "rule_ref": "4.2.4",
       "summary": "White Captain requests a Team Timeout without visibly wearing their C.",
-      "scenario": "White Captain is not visibly wearing a C. They signal for a Team Timeout to be called.",
+      "scenario": "White Captain is not visibly wearing a “C”. They signal for a Team Timeout to be called.",
       "outcome": "Officials grant the Team Timeout. White Captain is penalized.",
-      "rationale": "Despite not visibly wearing a C, the Captain retains the privilege of calling a Team Timeout. However, exercising a privilege of the Captain while not visibly displaying a C warrants a penalty.",
+      "rationale": "Despite not visibly wearing an “C”, the Captain retains the privilege of calling a Team Timeout. Officials should grant this request if they have a Team Timeout remaining; however, exercising a privilege of the Captain while not visibly displaying a “C” warrants a penalty.",
       "keep_in_mind": [
-        "This same principle should also be applied to an Alternate not wearing an A. If the Alternate is not a Skater, the penalty is issued to the Captain."
+        "This same principle should also be applied to a Alternate not wearing an “A”. If the Alternate is not a Skater, the penalty is issued to the Captain."
       ],
       "tags": [
         "captain",
@@ -1849,9 +1869,9 @@
       "id": "C4.2.4.B",
       "rule_ref": "4.2.4",
       "summary": "Red Alternate conferences with the Head Referee during an Official Review without visibly displaying an A.",
-      "scenario": "White Captain calls an Official Review. Officials grant the request. Red Alternate, while not visibly displaying an A, conferences with the Head Referee during the Official Review.",
+      "scenario": "White Captain calls an Official Review. Officials grant the request. Red Alternate, while not visibly displaying an “A,” conferences with the Head Referee during the Official Review.",
       "outcome": "No penalty.",
-      "rationale": "Red Alternate's failure to visibly display an A while conferencing for an Official Review does not meaningfully affect the game, nor warrant a penalty.",
+      "rationale": "Red Alternate’s failure to visibly display an “A” while conferencing for an Official Review does not meaningfully affect the game, nor warrant a penalty.",
       "keep_in_mind": [],
       "tags": [
         "alternate",
@@ -1866,7 +1886,7 @@
       "summary": "Red Jammer watches the scoreboard count down their 10 seconds of standing time and leaves the Penalty Box without being officially released.",
       "scenario": "Red Jammer arrives at the Penalty Box for a penalty, sits, is told to stand 20 seconds later, and stands. They then watch the scoreboard count down 10 seconds, and leave the Box without being told to do so by an Official.",
       "outcome": "Red Jammer should be penalized if they completely left the Box even a fraction of a second early.",
-      "rationale": "If Red Jammer's time had completed and they had not been released, this would be an officiating error and Red Jammer should not be punished for it. However, leaving the Box early without good reason should always be penalized.",
+      "rationale": "If Red Jammer’s time had completed and they had not been released, this would be an officiating error and Red Jammer should not be punished for it. However, leaving the Box early without good reason should always be penalized.",
       "keep_in_mind": [
         "If an Official had told the Red Jammer their time was up, Red Jammer had good reason to leave the Box early."
       ],
@@ -1882,7 +1902,7 @@
       "rule_ref": "4.2.4",
       "summary": "A teammate on the bench throws a full water bottle to White Blocker in the Penalty Box, narrowly missing a Penalty Box Official.",
       "scenario": "White Blocker is seated in the Penalty Box and asks someone on the bench to toss them their water bottle. A teammate on the bench throws a full bottle of water at White Blocker, who catches it just before it hits a Penalty Box Official in the face.",
-      "outcome": "Whoever threw the water bottle should be penalized. If Team Staff threw the bottle, the team's Captain should be penalized. Officials should warn the White team that throwing things around is dangerous. On a future offense, the thrower should be expelled.",
+      "outcome": "Whoever threw the water bottle should be penalized. If Team Staff threw the bottle, the team’s Captain should be penalized. Officials should warn the White team that throwing things around is dangerous. On a future offense, the thrower of the water bottle should be expelled.",
       "rationale": "This action is unsafe and thus inappropriate.",
       "keep_in_mind": [
         "If the water bottle had hit the Official forcibly and unexpectedly, the thrower should be expelled on the first offense."
@@ -1903,7 +1923,7 @@
       "rationale": "While the Captain is not allowed to enter the Box, this entry was brief and the Captain did not enter fully. Partial entry to the Box is not penalized.",
       "keep_in_mind": [
         "If the Captain (or any unpenalized Skater/Team Staff) fully enters the Box and communicates with a penalized Skater or interferes with normal Penalty Box operation, they should be assessed a penalty.",
-        "If the Captain had passed through the Box without interacting with their penalized teammate or interrupting the operation of the Box, no penalty should be assessed even if the Captain had fully entered the Box."
+        "If the Captain (or any unpenalized Skater/Team Staff) had passed through the Box, without interacting with their penalized teammate or interrupting the operation of the Box, no penalty should be assessed even if the Captain (or Skater/Team Staff) had fully entered the Box."
       ],
       "tags": [
         "penalty-box",
@@ -1920,7 +1940,7 @@
       "outcome": "The jam is immediately called off. An Illegal Procedure penalty is assessed to the Skater without a mouthguard.",
       "rationale": "A mouthguard is required safety equipment for all Skaters. If a skater is completely missing a required piece of safety equipment, unless it is immediately replaced, the jam should be called and the skater penalized.",
       "keep_in_mind": [
-        "If the mouthguard was not removed intentionally, and a Skater immediately retrieves and replaces the mouthguard before the officials call off the jam, play may continue without a penalty. If the mouthguard is not immediately retrieved, officials should call off the jam and issue the penalty."
+        "If the mouthguard was not removed intentionally, and a Skater immediately retrieves and replaces the mouthguard before the officials call off the jam, play may continue without a penalty. If the mouthguard is not immediately retrieved, officials should call off the jam and issue the penalty.\n\n4.3 Penalties for Unsporting Conduct (Misconduct) Misconduct can take many forms and does not have to be intentional to be considered unsporting. Actions which seriously undermine the legitimacy of the sport or display a lack of respect for the sport, its execution, and those who contribute to it may also be penalized."
       ],
       "tags": [
         "protective-gear",
@@ -1934,9 +1954,9 @@
       "id": "C4.3.A",
       "rule_ref": "4.3",
       "summary": "White Blocker in the Penalty Box imitates an Official's verbal release cue, causing Red Jammer to leave the box early.",
-      "scenario": "Red Jammer and White Blocker are in the Penalty Box. Red Jammer stands. After seven seconds, White Blocker suddenly says Red Jammer's number and done. Red Jammer, assuming they have been legally released by an Official, exits the Box and begins to return to the track.",
+      "scenario": "Red Jammer and White Blocker are in the Penalty Box. Red Jammer stands. After seven seconds, White Blocker suddenly says “Red, [number], done.” Red Jammer, assuming they have been legally released by an Official, exits the Box and begins to return to the track.",
       "outcome": "White Blocker is penalized. Red Jammer is not. Officials should direct Red Jammer to return to the Box and complete their remaining penalty time.",
-      "rationale": "White Blocker has imitated an Official's verbal instruction to try to force a penalty on the opposing Jammer, which is highly unsporting and is penalized as such. Red Jammer left in good faith believing they had been released.",
+      "rationale": "White Blocker has imitated an Official’s verbal instruction to try to force a penalty on the opposing Jammer, which is highly unsporting and is penalized as such. Red Jammer left in good faith believing they had been released by the Officials. They should still serve the remainder of their original penalty time.",
       "keep_in_mind": [],
       "tags": [
         "misconduct",
@@ -1950,8 +1970,8 @@
       "id": "C4.3.D",
       "rule_ref": "4.3",
       "summary": "Red Jammer removes their Star and stuffs it into their jersey while working through the Pack.",
-      "scenario": "The Jam starts and White Jammer quickly earns Lead. Red Jammer immediately pulls off their Star and tries to pass it over their opponents' heads to Red Pivot, but is unable to do so. Red Jammer stuffs the Star into their jersey so they don't have to hold it as they work their way through the Pack.",
-      "outcome": "Red Jammer has hidden the Star from their opponents, also hiding the fact that they are their team's Jammer. Red Jammer is penalized.",
+      "scenario": "The Jam starts and White Jammer quickly earns Lead. Red Jammer immediately pulls off their Star and tries to pass it over their opponents’ heads to Red Pivot, but is unable to do so. Red Jammer stuffs the Star into their jersey so they don’t have to hold it as they work their way through the Pack.",
+      "outcome": "Red Jammer has hidden the Star from their opponents, also hiding the fact that they are their team’s Jammer. Red Jammer is penalized.",
       "rationale": "It is unsporting to attempt to hide your Role in the Jam.",
       "keep_in_mind": [
         "If Red Jammer had held onto the Star instead of hiding it in their jersey, no penalty would be issued because they would still be visibly in control of the Star."
@@ -1971,7 +1991,7 @@
       "outcome": "White Blocker is expelled from the game.",
       "rationale": "Some intentional contact between Skaters and Officials, such as non-forceful touching to indicate location, or actively absorbing contact to increase safety, is not an expellable offense. However, forceful contact to Officials which is avoidable or negligent is unsporting.",
       "keep_in_mind": [
-        "Forceful contact to an Official which is avoidable or negligent always warrants an expulsion."
+        "Forceful contact to an Official which avoidable or negligent always warrants an expulsion. These actions are considered sufficiently dangerous or unsporting and should not be reduced to a penalty without an accompanying expulsion."
       ],
       "tags": [
         "misconduct",
@@ -1985,8 +2005,8 @@
       "rule_ref": "4.3",
       "summary": "White Blocker is assessed a penalty and swears audibly.",
       "scenario": "White Blocker is assessed a penalty and swears.",
-      "outcome": "If said language was audible to the audience or via broadcast, White Blocker is penalized. If directed at an Official, White Blocker is penalized. Otherwise, a few choice words directed at a teammate or opponent should result in a warning and be penalized if the behavior continues.",
-      "rationale": "As a competitive, physical sport, roller derby can raise adrenaline and cause tempers to flare; some discretion is in order. Audible offensive language degrades the sport, and abusive language directed at Officials is disrespectful and insubordinate.",
+      "outcome": "Profane, abusive, and obscene language is unsporting and degrading to the sport, but should not always be penalized. If said language was audible to the audience or via broadcast, White Blocker is penalized. If White Blocker’s profanity was directed at an Official, White Blocker is penalized. Otherwise, a few choice words directed at a teammate or opponent should result in a warning and be penalized if the behavior continues.",
+      "rationale": "As a competitive, physical sport, roller derby can raise Skaters’ adrenaline and cause tempers to flare; some discretion is in order. Audible offensive language degrades the sport, and abusive language directed at Officials is disrespectful and insubordinate. Abusive language regarding Officials should be considered to be directed at the Officials as a group, and should be penalized if audible to any Official.",
       "keep_in_mind": [
         "Any language that is profane or obscene should be held to a similar standard.",
         "A Skater who utters a string of profanity or appears to have completely lost their temper should be expelled regardless of whether it is directed at anybody.",
@@ -2003,9 +2023,9 @@
       "id": "C4.3.H",
       "rule_ref": "4.3",
       "summary": "Red Jammer jumps and makes unintentional contact with White Blocker while completely airborne. White Blocker is pushed out of a wall.",
-      "scenario": "White Blocker is standing in a wall alongside their teammates. Red Jammer, while attempting to pass White Blocker, jumps and unintentionally makes contact with their chest into White Blocker's shoulder. Red Jammer is completely airborne when the contact is made. White Blocker does not fall, but is pushed forward out of the wall.",
+      "scenario": "White Blocker is standing in a wall alongside their teammates. Red Jammer, while attempting to pass White Blocker, jumps and unintentionally makes contact with their chest into White Blocker’s shoulder. Red Jammer is completely airborne when the contact is made. White Blocker does not fall, but is pushed forward out of the wall.",
       "outcome": "Red Jammer is penalized.",
-      "rationale": "Initiating a block while airborne is dangerous play. White Blocker lost their established position in the wall due to Red Jammer's illegal contact.",
+      "rationale": "Initiating a block while airborne is dangerous play. White Blocker lost their established position in the wall due to Red Jammer’s illegal contact.",
       "keep_in_mind": [
         "Non-forceful and unintentional contact initiated by an airborne Skater (for example, brushing shoulders during an apex jump) should only be penalized if there is significant impact on the recipient.",
         "Skaters may initiate a block on an airborne opponent, if that opponent was a legal target prior to becoming airborne."
@@ -2039,10 +2059,9 @@
       "summary": "An additional bench staff member runs into Red team's bench area between Jams despite the team already being at maximum capacity.",
       "scenario": "A Governing Body policy limits the number of bench Staff allowed on the bench. Red team has the maximum allowed support staff on the bench; however, in between Jams, an additional support staff runs into the bench area and communicates with the Alternate.",
       "outcome": "A penalty for unsporting conduct is issued to the Red Captain, and the extra support staff is removed from the bench.",
-      "rationale": "Both teams agreed to play the game under the Governing Body policy. Violating agreed-upon terms is unsporting and should be penalized.",
+      "rationale": "Both teams agreed to play the game under the Governing Body policy. Violating agreedupon terms is unsporting and should be penalized.",
       "keep_in_mind": [
-        "Policies may neither change nor override the published rules. In addition, policies also may not directly impact gameplay.",
-        "Issues that are identified and resolved prior to the beginning of the game should not result in the assessment of penalties."
+        "Policies may neither change nor override the published rules. In addition, policies also may not directly impact gameplay. Issues that are identified and resolved prior to the beginning of the game should not result in the assessment of penalties."
       ],
       "tags": [
         "misconduct",
@@ -2057,10 +2076,10 @@
       "summary": "An Official overhears a Skater making hateful, prejudiced, or bigoted remarks.",
       "scenario": "An Official overhears a Skater making hateful, prejudiced, and/or bigoted remarks.",
       "outcome": "The Skater is expelled.",
-      "rationale": "Abusive conduct, including but not limited to making remarks or gestures of a racist, sexist, homophobic, transphobic, or ableist nature is degrading to the sport and others.",
+      "rationale": "Abusive conduct, including but not limited to making remarks or gestures of a racist / sexist / homophobic / transphobic / ableist nature is degrading to the sport and others.",
       "keep_in_mind": [
         "Some instances of abusive conduct may be contextual and as a result of ignorance. If the Skater was not reasonably aware that their conduct was abusive, a warning or penalty may be appropriate.",
-        "Applying in-game penalties for abusive conduct does not prevent event organizers from taking additional actions external to gameplay as they deem appropriate."
+        "Applying in-game penalties for abusive conduct does not prevent event organizers from taking additional actions external to gameplay as they deem appropriate. If the abusive conduct was not seen/heard by Officials but instead was reported to Officials (or event organizers), resolution should be handled external to gameplay via the event’s procedures."
       ],
       "tags": [
         "misconduct",
@@ -2074,10 +2093,10 @@
       "rule_ref": "4.3",
       "summary": "Red team intentionally fields eight Blockers and two Jammers at Lineup Time. Extra Skaters begin to leave as the five-second warning sounds.",
       "scenario": "During the Lineup Time, Red team has eight Blockers between the Pivot and Jammer lines, and two Jammers behind the Jammer line. Officials give Skaters a five-second warning, and the extraneous skaters begin to leave the track.",
-      "outcome": "Instead of starting the next Jam, Officials must call an Official Timeout. Red Captain is penalized.",
-      "rationale": "While fielding an extra skater may happen accidentally, intentionally fielding several more Skaters than allowed is considered unsporting. The deliberate involvement of these extraneous Skaters affects the starting positions of the Skaters intending to play in the next Jam.",
+      "outcome": "Instead of starting the next Jam, at that moment, the Officials must call an Official Timeout. Red Captain is Penalized.",
+      "rationale": "While fielding an extra skater may happen accidentally (See Scenario 4.2.3.I), intentionally fielding several more Skaters than allowed in the Rules is considered unsporting. The deliberate involvement of these extraneous Skaters (Blockers and/or Jammers) affects the starting positions of the Skaters intending to play in the next Jam.",
       "keep_in_mind": [
-        "Other situations which include the deliberate positioning of too many Skaters on or near the track area during the Lineup Time are also considered unsporting."
+        "Other situations which include the deliberate positioning of too many Skaters on or near the track area (such as standing next to the track boundary) during the Lineup Time are also considered unsporting."
       ],
       "tags": [
         "misconduct",
@@ -2107,10 +2126,8 @@
       "summary": "White Pivot exits the track to report to the Penalty Box and does not adjust their trajectory to avoid an Outside Pack Referee.",
       "scenario": "Having been assessed a penalty, White Pivot exits the track and heads towards the Penalty Box. As White Pivot skates they approach an Outside Pack Referee, who is skating at a consistent speed and distance from the track boundary. White Pivot does not adjust their trajectory, and impacts the Outside Pack Referee in the back, which causes the Referee to stumble briefly.",
       "outcome": "White Pivot is expelled from the game.",
-      "rationale": "Contact to an Official who does not expect it or to an Official who is not wearing safety equipment is unsafe and negligent.",
-      "keep_in_mind": [
-        "If the Outside Pack Referee had a sudden change of position causing White Pivot to collide with them, White Pivot should not be penalized as the contact is considered unavoidable in this instance."
-      ],
+      "rationale": "Contact to an Official who does not expect it or to an Official who is not wearing safety equipment is unsafe and negligent. Keep In Mind: If the Outside Pack Referee had a sudden change of position causing White Pivot to collide with them, White Pivot should not be penalized as the contact is considered unavoidable in this instance.",
+      "keep_in_mind": [],
       "tags": [
         "contact-with-official",
         "expulsion",
@@ -2122,7 +2139,7 @@
       "id": "C4.3.P",
       "rule_ref": "4.3",
       "summary": "Red Blocker misses a block and goes Out of Bounds, then brushes the elbow pad of an Outside Pack Referee while returning In Bounds.",
-      "scenario": "Red Blocker attempts to block White Jammer, misses, and ends up Out of Bounds. While attempting to return In Bounds, Red Blocker's shoulder brushes the elbow pad of an Outside Pack Referee.",
+      "scenario": "Red Blocker attempts to block White Jammer, misses, and ends up Out of Bounds. While attempting to return In Bounds, Red Blocker’s shoulder brushes the elbow pad of an Outside Pack Referee.",
       "outcome": "Red Blocker is not penalized.",
       "rationale": "The contact between Red Blocker and the Official was not forceful. No penalty should be assessed, even if the contact is considered avoidable.",
       "keep_in_mind": [],
@@ -2136,9 +2153,9 @@
       "id": "C4.4.B",
       "rule_ref": "4.4",
       "summary": "Red Jammer is at the front of the Pack near the inside boundary when penalized. They go to the infield briefly to let the Pack pass before exiting.",
-      "scenario": "Red Jammer is skating at the front of the Pack, close to the inside track boundary, when they are assessed a penalty. Red Jammer takes themself out of bounds to the inside of the track, and pauses to allow the Pack to skate past them. When their path is clear, Red Jammer skates across to the outside of the track, and continues around toward the Penalty Box.",
+      "scenario": "Red Jammer is skating at the front of the Pack, close to the inside track boundary, when they are assessed a penalty. Red Jammer takes themself out of bounds to the inside of the track, and pauses to allow the Pack to skate past them. When their path is clear, Red Jammer skates across to the outside of the track, and then continues around toward the Penalty Box.",
       "outcome": "No additional penalty.",
-      "rationale": "After receiving a penalty, Skaters are required to disengage from play and exit the track to the outside when they have a safe and legal opportunity to do so. Red Jammer momentarily entered the infield in order to remove themself from play. At the first safe and legal opportunity, they left the track to the outside.",
+      "rationale": "After receiving a penalty, Skaters are required to disengage from play and exit the track to the outside when they have a safe and legal opportunity to do so. Red Jammer momentarily entered the infield in order to remove themself from play. At the first safe and legal opportunity, they left the track to the outside. No additional penalty is warranted.",
       "keep_in_mind": [
         "Skaters remain liable for additional penalties related to safety and must not interfere with Officials performing their duties."
       ],
@@ -2197,9 +2214,9 @@
       "id": "C4.4.1.B",
       "rule_ref": "4.4.1",
       "summary": "Red Pivot is standing in the Penalty Box when two Red Blockers enter. Red Pivot briefly moves their skates outside the boundary to make room.",
-      "scenario": "Red Pivot stands in the Penalty Box. The dimensions of the Box are not very deep and their skates already touch the line. Two Red Blockers enter the Box together. Red Pivot attempts to give them room to sit, and in doing so, their skates fully move out of the Penalty Box boundary. They immediately return inside the boundary.",
+      "scenario": "Red Pivot stands in the Penalty Box. The dimensions of the Box are not very deep and their skates already touch the line. Two Red Blockers enter the Box together. Red Pivot attempts to give them room\n\nto sit, and in doing so, their skates fully move out of the Penalty Box boundary. They immediately return inside the boundary.",
       "outcome": "No penalty.",
-      "rationale": "Red Pivot was not attempting to gain some kind of illegal advantage or negligently exiting illegally, but was constrained by the shape of the Penalty Box.",
+      "rationale": "Though Skaters are not allowed to leave the Box early, the mitigating circumstances of this example make the impact to the game negligible. Red Pivot was not attempting to gain some kind of illegal advantage or negligently exiting illegally, but was constrained by the shape of the Penalty Box.",
       "keep_in_mind": [],
       "tags": [
         "penalty-box",
@@ -2212,12 +2229,12 @@
       "id": "C4.4.2.A",
       "rule_ref": "4.4.2",
       "summary": "White Jammer serves 25 seconds. Red Jammer sits and White Jammer is released. White Jammer returns illegally and goes back to the box. Red Jammer leaves early.",
-      "scenario": "White Jammer receives a penalty, reports to the Penalty Box, and is seated. They serve 25 seconds of their penalty when Red Jammer arrives and sits to serve their own penalty. White Jammer is released. White Jammer returns to the track illegally, and is back in the Box 10 seconds after their prior release to serve their second penalty. Red Jammer leaves the Box.",
+      "scenario": "White Jammer receives a penalty, reports to the Penalty Box, and is seated. They serve 25 seconds of their penalty when Red Jammer arrives and sits to serve their own penalty. White Jammer is released, thus consigning Red Jammer to serve 25 seconds. White Jammer returns to the track illegally, and is back in the Box 10 seconds after their prior release to serve their second penalty. Red Jammer leaves the Box.",
       "outcome": "Red Jammer is penalized for leaving the Box 15 seconds early. White Jammer owes 30 seconds from the time they are seated.",
-      "rationale": "To serve the same amount of time per penalty, Red Jammer must serve all 25 seconds that White Jammer served initially. White Jammer sitting for an unrelated penalty does not affect the time that Red Jammer owed.",
+      "rationale": "To serve the same amount of time “per penalty”, Red Jammer must serve all 25 seconds that White Jammer served initially. In other words, White Jammer sitting for an unrelated penalty does not affect the time that Red Jammer owed.",
       "keep_in_mind": [
         "Red Jammer owes 45 more seconds: 15 from their first penalty, and 30 from their second penalty.",
-        "Red Jammer's second penalty could reduce the time White Jammer owes for their own second penalty, but the 15 seconds from Red Jammer's first penalty cannot be reduced."
+        "Red Jammer’s second penalty could reduce the time White Jammer owes for their own second penalty, but the 15 seconds from Red Jammer’s first penalty cannot be reduced."
       ],
       "tags": [
         "penalty-box",
@@ -2232,7 +2249,7 @@
       "summary": "Both Jammers arrive at the Penalty Box at the same time and sit simultaneously.",
       "scenario": "White Jammer arrives at the Penalty Box immediately behind Red Jammer. Both attempt to be the first one seated, and in so doing, they sit at the exact same moment.",
       "outcome": "The Penalty Box Official should inform both Jammers that their time is complete and release them from the Box.",
-      "rationale": "When sitting simultaneously in the Box, or when arriving between Jams, Jammers cancel each other's penalties. Both should be immediately released.",
+      "rationale": "When sitting simultaneously in the Box, or when arriving between Jams, Jammers cancel each other’s penalties. Both should be immediately released.",
       "keep_in_mind": [
         "If there is any time differential at all between Jammers sitting, it is not considered to be simultaneous.",
         "If both Jammers sit between Jams, they are considered to have sat simultaneously and must be released immediately at the beginning of the following Jam."
@@ -2249,8 +2266,8 @@
       "rule_ref": "4.4.2",
       "summary": "Red Jammer has served 15 seconds when the Jam ends. White Jammer receives a penalty at the Jam-Ending Whistle and reports to the box between Jams.",
       "scenario": "Red Jammer is seated in the Penalty Box and has served 15 seconds when the Jam ends. White Jammer receives a penalty at the Jam-Ending Whistle and reports to the Box between Jams.",
-      "outcome": "White Jammer reported to the Box between Jams, which will end Red Jammer's penalty at the start of the next Jam. A Penalty Box Official must instruct Red Jammer to stand and inform them their penalty time is done at the Jam-Starting Whistle. White Jammer must serve 15 seconds.",
-      "rationale": "Though White Jammer's penalty ended Red Jammer's penalty early, Red Jammer must still begin the next Jam from the Box. Penalties are only timed while Jams are active; as such, Jammer swaps only happen while a Jam is ongoing.",
+      "outcome": "White Jammer reported to the Box between Jams, which will end Red Jammer’s penalty at the start of the next Jam. A Penalty Box Official must instruct Red Jammer to stand and inform them their penalty time is done at the Jam-Starting Whistle. White Jammer must serve 15 seconds.",
+      "rationale": "Though White Jammer’s penalty ended Red Jammer’s penalty early, Red Jammer must still begin the next Jam from the Box. Penalties are only timed while Jams are active; as such, Jammer swaps only happen while a Jam is ongoing.",
       "keep_in_mind": [],
       "tags": [
         "penalty-box",
@@ -2264,8 +2281,8 @@
       "rule_ref": "4.4.2",
       "summary": "White Jammer leaves the box before Red Jammer sits. Red Jammer sits, White Jammer is penalized for leaving early and returns. Red Jammer is then released.",
       "scenario": "White Jammer receives a penalty and sits in the Penalty Box for 15 seconds. Red Jammer receives a penalty and arrives at the Box, but before they sit, White Jammer leaves. Red Jammer sits. White Jammer is issued a penalty for leaving early and returns to the Box. White Jammer sits and Red Jammer is released.",
-      "outcome": "White Jammer is penalized for leaving the Box early. Red Jammer is released upon White Jammer's return. White Jammer serves the time remaining from their first penalty, plus the amount of time Red Jammer served while seated.",
-      "rationale": "A Jammer serving time in the Box is only released by another Jammer being seated in the Box to serve a penalty. Even though White Jammer was penalized first, they were not present when Red Jammer sat. Red Jammer was the Jammer serving time in the Box who was released by White Jammer being seated.",
+      "outcome": "White Jammer is penalized for leaving the Box early. Red Jammer sat in the Box when no other Jammer was serving time. Red Jammer is released upon White Jammer’s return. White Jammer serves the time remaining from their first penalty, plus the amount of time Red Jammer served while seated in the Box.",
+      "rationale": "A Jammer serving time in the Box is only released by another Jammer being seated in the Box to serve a penalty. Even though White Jammer was penalized first, they were not present when Red Jammer sat. Thus, Red Jammer was the “Jammer serving time in the Box” who was released by the White Jammer “being seated in the Box to serve a penalty.”",
       "keep_in_mind": [
         "Each penalty is a 30-second segment that may be shortened as long as the Jammers serve equivalent time."
       ],
@@ -2282,7 +2299,7 @@
       "rule_ref": "4.4.3",
       "summary": "White Pivot signals they are injured at the Penalty Box between Jams. Their coach sends a substitute to serve the penalty.",
       "scenario": "White Pivot arrives at the Penalty Box between Jams. They call to their coach and signal that they are injured. The coach sends a new Skater to the Box. White Pivot gives the new Skater the Stripe and returns to the bench.",
-      "outcome": "White Pivot's penalty time is served by the substitute. White Pivot may not skate in the following three Jams.",
+      "outcome": "White Pivot’s penalty time is served by the substitute. White Pivot may not skate in the following three Jams.",
       "rationale": "Skaters may remove themselves from play when injured. A substitute may serve penalty time for an injured Skater, but the injured Skater may not participate in the next three Jams and the substituting Skater must fill the same Role the injured Skater filled.",
       "keep_in_mind": [
         "If White Pivot were not injured but had broken their skate or equipment, and thus could not skate in the upcoming Jam, a substitute would also be allowed. White Pivot would similarly not be allowed to skate during the following three Jams."
@@ -2302,7 +2319,7 @@
       "outcome": "No penalty.",
       "rationale": "Players are allowed to have their mouthguard out while in the Box, regardless of whether they are standing or sitting.",
       "keep_in_mind": [
-        "If White Blocker leaves the Box without putting their mouthguard back in, even if they put it back in before they return in bounds, this should result in a penalty."
+        "If White Blocker leaves the Box without putting their mouthguard back in, even if they put it back in before they return in bounds, this should result in a penalty.\n\n4.5\n\nFouling Out and Expulsions Expulsions are a way to penalize a Skater or Team Staff who has committed an act that is sufficiently dangerous or unsporting as to remove the individual from the game for that action alone."
       ],
       "tags": [
         "penalty-box",
@@ -2330,12 +2347,12 @@
       "id": "C4.5.B",
       "rule_ref": "4.5",
       "summary": "Red Jammer cannot stop and crashes into the Penalty Box, knocking chairs into a Penalty Box Official.",
-      "scenario": "Red Jammer races to the Penalty Box to serve their penalty. They shout that they cannot stop and crash into the Box. The chairs are knocked backward into a Penalty Box Official. Red Jammer apologizes but complains about how dirty the floor is in front of the Box.",
+      "scenario": "Red Jammer races to the Penalty Box to serve their penalty. They shout, “I can’t stop!” and crash into the Box. The chairs are knocked backward into a Penalty Box Official. Red Jammer apologizes but complains about how dirty the floor is in front of the Box.",
       "outcome": "Red Jammer is expelled.",
-      "rationale": "Unsafe play in respect to Officials, especially those not wearing safety equipment, is held to a different standard than unsafe play in respect to other Skaters. It is incumbent on the Skater to enter the Box in a safe manner.",
+      "rationale": "Unsafe play in respect to Officials, especially those not wearing safety equipment, is held to a different standard than unsafe play in respect to other Skaters. It is incumbent on the Skater to enter the Box in a safe manner, not on the Official to avoid impact.",
       "keep_in_mind": [
-        "If an Official is unable to avoid the impact because of the constraints of the venue, this still represents unsafe play. The Skater must be aware of their track environments, including any limitations of space in the Box.",
-        "Mitigating environmental factors that are not expected to be present, such as water on the track, can be taken into consideration when deciding whether to expel the Skater."
+        "If an Official is unable to avoid the impact because of the constraints of the venue, this still represents unsafe play (due to the constraints of the venue). The Skater must be aware of their track environments, including any limitations of space in the Box. Mitigating environmental factors that aren’t expected to be present, such as water on the track, can be taken into consideration when deciding whether to expel the Skater.",
+        "Skaters are expected to be in control of themselves and their bodies at all times, not just upon entry to the Box. However, opponents, teammates, Team Staff, and Officials in close proximity to the track during active gameplay also bear some responsibility for avoiding contact with Skaters. Contact made to individuals or equipment in areas of active gameplay should only be penalized if the contact is forceful and reasonably avoidable."
       ],
       "tags": [
         "expulsion",
@@ -2349,8 +2366,8 @@
       "rule_ref": "4.5",
       "summary": "Red Blocker receives their seventh penalty, goes to their bench, collects their belongings, and exits to the locker room without reporting to the Penalty Box.",
       "scenario": "Red Blocker receives their seventh penalty and immediately leaves the track. Knowing they have fouled out of the game, they go to their bench, collect their belongings, and exit to the locker room without reporting to the Penalty Box.",
-      "outcome": "No additional penalties are warranted. Red Blocker's penalty time starts during the Jam once the Penalty Box Officials are made aware that Red Blocker has fouled out, or when a substitute is seated in the next Jam.",
-      "rationale": "Once a Skater fouls out, their penalty time starts when they are seated in the Penalty Box; however, by not reporting to the Box to take a seat, that moment never happens. The Penalty Box Officials may be instructed to begin timing once the foul out is confirmed.",
+      "outcome": "No additional penalties are warranted. Red Blocker’s penalty time starts during the Jam once the Penalty Box Officials are made aware that Red Blocker has fouled out, or when a substitute is seated in the next Jam.",
+      "rationale": "Once a Skater fouls out, their penalty time starts when they are seated in the Penalty Box; however, by not reporting to the Box to take a seat, that moment never happens. The Penalty Box Officials may be instructed to begin timing once the foul out is confirmed, but if that communication is not possible before the end of the Jam, then the fouled-out Skater’s time begins when a substitute takes their place for the next Jam.",
       "keep_in_mind": [
         "If the Skater had not fouled out but leaves the Jam for other reasons (such as equipment malfunction or injury), their time does not start until they are seated (or a substitute is seated in their place for the next Jam)."
       ],
@@ -2366,8 +2383,8 @@
       "rule_ref": "5.4",
       "summary": "White Captain is the Jammer and commits a penalty. White Team Staff then curses loudly at the Official who called it.",
       "scenario": "White Captain is the Jammer and commits a penalty. In response, the White Team Staff curses loudly at the Official who called the penalty.",
-      "outcome": "A penalty is assessed to White Captain for their Team Staff's insubordination, but White Captain's time in the Penalty Box as Jammer is not extended. After the Jam, if White Captain is no longer seated in the Box as the Jammer, White Captain must report to the Box as a Blocker to serve the penalty earned by their Team Staff.",
-      "rationale": "When a Captain serves a penalty due to the fact that they are the team's Captain, the penalty is served with the Captain as a Blocker. In this scenario, the Captain was unable to immediately serve the penalty as a Blocker because they could not hold the Role of Blocker.",
+      "outcome": "A penalty is assessed to White Captain for their Team Staff’s insubordination, but White Captain’s time in the Penalty Box as Jammer is not extended. After the Jam, if White Captain is no longer seated in the Box as the Jammer, White Captain must report to the Box as a Blocker to serve the penalty earned by their Team Staff.",
+      "rationale": "When a Captain serves a penalty due to the fact that they are the team’s Captain, the penalty is served with the Captain as a Blocker. In this scenario, the Captain was unable to immediately serve the penalty as a Blocker because they could not hold the Role of Blocker. As soon as they are able to skate as a Blocker, they should report to the Box as a Blocker in order to receive that penalty.",
       "keep_in_mind": [],
       "tags": [
         "assessing-penalties",
@@ -2385,7 +2402,7 @@
       "outcome": "White Blocker is penalized for neglectfully failing to immediately exit the track for a penalty.",
       "rationale": "White Blocker has gained advantage and disrupted the flow of the game through lack of attention to clear instructions from the Officials.",
       "keep_in_mind": [
-        "Before assessing an additional penalty in this manner, Officials must ensure that: the penalty was called using the correct hand signal and verbal cue; the Official calling the penalty was correctly positioned; and the Official calling the penalty did so loudly enough to be heard."
+        "Before assessing an additional penalty in this manner, Officials must ensure that:\n1. The penalty was called using the correct hand signal and verbal cue.\n2. The Official calling the penalty was correctly positioned for the Skater to potentially see the call.\n\n3. The Official calling the penalty did so loudly enough to be heard, given the Official’s position, and the constraints and volume of the venue."
       ],
       "tags": [
         "assessing-penalties",
@@ -2398,7 +2415,7 @@
       "id": "C5.4.C",
       "rule_ref": "5.4",
       "summary": "White Blocker acknowledges a penalty call but continues blocking Red Jammer to allow a teammate to get into position before leaving.",
-      "scenario": "White Blocker is penalized while blocking Red Jammer. After acknowledging the call, White Blocker continues blocking Red Jammer to allow White Blocker's teammate to get in position and impede Red Jammer's progress. White Blocker then exits the track.",
+      "scenario": "White Blocker is penalized while blocking Red Jammer. After acknowledging the call, White Blocker continues blocking Red Jammer to allow White Blocker’s teammate to get in position and impede Red Jammer’s progress. White Blocker then exits the track.",
       "outcome": "White Blocker is penalized for willfully failing to immediately exit the track for a penalty.",
       "rationale": "White Blocker has gained advantage through intentional disregard of the rules.",
       "keep_in_mind": [
@@ -2420,7 +2437,7 @@
       "outcome": "White Blocker is penalized for willfully failing to immediately exit the track for a penalty.",
       "rationale": "White Blocker has gained advantage through intentional disregard of the rules.",
       "keep_in_mind": [
-        "Factors that an Official would use to determine that a Skater has failed to immediately exit the track include: the Skater has substantially reduced the distance they needed to skate to enter the Penalty Box; intentional disruption of gameplay substantially more than would be expected.",
+        "Factors that an Official would use to determine that a Skater has failed to immediately exit the track include, but are not limited to:\n1. The Skater has substantially reduced the distance they needed to skate in order to enter the Penalty Box.\n2. Intentional disruption of gameplay, substantially more than would be expected from a Skater who is safely, legally, and immediately exiting the track.",
         "A penalized Skater who is attempting to exit the track legally, but does not have an opportunity due to gameplay conditions, should not be penalized in this manner."
       ],
       "tags": [
@@ -2429,6 +2446,21 @@
         "willful",
         "insubordination",
         "penalty"
+      ]
+    },
+    {
+      "id": "C4.3.C",
+      "rule_ref": "4.3",
+      "summary": "White Blocker intentionally pulls off Red Jammer's helmet cover.",
+      "scenario": "White Blocker intentionally pulls off Red Jammer’s helmet cover.",
+      "outcome": "Red Jammer momentarily lost the ability to score or earn Lead Jammer status as a result of White Blocker intentionally removing their Star. White Blocker is expelled from the game.",
+      "rationale": "Deliberately removing an opponent’s helmet cover is unsporting behavior of the highest order. It must be penalized by expulsion, regardless of any impact to the Jammer’s head, though intentional contact to an opponent’s head also warrants expulsion.",
+      "keep_in_mind": [],
+      "tags": [
+        "misconduct",
+        "unsporting-contact",
+        "star",
+        "expulsion"
       ]
     }
   ]

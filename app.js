@@ -263,6 +263,17 @@ function renderScenario(id) {
   document.getElementById('scenarioOrigin').innerHTML =
     `Origin: <a href="#rule-${scenario.rule_ref}">Section ${scenario.rule_ref}${rule ? ' - ' + rule.title : ''}</a>`;
 
+  const imageBlock = document.getElementById('scenarioImageBlock');
+  const imageEl = document.getElementById('scenarioImage');
+  if (scenario.image) {
+    imageBlock.hidden = false;
+    imageEl.src = scenario.image;
+    imageEl.alt = `Diagram for scenario ${scenario.id}`;
+  } else {
+    imageBlock.hidden = true;
+    imageEl.removeAttribute('src');
+  }
+
   document.getElementById('scenarioText').querySelector('p').textContent = scenario.scenario;
 
   const outcomeBlock = document.getElementById('scenarioOutcome');
@@ -273,7 +284,26 @@ function renderScenario(id) {
   const outcomeTextEl = document.getElementById('scenarioOutcomeText');
   outcomeTextEl.textContent = scenario.outcome;
 
+  const tableEl = document.getElementById('scenarioTable');
+  const tableBodyEl = document.getElementById('scenarioTableBody');
+  tableBodyEl.innerHTML = '';
+  if (scenario.table && scenario.table.length) {
+    tableEl.hidden = false;
+    scenario.table.forEach(row => {
+      const tr = document.createElement('tr');
+      Object.values(row).forEach(cell => {
+        const td = document.createElement('td');
+        td.textContent = cell;
+        tr.appendChild(td);
+      });
+      tableBodyEl.appendChild(tr);
+    });
+  } else {
+    tableEl.hidden = true;
+  }
+
   document.getElementById('scenarioRationale').querySelector('p').textContent = scenario.rationale;
+  document.getElementById('scenarioRationale').hidden = !scenario.rationale;
 
   const kimEl   = document.getElementById('scenarioKIM');
   const kimList = document.getElementById('scenarioKIMList');
